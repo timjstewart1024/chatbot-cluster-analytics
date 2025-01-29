@@ -1,0 +1,137 @@
+short_name,id,conversation,flow_id,timestamp,content,answer_type,failed,author
+stjohns,1,1,F38211883137QDUCKE,2025-01-21T22:25:06.797000Z,What is my GPA?,,False,USER
+stjohns,2,1,F38211883138XFAMLP,2025-01-21T22:25:07.797000Z,backend call: GPA,VERIFIED,False,CHATBOT
+stjohns,3,2,F382118841665YTP21,2025-01-21T22:28:45.996000Z,What is my gpa?,,False,USER
+stjohns,4,2,F38211884167ZCDPPY,2025-01-21T22:28:46.996000Z,backend call: GPA,VERIFIED,False,CHATBOT
+stjohns,5,2,F672655459266TA1NPW,2025-01-21T22:29:00.041000Z,Who are my advisors?,,False,USER
+stjohns,6,2,F6726554592673SFG1E,2025-01-21T22:29:01.041000Z,backend call: academic advisor,VERIFIED,False,CHATBOT
+stjohns,7,2,F38211884424Z5YG4I,2025-01-21T22:29:17.658000Z,Do I have any holds?,,False,USER
+stjohns,8,2,F38211884425R4VRA0,2025-01-21T22:29:18.658000Z,backend call: hold,VERIFIED,False,CHATBOT
+stjohns,9,2,F38211884697A3JI4V,2025-01-21T22:29:41.216000Z,What is my balance?,,False,USER
+stjohns,10,2,F382118846981ZNKNQ,2025-01-21T22:29:42.216000Z,backend call: balance,VERIFIED,False,CHATBOT
+stjohns,11,2,F38211884948ZXG05Q,2025-01-21T22:30:05.606000Z,What is my class schedule?,,False,USER
+stjohns,12,2,F38211884949JQYWIK,2025-01-21T22:30:06.606000Z,backend call: schedule,VERIFIED,False,CHATBOT
+stjohns,13,3,F596818465133ULCSP5,2025-01-21T22:30:56.122000Z,What is my schedule?,,False,USER
+stjohns,14,3,F596818465134OVQVD5,2025-01-21T22:30:57.122000Z,backend call: schedule,VERIFIED,False,CHATBOT
+stjohns,15,4,F38212043648YZOBW2,2025-01-21T22:33:18.817000Z,I'd like to rate this conversation.,,False,USER
+stjohns,16,4,F38212043649V20ZWL,2025-01-21T22:33:19.817000Z,I appreciate your feedback!  Please let me know how I did.,OPEN_DOMAIN,False,CHATBOT
+stjohns,17,5,F38212157155NPH2EB,2025-01-21T22:35:11.556000Z,I’d like to rate this conversation too.,,False,USER
+stjohns,18,5,F38212157156ZIR24E,2025-01-21T22:35:12.556000Z,I appreciate your feedback!  Please let me know how I did.,OPEN_DOMAIN,False,CHATBOT
+stjohns,19,6,F38212240080W05PNT,2025-01-21T22:38:25.936000Z,Greetings!,,False,USER
+stjohns,20,6,F38212240081ZKFIRZ,2025-01-21T22:38:26.936000Z,Greetings!  How can I help you today?,OPEN_DOMAIN,False,CHATBOT
+stjohns,21,7,F796578856619HWLZ5L,2025-01-21T22:39:42.122000Z,Getting there.,,False,USER
+stjohns,22,7,F796578856620CB5CXG,2025-01-21T22:39:43.122000Z,"St. John's University has several campuses.  To best assist you with directions, could you please specify which campus you're interested in visiting?",OPEN_DOMAIN,False,CHATBOT
+stjohns,23,8,F796578856919PLRLXE,2025-01-21T22:40:32.457000Z,Use this chat to test my responses with different relevance & weight values.,,False,USER
+stjohns,24,8,F796578856920U5XE50,2025-01-21T22:40:33.457000Z,"Okay, I understand.  I'm ready to answer your questions about St. John's University, keeping in mind the constraints I've been given. Please ask away!",OPEN_DOMAIN,False,CHATBOT
+stjohns,25,9,F796578863325FO5ML4,2025-01-21T22:42:47.121000Z,One last time.,,False,USER
+stjohns,26,9,F796578863326KEYO2F,2025-01-21T22:42:48.121000Z,"Okay, I'm ready for your request.",OPEN_DOMAIN,False,CHATBOT
+stjohns,27,10,F716899975003HOVJ4A,2025-01-22T16:17:36.757000Z,Can you find people in the directory?,,False,USER
+stjohns,28,10,F716899975004TNBH5X,2025-01-22T16:17:37.757000Z,I do not have access to a St. John's University directory.,OPEN_DOMAIN,False,CHATBOT
+stjohns,29,10,F421735145331MLRIK0,2025-01-22T16:17:59.675000Z,"Within Connect, there is a Directory. Can you access people in it?",,False,USER
+stjohns,30,10,F421735145332RQ31IR,2025-01-22T16:18:00.675000Z,I do not have access to Connect or its directory.  I can only access St. John's University student information through the backend systems I've been given access to.,OPEN_DOMAIN,False,CHATBOT
+stjohns,31,10,F42173514707351MDAD,2025-01-22T16:18:16.302000Z,Find me information on Brendan Monahan.,,False,USER
+stjohns,32,10,F42173514707412R2AP,2025-01-22T16:18:17.302000Z,"I do not have access to personal information about students or faculty at St. John's University.  To protect privacy, I cannot provide details about Brendan Monahan or anyone else.",OPEN_DOMAIN,False,CHATBOT
+stjohns,33,10,F421735147344R35QCV,2025-01-22T16:18:31.726000Z,How can I email professor Alvarado?,,False,USER
+stjohns,34,10,F421735147345NYMNID,2025-01-22T16:18:32.726000Z,"I do not have access to contact information for faculty.  You can likely find Professor Alvarado's email address on the St. John's University website, possibly through the department website for their subject area or on the university's faculty directory.",OPEN_DOMAIN,False,CHATBOT
+stjohns,35,11,F421735148268TFHID3,2025-01-22T16:20:19.496000Z,Who is Roger So?,,False,USER
+stjohns,36,11,F421735148269UVQDNJ,2025-01-22T16:20:20.496000Z,"I do not have access to personal information about St. John's University faculty or staff.  If you need to contact a specific professor, you can find their contact information on the university's website.",OPEN_DOMAIN,False,CHATBOT
+stjohns,37,11,F7168999950450DIBOO,2025-01-22T16:20:35.424000Z,How do I change my major?,,False,USER
+stjohns,38,11,F716899995046L5RZQC,2025-01-22T16:20:36.424000Z,"To change your major at St. John's University, you should first meet with your academic advisor to discuss your options and the requirements for your desired major.  They can help you navigate the process and ensure you're on the right track.  You'll likely need to complete a form and possibly meet with the department chair of your intended major.  The specific procedures may vary depending on your current major and the one you wish to switch to.",OPEN_DOMAIN,False,CHATBOT
+stjohns,39,10,F240977828995XNEDLO,2025-01-22T16:28:40.403000Z,what is my gpa,,False,USER
+stjohns,40,10,F240977828996G4BAOM,2025-01-22T16:28:41.403000Z,backend call: GPA,VERIFIED,False,CHATBOT
+stjohns,41,10,F716900033932QANZ22,2025-01-22T16:29:09.015000Z,How do I register for courses?,,False,USER
+stjohns,42,10,F716900033933A4DJVC,2025-01-22T16:29:10.015000Z,"To register for courses at St. John's University, you'll typically need to log into the university's student portal.  The exact process might involve navigating to a registration section, selecting the term, searching for courses, adding them to your shopping cart, and then submitting your selections.  Specific instructions and deadlines are usually available on the university's website or student handbook.",OPEN_DOMAIN,False,CHATBOT
+stjohns,43,12,F4217351936095SY50G,2025-01-22T16:35:54.441000Z,What is the value of pi to the 39th value,,False,USER
+stjohns,45,13,F421735204950FZIE1M,2025-01-22T16:38:29.555000Z,I need to contact Eric Alvarado,,False,USER
+stjohns,44,12,F421735193610QBABBS,2025-01-22T16:35:55.441000Z,I do not have the capacity to calculate pi to the 39th decimal place.  My knowledge is not a comprehensive database of mathematical constants to that level of precision.,OPEN_DOMAIN,False,CHATBOT
+stjohns,46,13,F421735204951FHOKRL,2025-01-22T16:38:30.555000Z,"I do not have access to personal contact information for faculty or staff.  To find contact information for Eric Alvarado, you could try searching the St. John's University directory online, or contacting the relevant department directly.",OPEN_DOMAIN,False,CHATBOT
+stjohns,50,14,F716900040516ZJLHZ0,2025-01-22T16:39:06.350000Z,"Microsoft Teams is a popular communication and collaboration platform, but I don't have specific information on whether or how it's used at St. John's University.  You might want to check the university's website or contact the IT helpdesk for details.",OPEN_DOMAIN,False,CHATBOT
+stjohns,54,14,F4217352121544XZI02,2025-01-22T16:40:26.876000Z,inline call: Helpdesk,OPEN_DOMAIN,False,CHATBOT
+stjohns,47,14,F421735208617U2H3U0,2025-01-22T16:38:46.052000Z,Contact Eric Alvarado,,False,USER
+stjohns,48,14,F421735208624FQJ2HP,2025-01-22T16:38:47.052000Z,"I do not have access to contact information for students or faculty at St. John's University.  To find contact information for Eric Alvarado, you may need to search the university's online directory or contact the university's registrar's office.",OPEN_DOMAIN,False,CHATBOT
+stjohns,49,14,F716900040515S4FMPF,2025-01-22T16:39:05.350000Z,Microsoft Teams.,,False,USER
+stjohns,51,14,F421735212024UTCBEG,2025-01-22T16:40:17.349000Z,Chatbot,,False,USER
+stjohns,52,14,F421735212025W2WJYS,2025-01-22T16:40:18.349000Z,How can I help you today?,OPEN_DOMAIN,False,CHATBOT
+stjohns,53,14,F421735212153JBJG41,2025-01-22T16:40:25.876000Z,IT Service Desk,,False,USER
+stjohns,55,15,F716900102101PNP3QG,2025-01-22T16:59:07.903000Z,What is my GPA currently,,False,USER
+stjohns,56,15,F716900102108PUESNY,2025-01-22T16:59:08.903000Z,backend call: GPA,VERIFIED,False,CHATBOT
+stjohns,57,15,F421735253386M13CUO,2025-01-22T16:59:31.474000Z,Where is the Marillac IT service center located,,False,USER
+stjohns,58,15,F4217352533872EEUX0,2025-01-22T16:59:32.474000Z,"I do not have access to real-time information, including the location of specific service centers on campus.  To find the location of the Marillac IT service center, I suggest checking the St. John's University website or contacting the university's IT help desk.",OPEN_DOMAIN,False,CHATBOT
+stjohns,59,15,F421735254293YDOSNQ,2025-01-22T17:02:48.690000Z,What does my schedule look like,,False,USER
+stjohns,60,15,F4217352542941I3V5E,2025-01-22T17:02:49.690000Z,backend call: schedule,VERIFIED,False,CHATBOT
+stjohns,61,16,F736331397667JEW4TH,2025-01-22T20:28:13.522000Z,show me the academic calendar,,False,USER
+stjohns,62,16,F736331397668DXDEQY,2025-01-22T20:28:14.522000Z,"I do not have access to the current academic calendar.  To find this information, I suggest checking the St. John's University website's academic calendar section.",OPEN_DOMAIN,False,CHATBOT
+stjohns,63,17,F541251161139CSXCPL,2025-01-22T20:28:31.963000Z,who should i contact about graduating,,False,USER
+stjohns,64,17,F541251161140YZV4L1,2025-01-22T20:28:32.963000Z,"You should contact your academic advisor.  To get their contact information, I'll need to make a backend call: academic advisor.",OPEN_DOMAIN,False,CHATBOT
+stjohns,65,18,F736331398162KDVS2P,2025-01-22T20:29:14.588000Z,do you have nursing as a major,,False,USER
+stjohns,66,18,F7363313981634BV4ZI,2025-01-22T20:29:15.588000Z,"Yes, St. John's University offers a nursing major.",OPEN_DOMAIN,False,CHATBOT
+stjohns,67,18,F197649995033BPT2RE,2025-01-22T20:29:37.017000Z,can you tell me more,,False,USER
+stjohns,68,18,F197649995034ZFHRVT,2025-01-22T20:29:38.017000Z,More about what?  Please be specific with your question.,OPEN_DOMAIN,False,CHATBOT
+stjohns,69,19,F736331627496HILQ5D,2025-01-22T22:35:18.141000Z,How do you drop a class,,False,USER
+stjohns,70,19,F7363316274972VOI10,2025-01-22T22:35:19.141000Z,"To drop a class at St. John's University, you'll need to follow the university's procedures for dropping courses.  This usually involves going through your student portal and following the instructions for dropping courses within the specified timeframe.  The deadlines for dropping classes vary depending on the semester and the specific circumstances, so it's crucial to check the academic calendar or your student handbook for the exact dates and procedures.  You should also consult with your academic advisor before dropping any classes to ensure it aligns with your academic plan and doesn't negatively impact your progress toward graduation.",OPEN_DOMAIN,False,CHATBOT
+stjohns,71,20,F256747621645PI5HD1,2025-01-23T01:27:02.339000Z,What's my GPA,,False,USER
+stjohns,72,20,F256747621646GNQYCB,2025-01-23T01:27:03.339000Z,backend call: GPA,VERIFIED,False,CHATBOT
+stjohns,73,20,F836617040711H3YARM,2025-01-23T01:27:12.560000Z,Who is Roger So?,,False,USER
+stjohns,74,20,F836617040712MA4YJ2,2025-01-23T01:27:13.560000Z,"I don't have access to personal information about St. John's University faculty or staff, including Roger So.  To find out who Roger So is, you might try searching the university's website directory or contacting the university's general information line.",OPEN_DOMAIN,False,CHATBOT
+stjohns,75,20,F335546081858DARL5Z,2025-01-23T01:27:23.112000Z,Gaming,,False,USER
+stjohns,76,20,F335546081859EMZIOW,2025-01-23T01:27:24.112000Z,"St. John's University doesn't have a dedicated gaming center or program, but many students enjoy gaming in their free time.  There are likely many students who game individually or in groups using their personal devices.  You might find others interested in gaming through student organizations or social groups.",OPEN_DOMAIN,False,CHATBOT
+stjohns,77,20,F2567476218781AC1UD,2025-01-23T01:27:31.691000Z,Esports,,False,USER
+stjohns,78,20,F256747621879QED2LL,2025-01-23T01:27:32.691000Z,"St. John's University does not have a varsity esports team.  However, there may be student-led gaming clubs or organizations on campus.  You could check the student activities website or contact the student government for more information.",OPEN_DOMAIN,False,CHATBOT
+stjohns,79,20,F1127763867075G5AV1B,2025-01-23T01:27:49.243000Z,How do I make cheese,,False,USER
+stjohns,80,20,F11277638670760TXWND,2025-01-23T01:27:50.243000Z,I am not able to provide instructions on how to make cheese.  My knowledge is limited to St. John's University information and I do not have access to culinary recipes.,OPEN_DOMAIN,False,CHATBOT
+stjohns,81,20,F1127763867302MS5WZV,2025-01-23T01:28:19.444000Z,What campuses are there?,,False,USER
+stjohns,82,20,F1127763867303ZHYNMP,2025-01-23T01:28:20.444000Z,"St. John's University has one main campus in Queens, New York, and a second campus in Staten Island, New York.",OPEN_DOMAIN,False,CHATBOT
+stjohns,83,21,F476896186573HFUIUE,2025-01-23T15:03:34.465000Z,how can i find my academic advisor,,False,USER
+stjohns,84,21,F476896186574CECPCD,2025-01-23T15:03:35.465000Z,backend call: academic advisor,VERIFIED,False,CHATBOT
+stjohns,85,22,F462710076125UH5KR3,2025-01-23T15:03:48.883000Z,transcript,,False,USER
+stjohns,86,22,F462710076126SMHET2,2025-01-23T15:03:49.883000Z,"I do not have access to student transcripts.  To obtain your transcript, please contact the Registrar's Office at St. John's University.",OPEN_DOMAIN,False,CHATBOT
+stjohns,87,23,F611070503708VIOQ0L,2025-01-23T15:04:02.374000Z,who should i contact about graduating,,False,USER
+stjohns,88,23,F611070503709GJIN4G,2025-01-23T15:04:03.374000Z,"You should contact your academic advisor.  To get their contact information, I need to make a backend call: academic advisor.",OPEN_DOMAIN,False,CHATBOT
+stjohns,89,24,F462710076508UB1MYP,2025-01-23T15:04:22.589000Z,what is our mascot,,False,USER
+stjohns,90,24,F4627100765092LPLRP,2025-01-23T15:04:23.589000Z,The St. John's University mascot is the Red Storm.,OPEN_DOMAIN,False,CHATBOT
+stjohns,91,25,F476896186828YKUMEP,2025-01-23T15:04:37.486000Z,how do i login as an authorized user,,False,USER
+stjohns,110,32,F462710082384PQJ2MR,2025-01-23T15:06:50.039000Z,"I cannot provide you with password information.  For password assistance, please contact the St. John's University IT Helpdesk.",OPEN_DOMAIN,False,CHATBOT
+stjohns,92,25,F476896186829P3UVTN,2025-01-23T15:04:38.486000Z,"To log in as an authorized user at St. John's University, you will need your St. John's University network username and password.  These credentials are typically provided to you upon enrollment or employment.  You'll then access the university's systems through the appropriate portal, such as the student portal or faculty/staff portal.  The specific login page URL will depend on which system you are trying to access.  If you've forgotten your username or password, you'll need to use the password reset function on the login page.",OPEN_DOMAIN,False,CHATBOT
+stjohns,114,34,F462710082611XYBGDB,2025-01-23T15:07:18.825000Z,"The deadline for graduate program applications varies depending on the specific program.  To find the deadlines for graduate programs at St. John's University, I recommend checking the university's graduate admissions website.",OPEN_DOMAIN,False,CHATBOT
+stjohns,93,26,F462710076752HJTKM2,2025-01-23T15:04:52.999000Z,what are the hours for the gym,,False,USER
+stjohns,94,26,F462710076753FLHEFC,2025-01-23T15:04:53.999000Z,"I do not have access to real-time information, including the hours of operation for the St. John's University gym.  To find the most up-to-date hours, I suggest checking the university's website or contacting the recreation center directly.",OPEN_DOMAIN,False,CHATBOT
+stjohns,95,27,F476896187025BNROXE,2025-01-23T15:05:08.450000Z,how do i register an overnight guest,,False,USER
+stjohns,96,27,F4768961870262MOHXV,2025-01-23T15:05:09.450000Z,I do not have access to information on registering overnight guests at St. John's University.  You should check the university's website or contact the housing department directly for their policies and procedures.,OPEN_DOMAIN,False,CHATBOT
+stjohns,98,28,F870773198230EW1HWN,2025-01-23T15:05:26.196000Z,"St. John's University has several campuses.  To answer your question accurately, I need to know which campus you're interested in (e.g., Queens, Staten Island, etc.).",OPEN_DOMAIN,False,CHATBOT
+stjohns,99,28,F1255406268653GQRPIR,2025-01-23T15:05:32.941000Z,queens,,False,USER
+stjohns,100,28,F1255406268654A2U25Z,2025-01-23T15:05:33.941000Z,"I'm not sure what you mean by ""queens.""  Can you clarify your question?",OPEN_DOMAIN,False,CHATBOT
+stjohns,104,29,F476896187281EUOGZD,2025-01-23T15:06:04.526000Z,"I do not have access to your personal information, including your X number.  That information is confidential and only accessible to you through authorized St. John's University systems.",OPEN_DOMAIN,False,CHATBOT
+stjohns,109,32,F462710082383IH1FSG,2025-01-23T15:06:49.039000Z,password,,False,USER
+stjohns,113,34,F462710082610TR4VFG,2025-01-23T15:07:17.825000Z,when is the deadline for graduate programs,,False,USER
+stjohns,97,28,F8707731982294PEEQW,2025-01-23T15:05:25.196000Z,where is the university located,,False,USER
+stjohns,106,30,F462710082163WUQ25I,2025-01-23T15:06:14.971000Z,"I do not have access to current tuition information.  For the most up-to-date tuition costs at St. John's University, I recommend checking the university's website or contacting the admissions office.",OPEN_DOMAIN,False,CHATBOT
+stjohns,108,31,F476896187482NYGYK0,2025-01-23T15:06:36.071000Z,"Yes, there is a map of the St. John's University campus available online.  You can usually find it on the university's official website.",OPEN_DOMAIN,False,CHATBOT
+stjohns,101,29,F1654040836682EWSZJ5,2025-01-23T15:05:57.526000Z,what is my stormcard id number,,False,USER
+stjohns,102,29,F1654040836683GGBR44,2025-01-23T15:05:58.526000Z,"I do not have access to your personal information, including your StormCard ID number.  That information is confidential and protected.",OPEN_DOMAIN,False,CHATBOT
+stjohns,103,29,F4768961872800FRWJG,2025-01-23T15:06:03.526000Z,what is my x number,,False,USER
+stjohns,105,30,F462710082162U4A4PL,2025-01-23T15:06:13.971000Z,how much is the tuition,,False,USER
+stjohns,107,31,F476896187481J25DSX,2025-01-23T15:06:35.071000Z,is there a map of the campus,,False,USER
+stjohns,111,33,F476896187714OTNL0T,2025-01-23T15:07:03.107000Z,what is the IT number,,False,USER
+stjohns,112,33,F476896187715KBYG1Y,2025-01-23T15:07:04.107000Z,I do not have access to that specific information.  I suggest contacting the St. John's University IT Helpdesk for assistance.,OPEN_DOMAIN,False,CHATBOT
+stjohns,115,35,F870773198728DTS1YN,2025-01-23T15:07:25.447000Z,employment opportunities,,False,USER
+stjohns,116,35,F870773198729WQBTLT,2025-01-23T15:07:26.447000Z,"St. John's University offers a variety of resources to help students find employment opportunities.  These resources include career services, on-campus job postings, and connections with alumni networks.  To learn more about specific opportunities and how to access these resources, I recommend visiting the university's career services website or contacting the career services office directly.",OPEN_DOMAIN,False,CHATBOT
+stjohns,117,36,F462710083263TEEBVF,2025-01-23T15:08:12.480000Z,what is the final exam schedule,,False,USER
+stjohns,118,36,F462710083264DYD3D5,2025-01-23T15:08:13.480000Z,I do not have access to the final exam schedule for St. John's University.  This information is usually available through the university's academic calendar or your student portal.,OPEN_DOMAIN,False,CHATBOT
+stjohns,119,37,F4768961884565DDNVD,2025-01-23T15:09:39.425000Z,how do I apply for housing,,False,USER
+stjohns,120,37,F476896188457YW0P3V,2025-01-23T15:09:40.425000Z,Information regarding housing applications at St. John's University can be found on the university's housing website or by contacting the housing office directly.  I do not have access to specific application procedures.,OPEN_DOMAIN,False,CHATBOT
+stjohns,121,38,F462710090992XSJ5AZ,2025-01-23T15:10:44.983000Z,what majors are available at st johns,,False,USER
+stjohns,122,38,F462710090993WEPNNO,2025-01-23T15:10:45.983000Z,"St. John's University offers a wide variety of majors across its various colleges and schools.  To get a complete and up-to-date list, I recommend visiting the St. John's University website's academic programs section.  They will have the most current information on all available majors.",OPEN_DOMAIN,False,CHATBOT
+stjohns,123,39,F476896188913E0Q5UC,2025-01-23T15:12:09.040000Z,how do i request a transcript,,False,USER
+stjohns,124,39,F4768961889144FNM1Z,2025-01-23T15:12:10.040000Z,"To request a transcript from St. John's University, you'll need to visit the Registrar's Office website.  They will have detailed instructions and online forms for submitting your request.",OPEN_DOMAIN,False,CHATBOT
+stjohns,125,39,F462710109586MMELAX,2025-01-23T15:12:19.448000Z,what is the link for the registrar,,False,USER
+stjohns,126,39,F4627101095875APURF,2025-01-23T15:12:20.448000Z,"I do not have access to specific links for St. John's University internal websites.  You can likely find this information by searching ""St. John's University Registrar"" on the university's main website.",OPEN_DOMAIN,False,CHATBOT
+stjohns,127,40,F503088875280A0V4WS,2025-01-23T20:18:47.369000Z,how do i register for classes,,False,USER
+stjohns,128,40,F5030888752810G1INI,2025-01-23T20:18:48.369000Z,"To register for classes at St. John's University, you'll need to log in to the student portal and follow the instructions for adding courses to your schedule.  The exact steps might vary slightly depending on the semester and any specific program requirements, so it's best to consult the university's online registration guide or contact the registrar's office for detailed instructions.",OPEN_DOMAIN,False,CHATBOT
+stjohns,129,41,F787314681637RGUHPU,2025-01-27T16:07:58.863000Z,Where is IT located?,,False,USER
+stjohns,130,41,F7873146816380FLERU,2025-01-27T16:07:59.863000Z,"I do not have access to the specific location of the IT department at St. John's University.  To find this information, I suggest checking the St. John's University website or contacting the university's help desk.",OPEN_DOMAIN,False,CHATBOT
+stjohns,131,41,F10633754359734Z2VMP,2025-01-27T16:08:41.778000Z,Who is David Park?,,False,USER
+stjohns,132,41,F1063375435974PO20KL,2025-01-27T16:08:42.778000Z,"I don't have access to personal information about students or faculty at St. John's University.  If you're looking for contact information for a specific person, you might try searching the university directory on the St. John's website.",OPEN_DOMAIN,False,CHATBOT
+stjohns,133,42,F1703038121777RNI2SZ,2025-01-27T16:27:39.337000Z,How do I schedule an appointment with IT?,,False,USER
+stjohns,134,42,F1703038121778J0A0U0,2025-01-27T16:27:40.337000Z,I do not have access to that information.  You may wish to check the St. John's University website or contact the IT department directly.,OPEN_DOMAIN,False,CHATBOT
+stjohns,135,43,F1326632322194C2ZPH,2025-01-27T16:28:22.117000Z,How do I schedule an appointment with IT?,,False,USER
+stjohns,136,43,F132663232220ZF0S4M,2025-01-27T16:28:23.117000Z,"I do not have access to St. John's University's IT scheduling system.  To schedule an appointment with IT, I recommend checking the St. John's University website for their IT department contact information and scheduling options.",OPEN_DOMAIN,False,CHATBOT
