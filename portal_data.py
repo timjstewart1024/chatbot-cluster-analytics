@@ -8,11 +8,14 @@ from pathlib import Path
 def get_offset(file_name: str) -> int:
     with open(file_name, "r") as file:
         reader = DictReader(file)
-        last_row = list(reader)[-1]
+        as_list = list(reader)
+        if not as_list:
+            return 0
+        last_row = as_list[-1]
         return int(last_row["id"])
 
 
-def export_data(short_name: str, portal_url: str, token: str, file_name: str):
+def export_data(short_name: str, portal_api_url: str, token: str, file_name: str):
     file_exists = Path(file_name).exists()
     offset = get_offset(file_name) if file_exists else 0
     with open(file_name, "a") as file:
@@ -33,16 +36,19 @@ def export_data(short_name: str, portal_url: str, token: str, file_name: str):
         if not file_exists:
             writer.writeheader()
         page_size = 10
+        num_pages = 1
         while True:
-            print(f"Requesting {page_size} items at offset: {offset}")
+            print(f"  Requesting {page_size} items at offset: {offset}")
             resp = get(
-                f"{portal_url}/api/v2/ai-chatbot/messages/",
+                f"{portal_api_url}/v2/ai-chatbot/messages/",
                 headers=dict(Authorization=f"bearer {token}"),
                 params=dict(limit=page_size, offset=offset),
             )
             if resp.status_code != 200:
                 break
             json_data = resp.json()
+            if num_pages % 10 == 0:
+                print(f"  Response: {resp.text[:100]}")
             rows = json_data["results"]
             for row in rows:
                 row["short_name"] = short_name
@@ -50,20 +56,23 @@ def export_data(short_name: str, portal_url: str, token: str, file_name: str):
             if not json_data["next"]:
                 break
             offset += page_size
+            num_pages += 1
 
 
-def get_portal_credentials(flow_url: str, flow_central_token: str) -> dict:
+def get_portal_credentials(short_name: str, flow_url: str, flow_central_token: str) -> dict:
     def find_config(ref_id, body):
         return [x for x in body if x["referenceId"] == ref_id][0]["config"]
 
     url =f"{flow_url}/repository/sharedConfig?encrypted=true"
-    print("FLOW URL", url, flow_central_token)
     resp = get(
         url,
-        headers={"flow-central-token": flow_central_token},
+        headers={
+            "flow-central-token": flow_central_token,
+            "accept": "application/json"
+        }
     )
     body = resp.json()
-    cfg = find_config("stjohns_campus", body)
+    cfg = find_config(f"{short_name}_campus", body)
     client_secret = find_config(cfg["client_secret"]["referenceString"], body)
     password = find_config(cfg["password"]["referenceString"], body)
 
@@ -76,9 +85,11 @@ def get_portal_credentials(flow_url: str, flow_central_token: str) -> dict:
     }
 
 
-def get_portal_token(portal_url: str, creds: dict):
+def get_portal_token(portal_api_url: str, creds: dict):
+    url=f"{portal_api_url}/oauth/token/"
     resp = post(
-        f"{portal_url}/api/oauth/token/",
+        url,
+        headers={"Accept": "application/json"},
         json=dict(
             username=creds["username"],
             password=creds["password"],
@@ -94,15 +105,16 @@ def load_servers(file_name) -> Dict[str, str]:
     with open(file_name, "r") as file:
         reader = DictReader(file)
         for row in reader:
-            result[row["Env"]] = row["Portal Url"]
+            result[row["Env"]] = row["Portal API Url"]
     return result
 
-def export_conversations(short_name, portal_url, flow_url, flow_central_token):
+
+def export_conversations(short_name, portal_api_url, flow_url, flow_central_token):
     creds = get_portal_credentials(
-        flow_url, flow_central_token
+        short_name, flow_url, flow_central_token
     )
-    token = get_portal_token(portal_url, creds)
-    export_data(short_name, portal_url, token, f"{short_name}.csv")
+    token = get_portal_token(portal_api_url, creds)
+    export_data(short_name, portal_api_url, token, f"{short_name}.csv")
 
 
 def main():
@@ -113,14 +125,15 @@ def main():
 
     servers = load_servers("filtered_envs.csv")
     for short_name, url in servers.items():
-        flow_url = url.replace("https://", "https://flow.")
+        flow_url = url
+        if flow_url.endswith("/api"):
+            flow_url = flow_url[:-4]
+        flow_url = flow_url.replace("https://api.", "https://").replace("https://", "https://flow.")
         print("Exporting conversations for", short_name)
+        print(f"  Flow URL: {flow_url}")
+        print(f"  Portal URL: {url}")
         export_conversations(short_name, url, flow_url, flow_central_token)
-    # creds = get_portal_credentials(
-    #     "https://flow.connect.stjohns.edu", flow_central_token
-    # )
-    # token = get_portal_token("https://connect.stjohns.edu", creds)
-    # export_data("stjohns", "https://connect.stjohns.edu", token, "stjohns.csv")
+        print()
 
 
 if __name__ == "__main__":

@@ -34,7 +34,6 @@ def read_conversations(file_name: str, remove_stop_words: bool = True) -> pd.Dat
     # Remove all of the Bot's answers
     convs = convs[convs['author'] == 'USER']
     convs['Embeddings'] = convs.apply(_deserialize_embedding, axis=1)
-    
     return convs
 
 
