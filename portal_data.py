@@ -5,6 +5,10 @@ from csv import DictReader, DictWriter
 from typing import Dict, Union
 from pathlib import Path
 
+
+def get_conversation_csv_path(short_name:str) -> str:
+    return f"conversations/{short_name}/{short_name}.csv"
+
 def get_offset(file_name: str) -> int:
     with open(file_name, "r") as file:
         reader = DictReader(file)
@@ -16,9 +20,10 @@ def get_offset(file_name: str) -> int:
 
 
 def export_data(short_name: str, portal_api_url: str, token: str, file_name: str):
-    file_exists = Path(file_name).exists()
-    offset = get_offset(file_name) if file_exists else 0
-    with open(file_name, "a") as file:
+    csv_file_name = get_conversation_csv_path(short_name)
+    file_exists = Path(csv_file_name).exists()
+    offset = get_offset(csv_file_name) if file_exists else 0
+    with open(csv_file_name, "a") as file:
         writer = DictWriter(
             file,
             fieldnames=[
