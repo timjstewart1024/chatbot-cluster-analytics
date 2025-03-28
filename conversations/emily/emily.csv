@@ -1,0 +1,1119 @@
+short_name,id,conversation,flow_id,timestamp,content,answer_type,failed,author
+emily,1,1,F1618441264457BZZ2SQ,2024-10-10T18:58:13.538000Z,how do we get qa access,,False,USER
+emily,2,1,F1618441264458PCL2TR,2024-10-10T18:58:14.538000Z,backend call: QA access,OPEN_DOMAIN,False,CHATBOT
+emily,3,1,F1618441264507WOXIDW,2024-10-10T18:58:27.694000Z,how do we get qa access,,False,USER
+emily,4,1,F1618441264508UGMGO4,2024-10-10T18:58:28.694000Z,backend call: QA access,OPEN_DOMAIN,False,CHATBOT
+emily,13,1,F16184412847764MAPLE,2024-10-10T18:58:35.782000Z,qa access,,False,USER
+emily,14,1,F1618441284777HZC00Z,2024-10-10T18:58:36.782000Z,backend call: qa access,OPEN_DOMAIN,False,CHATBOT
+emily,15,1,F1618441284824LQV0QB,2024-10-10T18:58:49.437000Z,qa access,,False,USER
+emily,16,1,F1618441284825TMWBJP,2024-10-10T18:58:50.437000Z,backend call: qa access,OPEN_DOMAIN,False,CHATBOT
+emily,151,1,F1618441366348CLY2BT,2024-10-10T18:59:23.865000Z,what is tier 1 basics,,False,USER
+emily,152,1,F1618441366349D3RX3R,2024-10-10T18:59:24.865000Z,"Tier 1 basics are the fundamental skills and knowledge required for entry-level positions in a particular field. They are typically the first level of expertise in a career path and often involve foundational concepts, procedures, and tools. 
+
+For example, in the IT industry, Tier 1 basics might include:
+
+* **Basic computer hardware and software knowledge**
+* **Troubleshooting common computer problems**
+* **Understanding basic networking concepts**
+* **Using common software applications**
+* **Providing basic customer support**
+
+The specific skills and knowledge required for Tier 1 basics will vary depending on the industry and specific role. However, they are generally considered the stepping stones to more advanced roles and responsibilities.",OPEN_DOMAIN,False,CHATBOT
+emily,203,1,F1618441419915ZBKQA3,2024-10-10T18:57:30.553000Z,what is user provisioning code,,False,USER
+emily,204,1,F1618441419916CHEO2C,2024-10-10T18:57:31.553000Z,"User provisioning code refers to the software code or scripts that automate the process of creating, managing, and deleting user accounts in a system. This code typically interacts with identity and access management (IAM) systems, directories, and applications to ensure that users have the appropriate access and permissions. 
+
+Here are some key aspects of user provisioning code:
+
+* **Automation:** It automates the tasks of creating, modifying, and deleting user accounts, reducing manual effort and errors.
+* **Integration:** It integrates with various systems, such as HR systems, directories, and applications, to synchronize user data and permissions.
+* **Security:** It enforces security policies and access controls, ensuring that users have the right level of access.
+* **Scalability:** It can handle large numbers of users and changes, making it suitable for organizations of all sizes.
+* **Compliance:** It helps organizations comply with regulatory requirements for data privacy and security.
+
+The specific code used for user provisioning can vary depending on the technology stack, programming language, and specific requirements of the organization. It often involves scripting languages like Python, PowerShell, or Bash, along with APIs and libraries for interacting with different systems.",OPEN_DOMAIN,False,CHATBOT
+emily,5,2,F1618441264567W1NJ4Z,2024-10-10T19:17:55.985000Z,how can Schools configure their SSO in QA,,False,USER
+emily,6,2,F1618441264568N5OYFW,2024-10-10T19:17:56.985000Z,"Schools can configure their SSO in QA by following these general steps:
+
+1. **Choose an SSO provider:** There are many SSO providers available, such as Okta, Azure AD, and Google Workspace. Schools should choose a provider that meets their specific needs and budget.
+2. **Set up the SSO provider:** Schools will need to create an account with the SSO provider and configure it to work with their school's identity management system.
+3. **Configure the applications:** Schools will need to configure each application that they want to integrate with SSO. This includes setting up the application's settings within the SSO provider and configuring the application to use SSO.
+4. **Test the SSO integration:** Schools should thoroughly test the SSO integration to ensure that it is working properly. This includes testing the login process, single sign-on functionality, and user access permissions.
+
+**Here are some specific considerations for configuring SSO in QA:**
+
+* **Use a separate QA environment:** Schools should create a separate QA environment for testing SSO. This will help to prevent any disruptions to the production environment.
+* **Use test data:** Schools should use test data to test SSO. This data should be realistic but should not contain any sensitive information.
+* **Test different user scenarios:** Schools should test SSO with different user scenarios, such as new users, existing users, and users with different roles.
+* **Document the configuration:** Schools should document the SSO configuration process. This will help to ensure that the configuration can be easily replicated in the future.
+
+By following these steps, schools can successfully configure their SSO in QA.",OPEN_DOMAIN,False,CHATBOT
+emily,17,2,F1618441284879CVCUW5,2024-10-10T19:18:43.301000Z,how can Schools configure their SSO in QA,,False,USER
+emily,18,2,F1618441284880AJRBIH,2024-10-10T19:18:44.301000Z,"Schools can configure their SSO in QA by following these general steps:
+
+1. **Choose an SSO provider:** Select an SSO provider that meets the school's needs, such as Google Workspace, Microsoft Azure Active Directory, or Okta.
+2. **Set up the SSO provider:** Configure the SSO provider according to the school's specific requirements, including user accounts, roles, and permissions.
+3. **Integrate the SSO provider with the school's applications:** Connect the SSO provider to the school's learning management system (LMS), student information system (SIS), and other relevant applications.
+4. **Test the SSO configuration:** Conduct thorough testing in a QA environment to ensure that the SSO setup is working correctly and that users can log in seamlessly.
+5. **Deploy the SSO configuration to production:** Once the SSO configuration has been tested and validated, deploy it to the school's production environment.
+
+**Specific steps will vary depending on the chosen SSO provider and the school's applications.**  It's recommended to consult the documentation for the chosen SSO provider and the school's applications for detailed instructions.",OPEN_DOMAIN,False,CHATBOT
+emily,153,2,F1618441366407EMCU4P,2024-10-10T19:00:11.186000Z,what is Tier 1,,False,USER
+emily,188,2,F1618441418892IVLWXL,2024-10-10T19:03:36.645000Z,inline call: Helpdesk,OPEN_DOMAIN,False,CHATBOT
+emily,190,2,F1618441418956O5IFNR,2024-10-10T19:04:09.475000Z,inline call: Helpdesk,OPEN_DOMAIN,False,CHATBOT
+emily,191,2,F161844141900145XYZN,2024-10-10T19:04:29.769000Z,how do I add schools to the helpdesk,,False,USER
+emily,21,7,F16184412872661D3HOJ,2024-08-15T21:16:46.155000Z,forget password,,False,USER
+emily,22,7,F1618441287267RJHXJQ,2024-08-15T21:16:47.155000Z,"Parthie, I understand you're trying to reset your password.  Please tell me which service you're trying to access so I can help you.",OPEN_DOMAIN,False,CHATBOT
+emily,30,10,F1618441303456PXWCSC,2024-08-16T12:32:55.862000Z,"Parthie, creating an event involves a few steps:
+
+1. **Define your event:** What is the purpose of the event? What kind of event is it (conference, party, workshop, etc.)? What is the target audience?
+2. **Set a date and time:** When and where will the event take place? Consider factors like availability of venue, target audience's schedule, and any relevant holidays.
+3. **Choose a venue:** Where will the event be held? This depends on the type of event and the number of attendees. Consider factors like capacity, accessibility, and amenities.
+4. **Plan the program:** What activities will be included in the event? This could include speeches, presentations, workshops, entertainment, or networking opportunities.
+5. **Promote the event:** How will you let people know about the event? This could include social media, email marketing, or traditional advertising.
+6. **Manage logistics:** This includes booking the venue, arranging catering, setting up registration, and managing attendees.
+
+Let me know if you'd like more details on any of these steps!",OPEN_DOMAIN,False,CHATBOT
+emily,33,11,F1618441303548ZW0FLA,2024-08-16T12:39:54.206000Z,how do I edit a calendar feed,,False,USER
+emily,37,11,F1618441303672X0HL0W,2024-08-16T12:41:08.514000Z,what are the calendar feed formats,,False,USER
+emily,42,11,F1618441303765GB4XLM,2024-08-16T12:42:50.632000Z,backend call: release notes,OPEN_DOMAIN,False,CHATBOT
+emily,46,11,F1618441303906FGP3JP,2024-08-16T12:47:31.430000Z,"Please provide more context. What are you referring to with ""release notes 6.24""? Are you talking about a software update, a product release, or something else?",OPEN_DOMAIN,False,CHATBOT
+emily,49,12,F1618441305344QDMRWT,2024-08-16T14:46:10.100000Z,not processing,,False,USER
+emily,54,13,F1618441305529LUAEM1,2024-08-16T15:55:00.179000Z,"Parthie, tell me more about the mobile app you'd like to design! What is the purpose of the app? Who is your target audience? What features are you envisioning? The more details you provide, the better I can understand your vision and help you bring it to life.",OPEN_DOMAIN,False,CHATBOT
+emily,62,16,F161844130579440JOLY,2024-08-16T16:12:04.306000Z,"I'm sorry, I need more context. What do you mean by ""tier 1 basics""?  Can you please clarify?",OPEN_DOMAIN,False,CHATBOT
+emily,65,18,F1618441305911NP2RE2,2024-08-16T16:13:32.742000Z,what are the tier 1 basics,,False,USER
+emily,23,8,F1618441287316GYLT1P,2024-08-15T21:24:22.227000Z,roles,,False,USER
+emily,25,8,F1618441303361YX1GOX,2024-08-15T21:24:33.763000Z,what are roles in pathify,,False,USER
+emily,28,9,F1618441303408LUVVTT,2024-08-16T12:32:10.826000Z,"Parthie is a platform that helps organizations manage their communications.  Announcements are a key part of this, allowing you to share important information with your audience.  Announcements can be used for a variety of purposes, such as:
+
+* **Sharing news and updates:**  You can use announcements to keep your audience informed about the latest developments in your organization.
+* **Promoting events:**  You can use announcements to promote upcoming events, such as conferences, webinars, or workshops.
+* **Sharing important information:**  You can use announcements to share important information, such as policy changes, deadlines, or safety updates.
+
+Announcements can be targeted to specific audiences, such as employees, customers, or members.  They can also be scheduled to be published at a specific time.
+
+In addition to the above, announcements can also be used to:
+
+* **Gather feedback:** You can use announcements to solicit feedback from your audience on a particular topic.
+* **Run polls:** You can use announcements to run polls and gather insights from your audience.
+* **Promote your social media channels:** You can use announcements to promote your social media channels and encourage your audience to follow you.
+
+Overall, announcements are a powerful tool that can be used to improve communication and engagement with your audience.",OPEN_DOMAIN,False,CHATBOT
+emily,32,11,F1618441303502PQNLZI,2024-08-16T12:38:57.757000Z,"Communication tools are things that help us share information with each other.  They can be physical, like letters or phones, or digital, like email or social media.  What kind of communication tools are you interested in?",OPEN_DOMAIN,False,CHATBOT
+emily,36,11,F16184413036064HAJZY,2024-08-16T12:40:31.382000Z,backend call: calendar feed format,OPEN_DOMAIN,False,CHATBOT
+emily,39,11,F1618441303718QKA4LP,2024-08-16T12:41:57.892000Z,what are group permissions,,False,USER
+emily,43,11,F1618441303825PKHCQW,2024-08-16T12:43:18.872000Z,release notes 6.25,,False,USER
+emily,45,11,F1618441303905NFSDTH,2024-08-16T12:47:30.430000Z,what are the release notes 6.24,,False,USER
+emily,50,12,F1618441305345DOEX0X,2024-08-16T14:46:11.100000Z,Please provide me with more context. What are you referring to?,OPEN_DOMAIN,False,CHATBOT
+emily,187,2,F1618441418891XLA113,2024-10-10T19:03:35.645000Z,how do I add schools to the helpdesk,,False,USER
+emily,198,2,F1618441419172AF1CL2,2024-10-10T19:12:23.332000Z,inline call: Helpdesk,OPEN_DOMAIN,False,CHATBOT
+emily,7,3,F1618441267165FB5UN5,2024-08-15T21:07:47.287000Z,what are emergency annoucements,,False,USER
+emily,8,3,F16184412671662ONUFQ,2024-08-15T21:07:48.287000Z,"Emergency announcements are important messages that are broadcast to warn people about a dangerous situation or imminent threat. They are often used in situations like:
+
+* **Natural disasters:**  Hurricanes, earthquakes, tornadoes, floods, etc.
+* **Man-made disasters:** Fires, explosions, chemical spills, etc.
+* **Security threats:** Active shooter situations, bomb threats, etc.
+* **Public health emergencies:** Pandemics, outbreaks of infectious diseases, etc.
+
+These announcements typically provide critical information like:
+
+* **The nature of the emergency**
+* **Instructions on what to do** (e.g., evacuate, take shelter, stay inside)
+* **Where to find more information**
+* **Contact information for emergency services**
+
+It's important to pay attention to emergency announcements and follow the instructions given. They are designed to keep you safe.",OPEN_DOMAIN,False,CHATBOT
+emily,9,4,F1618441267226QMFCTU,2024-10-11T15:20:48.643000Z,What are the technical prerequisites?,,False,USER
+emily,10,4,F1618441267227FP5XUM,2024-10-11T15:20:49.643000Z,"I need more context to understand what you are asking about.  Please tell me more about what you are trying to do.  For example, what are you trying to build, or what are you trying to learn?",OPEN_DOMAIN,False,CHATBOT
+emily,77,4,F1618441306347M0AUOH,2024-10-11T15:22:12.379000Z,When will the Implementation Consultant submit the request by?,,False,USER
+emily,91,4,F1618441345539KC1VZM,2024-10-11T15:22:55.132000Z,When will the Implementation Consultant submit the request by?,,False,USER
+emily,163,4,F1618441366776L11YN4,2024-10-11T15:23:42.309000Z,When will the Implementation Consultant submit the request by?,,False,USER
+emily,78,4,F1618441306348JXVV3B,2024-10-11T15:22:13.379000Z,Please provide me with more context. What request are you referring to?,OPEN_DOMAIN,False,CHATBOT
+emily,92,4,F1618441345540PAUDML,2024-10-11T15:22:56.132000Z,Please provide me with more context. What request are you referring to?,OPEN_DOMAIN,False,CHATBOT
+emily,164,4,F1618441366777JS1XL3,2024-10-11T15:23:43.309000Z,The Implementation Consultant will submit the request by the end of the week.,SOURCED,False,CHATBOT
+emily,11,5,F1618441284728XXRIBG,2024-08-15T21:12:54.109000Z,how do I do deprovisioning,,False,USER
+emily,12,5,F161844128472904YD0J,2024-08-15T21:12:55.109000Z,"Parthie, deprovisioning is the process of removing access to resources, such as software, hardware, or data, that are no longer needed. This can be done for a variety of reasons, such as when an employee leaves the company, a project is completed, or a system is no longer in use.
+
+The specific steps involved in deprovisioning will vary depending on the resources being removed. However, some common steps include:
+
+* **Identifying the resources to be deprovisioned.** This may involve reviewing user accounts, software licenses, or hardware inventory.
+* **Disabling or deleting the resources.** This may involve removing user accounts, revoking software licenses, or physically removing hardware.
+* **Deleting any associated data.** This may involve deleting files, databases, or other data that is no longer needed.
+* **Documenting the deprovisioning process.** This may involve creating a record of the resources that were deprovisioned, the date of the deprovisioning, and the reason for the deprovisioning.
+
+It is important to carefully plan and execute the deprovisioning process to ensure that all resources are properly removed and that no data is lost.",OPEN_DOMAIN,False,CHATBOT
+emily,19,6,F1618441285223NIPU0P,2024-08-15T21:14:09.404000Z,where do i get api documentation,,False,USER
+emily,20,6,F16184412852241IG32C,2024-08-15T21:14:10.404000Z,"Parthie, I need more information to help you. What kind of API documentation are you looking for?  For example, are you looking for documentation for a specific API, or are you looking for general API documentation resources?",OPEN_DOMAIN,False,CHATBOT
+emily,169,6,F1618441409917HV1S0Q,2024-08-15T21:15:01.963000Z,academic profile proper format,,False,USER
+emily,170,6,F16184414099180XA4W5,2024-08-15T21:15:02.963000Z,"Parthie, I need more information to help you with that. What kind of academic profile are you looking for?  Are you talking about a CV, a resume, or something else?  Please tell me what you need so I can give you the best advice!",OPEN_DOMAIN,False,CHATBOT
+emily,21,7,F16184412872661D3HOJ,2024-08-15T21:16:46.155000Z,forget password,,False,USER
+emily,22,7,F1618441287267RJHXJQ,2024-08-15T21:16:47.155000Z,"Parthie, I understand you're trying to reset your password.  Please tell me which service you're trying to access so I can help you.",OPEN_DOMAIN,False,CHATBOT
+emily,183,7,F1618441417101MBHK3C,2024-08-15T21:16:10.174000Z,restarting server,,False,USER
+emily,184,7,F1618441417102J2BC3Y,2024-08-15T21:16:11.174000Z,"Parthie, I need more information to help you restart a server. Please tell me:
+
+* **What kind of server is it?** (e.g., web server, game server, etc.)
+* **What operating system is it running?** (e.g., Windows, Linux, macOS)
+* **How is the server accessed?** (e.g., remote desktop, SSH, web interface)
+* **What is the specific command or method you are trying to use?**
+
+Once I have this information, I can provide you with more specific instructions.",OPEN_DOMAIN,False,CHATBOT
+emily,23,8,F1618441287316GYLT1P,2024-08-15T21:24:22.227000Z,roles,,False,USER
+emily,25,8,F1618441303361YX1GOX,2024-08-15T21:24:33.763000Z,what are roles in pathify,,False,USER
+emily,24,8,F1618441287317UVQ4KL,2024-08-15T21:24:23.227000Z,"I need more context to understand what you mean by ""roles.""  Could you please clarify your question? For example, are you asking about:
+
+* **Roles in a play or movie?**
+* **Roles in a game?**
+* **Roles in a company or organization?**
+* **Roles in a social situation?**
+
+Once I know what you mean, I can provide a more helpful answer.",OPEN_DOMAIN,False,CHATBOT
+emily,26,8,F1618441303362H3QHG2,2024-08-15T21:24:34.763000Z,"Parthie is a fictional character, so it doesn't have any roles.",OPEN_DOMAIN,False,CHATBOT
+emily,28,9,F1618441303408LUVVTT,2024-08-16T12:32:10.826000Z,"Parthie is a platform that helps organizations manage their communications.  Announcements are a key part of this, allowing you to share important information with your audience.  Announcements can be used for a variety of purposes, such as:
+
+* **Sharing news and updates:**  You can use announcements to keep your audience informed about the latest developments in your organization.
+* **Promoting events:**  You can use announcements to promote upcoming events, such as conferences, webinars, or workshops.
+* **Sharing important information:**  You can use announcements to share important information, such as policy changes, deadlines, or safety updates.
+
+Announcements can be targeted to specific audiences, such as employees, customers, or members.  They can also be scheduled to be published at a specific time.
+
+In addition to the above, announcements can also be used to:
+
+* **Gather feedback:** You can use announcements to solicit feedback from your audience on a particular topic.
+* **Run polls:** You can use announcements to run polls and gather insights from your audience.
+* **Promote your social media channels:** You can use announcements to promote your social media channels and encourage your audience to follow you.
+
+Overall, announcements are a powerful tool that can be used to improve communication and engagement with your audience.",OPEN_DOMAIN,False,CHATBOT
+emily,27,9,F1618441303407BGDUXK,2024-08-16T12:32:09.826000Z,what are announcements in pathify,,False,USER
+emily,30,10,F1618441303456PXWCSC,2024-08-16T12:32:55.862000Z,"Parthie, creating an event involves a few steps:
+
+1. **Define your event:** What is the purpose of the event? What kind of event is it (conference, party, workshop, etc.)? What is the target audience?
+2. **Set a date and time:** When and where will the event take place? Consider factors like availability of venue, target audience's schedule, and any relevant holidays.
+3. **Choose a venue:** Where will the event be held? This depends on the type of event and the number of attendees. Consider factors like capacity, accessibility, and amenities.
+4. **Plan the program:** What activities will be included in the event? This could include speeches, presentations, workshops, entertainment, or networking opportunities.
+5. **Promote the event:** How will you let people know about the event? This could include social media, email marketing, or traditional advertising.
+6. **Manage logistics:** This includes booking the venue, arranging catering, setting up registration, and managing attendees.
+
+Let me know if you'd like more details on any of these steps!",OPEN_DOMAIN,False,CHATBOT
+emily,29,10,F16184413034551VJTV2,2024-08-16T12:32:54.862000Z,how do i create an event,,False,USER
+emily,33,11,F1618441303548ZW0FLA,2024-08-16T12:39:54.206000Z,how do I edit a calendar feed,,False,USER
+emily,37,11,F1618441303672X0HL0W,2024-08-16T12:41:08.514000Z,what are the calendar feed formats,,False,USER
+emily,42,11,F1618441303765GB4XLM,2024-08-16T12:42:50.632000Z,backend call: release notes,OPEN_DOMAIN,False,CHATBOT
+emily,46,11,F1618441303906FGP3JP,2024-08-16T12:47:31.430000Z,"Please provide more context. What are you referring to with ""release notes 6.24""? Are you talking about a software update, a product release, or something else?",OPEN_DOMAIN,False,CHATBOT
+emily,32,11,F1618441303502PQNLZI,2024-08-16T12:38:57.757000Z,"Communication tools are things that help us share information with each other.  They can be physical, like letters or phones, or digital, like email or social media.  What kind of communication tools are you interested in?",OPEN_DOMAIN,False,CHATBOT
+emily,36,11,F16184413036064HAJZY,2024-08-16T12:40:31.382000Z,backend call: calendar feed format,OPEN_DOMAIN,False,CHATBOT
+emily,39,11,F1618441303718QKA4LP,2024-08-16T12:41:57.892000Z,what are group permissions,,False,USER
+emily,43,11,F1618441303825PKHCQW,2024-08-16T12:43:18.872000Z,release notes 6.25,,False,USER
+emily,45,11,F1618441303905NFSDTH,2024-08-16T12:47:30.430000Z,what are the release notes 6.24,,False,USER
+emily,35,11,F1618441303605DMY0UG,2024-08-16T12:40:30.382000Z,calendar feed format,,False,USER
+emily,38,11,F1618441303673E2F3DU,2024-08-16T12:41:09.514000Z,Backend call: calendar feed format,OPEN_DOMAIN,False,CHATBOT
+emily,41,11,F1618441303764O3KH0E,2024-08-16T12:42:49.632000Z,what are the current release notes,,False,USER
+emily,44,11,F1618441303826HHWFZ4,2024-08-16T12:43:19.872000Z,"I do not have access to specific release notes for software versions. If you are looking for release notes for a particular software, I recommend checking the official website or documentation of the software provider.",OPEN_DOMAIN,False,CHATBOT
+emily,47,11,F1618441305253ANL1C3,2024-08-16T12:47:40.686000Z,software release,,False,USER
+emily,31,11,F1618441303501QJZZ5F,2024-08-16T12:38:56.757000Z,what are communication tools,,False,USER
+emily,34,11,F1618441303549KBVOZK,2024-08-16T12:39:55.206000Z,"Hi Parthie, I can't provide specific instructions on how to edit a calendar feed without knowing what platform or service you're using. Could you tell me more about the calendar feed you're trying to edit? For example:
+
+* **What service are you using?** (e.g., Google Calendar, Outlook Calendar, Apple Calendar)
+* **Where did you get the calendar feed from?** (e.g., a website, a subscription service)
+* **What changes do you want to make?** (e.g., add events, change event details, remove events)
+
+Once I have more information, I can help you find the right steps to edit your calendar feed.",OPEN_DOMAIN,False,CHATBOT
+emily,40,11,F1618441303719OMZS0P,2024-08-16T12:41:58.892000Z,"Group permissions are a way to control access to resources, like files or folders, for a group of users.  This makes it easier to manage access for multiple people instead of having to set individual permissions for each user. 
+
+For example, you might create a ""Marketing Team"" group and give them read-only access to a shared folder containing marketing materials. 
+
+Do you have any other questions about group permissions?",OPEN_DOMAIN,False,CHATBOT
+emily,48,11,F1618441305254ZB0B4I,2024-08-16T12:47:41.686000Z,"Parthie, can you tell me more about what you'd like to know about software releases?  Are you interested in the process of releasing software, specific types of releases, or something else?",OPEN_DOMAIN,False,CHATBOT
+emily,79,11,F1618441345078RECL00,2024-08-16T12:45:28.541000Z,release notes 6.24,,False,USER
+emily,80,11,F1618441345079MAE2SL,2024-08-16T12:45:29.541000Z,"I do not have access to specific information about release notes, such as those for version 6.24.  Please provide more context, such as the product or software you are referring to.",OPEN_DOMAIN,False,CHATBOT
+emily,93,11,F1618441364339MPBTOH,2024-08-16T12:47:06.864000Z,release notes 6.24,,False,USER
+emily,94,11,F16184413643402OXZTX,2024-08-16T12:47:07.864000Z,"I need more information to understand what you're asking for.  ""Release notes"" usually refer to software updates. Could you please tell me:
+
+* **What software are you interested in?** (e.g., a specific program, operating system, etc.)
+* **What version is 6.24 referring to?** (e.g., is it a major release, a minor update, or a patch?) 
+
+Once I have this information, I can try to help you find the release notes.",OPEN_DOMAIN,False,CHATBOT
+emily,49,12,F1618441305344QDMRWT,2024-08-16T14:46:10.100000Z,not processing,,False,USER
+emily,50,12,F1618441305345DOEX0X,2024-08-16T14:46:11.100000Z,Please provide me with more context. What are you referring to?,OPEN_DOMAIN,False,CHATBOT
+emily,52,12,F1618441305436KMAC30,2024-08-16T14:46:46.566000Z,"I understand you're having trouble with user provisioning.  To help me understand better, could you tell me:
+
+* **What specific user provisioning system are you using?** (e.g., Azure AD, Okta, Ping Identity, etc.)
+* **What are the specific symptoms you're seeing?** (e.g., no email notification, user account not created, user stuck in pending state, etc.)
+* **What steps have you already taken to troubleshoot the issue?**
+
+The more details you can provide, the better I can assist you.",OPEN_DOMAIN,False,CHATBOT
+emily,51,12,F16184413054350AU1Q3,2024-08-16T14:46:45.566000Z,user provisioning not processing,,False,USER
+emily,54,13,F1618441305529LUAEM1,2024-08-16T15:55:00.179000Z,"Parthie, tell me more about the mobile app you'd like to design! What is the purpose of the app? Who is your target audience? What features are you envisioning? The more details you provide, the better I can understand your vision and help you bring it to life.",OPEN_DOMAIN,False,CHATBOT
+emily,55,13,F1618441305605O2EXK3,2024-08-16T15:55:40.860000Z,mobile app testing info,,False,USER
+emily,53,13,F1618441305528N1NOZX,2024-08-16T15:54:59.179000Z,"mobile app, design request",,False,USER
+emily,56,13,F1618441305606F1AU05,2024-08-16T15:55:41.860000Z,"I need more information to help you with mobile app testing.  What specifically are you looking for? For example, are you interested in:
+
+* **Types of mobile app testing:**  (e.g., functional testing, performance testing, usability testing)
+* **Testing tools and frameworks:** (e.g., Appium, Espresso, XCTest)
+* **Best practices for mobile app testing:** (e.g., test automation, continuous integration)
+* **Specific challenges in mobile app testing:** (e.g., device fragmentation, network connectivity)
+
+Please provide me with more context so I can give you a more relevant answer.",OPEN_DOMAIN,False,CHATBOT
+emily,57,14,F16184413056641GZDVM,2024-08-16T15:57:27.632000Z,api documentation,,False,USER
+emily,58,14,F1618441305665SM0MVJ,2024-08-16T15:57:28.632000Z,backend call: api documentation,OPEN_DOMAIN,False,CHATBOT
+emily,59,15,F161844130573152VO5Y,2024-08-16T16:11:41.803000Z,tier 1 basics,,False,USER
+emily,60,15,F1618441305732G3YQRV,2024-08-16T16:11:42.803000Z,"Parthie, I need more information. What are you referring to by ""tier 1 basics""? Please provide more context.",OPEN_DOMAIN,False,CHATBOT
+emily,62,16,F161844130579440JOLY,2024-08-16T16:12:04.306000Z,"I'm sorry, I need more context. What do you mean by ""tier 1 basics""?  Can you please clarify?",OPEN_DOMAIN,False,CHATBOT
+emily,61,16,F1618441305793UVKN1X,2024-08-16T16:12:03.306000Z,tier 1 basics,,False,USER
+emily,64,17,F161844130585322M4OI,2024-08-16T16:12:45.743000Z,"I need more context to understand what you mean by ""tier 1 basics"". Can you please clarify? For example, are you asking about:
+
+* **Tier 1 cities?** 
+* **Tier 1 support in a technical context?**
+* **Basic concepts in a specific field?** 
+
+Please provide more information so I can assist you better.",OPEN_DOMAIN,False,CHATBOT
+emily,63,17,F16184413058524Z24C5,2024-08-16T16:12:44.743000Z,what are the tier 1 basics,,False,USER
+emily,65,18,F1618441305911NP2RE2,2024-08-16T16:13:32.742000Z,what are the tier 1 basics,,False,USER
+emily,66,18,F1618441305912NHHSAT,2024-08-16T16:13:33.742000Z,"I need more context to understand what you mean by ""tier 1 basics"". Can you tell me more about what you're asking? For example, are you referring to:
+
+* **A specific game or industry?** (e.g., ""Tier 1 basics in League of Legends"" or ""Tier 1 basics in the tech industry"")
+* **A specific skill or knowledge area?** (e.g., ""Tier 1 basics in coding"" or ""Tier 1 basics in finance"")
+* **A specific level of expertise?** (e.g., ""Tier 1 basics for beginners"" or ""Tier 1 basics for advanced users"") 
+
+Please provide more details so I can give you a helpful answer.",OPEN_DOMAIN,False,CHATBOT
+emily,67,18,F1618441305972UK3KYD,2024-08-16T16:13:52.478000Z,what are the tier 1 steps,,False,USER
+emily,68,18,F1618441305973BFFE52,2024-08-16T16:13:53.478000Z,"I need more information to understand what you mean by ""tier 1 steps."" Could you please provide some context? For example, are you referring to:
+
+* **Steps in a specific process or workflow?**  If so, please tell me what the process is. 
+* **Steps in a game or a video game?**  If so, please tell me which game.
+* **Steps in a software development project?** If so, please tell me what kind of project.
+
+The more information you give me, the better I can understand your question and provide a helpful answer.",OPEN_DOMAIN,False,CHATBOT
+emily,69,19,F1618441306062UQHCZE,2024-08-16T16:24:03.104000Z,what is deprovisioning,,False,USER
+emily,70,19,F1618441306063ETLZIN,2024-08-16T16:24:04.104000Z,"Deprovisioning is the process of removing access to resources, such as software, hardware, or data, that were previously granted to a user or group. It's essentially the opposite of provisioning, which is the process of setting up and granting access to these resources.
+
+Deprovisioning can be done for various reasons, including:
+
+* **Termination of employment:** When an employee leaves a company, their access to company resources needs to be revoked.
+* **Project completion:** Once a project is finished, the resources allocated to it might be no longer needed.
+* **Security reasons:** If a user's account is compromised or their access is deemed a security risk, their access might be removed.
+* **Cost optimization:** Deprovisioning unused resources can save money on licensing fees, hardware maintenance, and other expenses.
+
+The process of deprovisioning can vary depending on the specific resources involved and the organization's policies. It often involves:
+
+* **Removing user accounts:** Deactivating user accounts from systems and applications.
+* **Revoking access permissions:** Removing access to files, databases, or other resources.
+* **Disabling hardware:** Removing devices from the network or physically removing them.
+* **Deleting data:** Erasing data that is no longer needed.
+
+Deprovisioning is an important part of IT security and resource management. It ensures that resources are used efficiently and that unauthorized access is prevented.",OPEN_DOMAIN,False,CHATBOT
+emily,71,20,F1618441306150U2FOIO,2024-08-16T18:26:50.612000Z,canvas flow,,False,USER
+emily,72,20,F1618441306151YOEUKY,2024-08-16T18:26:51.612000Z,"Parthie, please tell me more about what you'd like to know about canvas flow. Are you interested in:
+
+* **Creating a canvas flow in a specific tool?**  (e.g., Microsoft Power Automate, Google Apps Script, etc.) 
+* **Understanding the concept of canvas flow in general?**  (e.g., what it is, how it works, its benefits)
+* **Finding examples of canvas flows in action?** 
+* **Something else entirely?**
+
+The more details you can give me, the better I can understand your needs and provide a helpful response.",OPEN_DOMAIN,False,CHATBOT
+emily,73,21,F1618441306211HF2GYS,2024-08-16T18:31:17.027000Z,canvas connector recipe,,False,USER
+emily,74,21,F1618441306212DSTBD4,2024-08-16T18:31:18.027000Z,"I need more information to help you with a canvas connector recipe.  Please tell me:
+
+* What kind of canvas connector are you using? (e.g., a canvas bag, a canvas tote, a canvas wall hanging)
+* What kind of recipe are you looking for? (e.g., a recipe for a canvas bag that can be used to carry groceries, a recipe for a canvas tote that can be used for everyday use, a recipe for a canvas wall hanging that can be used to decorate your home)
+* What are your desired features? (e.g., size, color, design, durability)
+
+Once I have this information, I can help you find the perfect canvas connector recipe.",OPEN_DOMAIN,False,CHATBOT
+emily,75,22,F1618441306288E5OUG4,2024-10-11T15:12:11.797000Z,will Sample content appear in the mobile app,,False,USER
+emily,76,22,F16184413062894OKNJH,2024-10-11T15:12:12.797000Z,Sample content is not a term I am familiar with. Can you please clarify what you mean?,OPEN_DOMAIN,False,CHATBOT
+emily,82,23,F16184413451591ONN3R,2024-08-21T20:17:56.149000Z,Hi Parthie! 👋 How can I help you today?,OPEN_DOMAIN,False,CHATBOT
+emily,83,23,F1618441345244CSY3VG,2024-08-21T20:18:09.551000Z,where's tools,,False,USER
+emily,81,23,F1618441345158015RK4,2024-08-21T20:17:55.149000Z,hi,,False,USER
+emily,84,23,F1618441345245Q3YBFH,2024-08-21T20:18:10.551000Z,"Parthie, please provide more context. Where are you looking for tools?  What kind of tools are you looking for?",OPEN_DOMAIN,False,CHATBOT
+emily,86,24,F1618441345299O3K5Y3,2024-08-21T20:25:58.365000Z,"User provisioning is the process of creating, maintaining, and deleting user accounts and their associated permissions. It's a critical aspect of IT security and administration. 
+
+It involves:
+
+* **Creating new user accounts:** This includes assigning usernames, passwords, and access levels.
+* **Managing existing user accounts:** This includes updating user information, changing passwords, and adjusting access levels.
+* **Deactivating or deleting user accounts:** This is done when employees leave the organization or their roles change.
+
+User provisioning can be automated using tools and software to streamline the process and ensure consistency. It's essential for:
+
+* **Security:** Ensuring only authorized users have access to sensitive data and systems.
+* **Compliance:** Meeting regulatory requirements for data protection and access control.
+* **Efficiency:** Automating the process saves time and reduces errors.",OPEN_DOMAIN,False,CHATBOT
+emily,85,24,F16184413452984OPGPR,2024-08-21T20:25:57.365000Z,user provisioning,,False,USER
+emily,87,25,F1618441345419FJVNJW,2024-08-26T19:23:32.388000Z,bgsu,,False,USER
+emily,88,25,F1618441345420H24JNM,2024-08-26T19:23:33.388000Z,Bowling Green State University,OPEN_DOMAIN,False,CHATBOT
+emily,89,26,F16184413454902Q5SOU,2024-08-26T19:24:01.810000Z,do you have information about bgsu,,False,USER
+emily,90,26,F1618441345491BJIAR5,2024-08-26T19:24:02.810000Z,BGSU is likely referring to Bowling Green State University.  Do you have a specific question about it?,OPEN_DOMAIN,False,CHATBOT
+emily,95,27,F1618441364418HPBLKH,2024-08-26T23:35:01.430000Z,do you have information about lunch,,False,USER
+emily,96,27,F1618441364419PAKL5E,2024-08-26T23:35:02.430000Z,"What kind of information about lunch are you looking for, Parthie?",OPEN_DOMAIN,False,CHATBOT
+emily,101,28,F1618441364613I1GIS1,2024-09-04T20:20:32.940000Z,what is the activity feed,,False,USER
+emily,106,28,F1618441364732UEIX4N,2024-09-04T20:21:24.709000Z,"I need more information to help you find ""Survey for Portal"". Can you tell me more about what you're looking for? 
+
+For example:
+
+* What is the purpose of the survey?
+* Is it for a specific organization or website?
+* Are you looking for a specific type of survey? 
+* Do you have any keywords or a URL related to the survey?",OPEN_DOMAIN,False,CHATBOT
+emily,123,28,F1618441365319QBAZ5W,2024-09-04T20:19:09.514000Z,what is my name?,,False,USER
+emily,97,28,F1618441364488EFOV51,2024-09-04T20:19:42.661000Z,Where can I find tools?,,False,USER
+emily,104,28,F1618441364660ES3PBZ,2024-09-04T20:20:56.475000Z,"I need more information to understand what you're asking. Could you please specify what kind of announcement you're interested in? For example, are you looking for:
+
+* **News announcements?**  (e.g., from a specific company, organization, or news source)
+* **Product announcements?** (e.g., from a tech company, a new product launch)
+* **Event announcements?** (e.g., a concert, conference, or other gathering)
+
+Please provide more context so I can give you a helpful answer.",OPEN_DOMAIN,False,CHATBOT
+emily,124,28,F1618441365320CLABJJ,2024-09-04T20:19:10.514000Z,"I do not have access to personal information about you, including your name.",OPEN_DOMAIN,False,CHATBOT
+emily,99,28,F16184413645431JUOZF,2024-09-04T20:20:09.112000Z,what events are coming up?,,False,USER
+emily,102,28,F1618441364614O4M3EA,2024-09-04T20:20:33.940000Z,The activity feed is a feature that shows you recent updates and actions from people or groups you follow. It's a way to stay up-to-date on what's happening in your online communities.,OPEN_DOMAIN,False,CHATBOT
+emily,105,28,F16184413647310KUQ11,2024-09-04T20:21:23.709000Z,where is Survey for Portal,,False,USER
+emily,125,28,F1618441365402FOQTKC,2024-09-04T20:19:23.107000Z,what is your name?,,False,USER
+emily,98,28,F1618441364489O2Y0BG,2024-09-04T20:19:43.661000Z,"What kind of tools are you looking for, Parthie?  I need more information to help you.",OPEN_DOMAIN,False,CHATBOT
+emily,100,28,F1618441364544MZDLPZ,2024-09-04T20:20:10.112000Z,"I need more information to help you with that!  What kind of events are you interested in?  Are you looking for concerts, sporting events, conferences, or something else?  Tell me more about what you're looking for and I can help you find some upcoming events.",OPEN_DOMAIN,False,CHATBOT
+emily,103,28,F1618441364659NOITSY,2024-09-04T20:20:55.475000Z,what is the most recent announcement,,False,USER
+emily,126,28,F1618441365403KZS12G,2024-09-04T20:19:24.107000Z,My name is ChatBot.,OPEN_DOMAIN,False,CHATBOT
+emily,108,29,F1618441364778AJVU55,2024-09-09T14:13:39.332000Z,"Parthie, I need more information to understand your issue.  Could you please tell me:
+
+* **What system are you having trouble with?** (e.g., a specific software, website, or cloud service)
+* **What are you trying to do?** (e.g., create a new user account, access an existing account, etc.)
+* **What specific error message are you seeing?** 
+* **What steps have you already taken to try and resolve the issue?** 
+
+The more information you provide, the better I can assist you.",OPEN_DOMAIN,False,CHATBOT
+emily,107,29,F1618441364777L0DM4F,2024-09-09T14:13:38.332000Z,"user provisioning, user not found",,False,USER
+emily,109,30,F1618441364847T21XAA,2024-09-09T14:15:13.733000Z,qa ac cess,,False,USER
+emily,111,30,F1618441364896CQ21KP,2024-09-09T14:15:28.424000Z,QA access,,False,USER
+emily,110,30,F16184413648483ARO0D,2024-09-09T14:15:14.733000Z,I understand you're asking about access to QA.  Please be more specific about what you need.  What kind of QA are you interested in?  What are you trying to accomplish?,OPEN_DOMAIN,False,CHATBOT
+emily,112,30,F1618441364897XTLY0V,2024-09-09T14:15:29.424000Z,backend call: QA access,OPEN_DOMAIN,False,CHATBOT
+emily,114,31,F1618441364969JI33H1,2024-09-13T19:08:16.836000Z,"I am sorry, I do not have access to any ""qa access"". Please provide more context or information about what you are looking for.",OPEN_DOMAIN,False,CHATBOT
+emily,113,31,F1618441364968ITZAV2,2024-09-13T19:08:15.836000Z,qa access,,False,USER
+emily,116,32,F16184413650284R51HD,2024-09-13T19:08:48.428000Z,Hello! I'm ChatBot. What can I do for you today?,OPEN_DOMAIN,False,CHATBOT
+emily,118,32,F1618441365111PF41LE,2024-09-13T19:09:01.358000Z,backend call: QA access,OPEN_DOMAIN,False,CHATBOT
+emily,115,32,F1618441365027AYLF5T,2024-09-13T19:08:47.428000Z,QA,,False,USER
+emily,117,32,F1618441365110PWPTAD,2024-09-13T19:09:00.358000Z,QA access,,False,USER
+emily,120,33,F1618441365173LX0OXB,2024-09-13T19:09:51.455000Z,Please provide me with the name of the role so I can tell you who is a member.,OPEN_DOMAIN,False,CHATBOT
+emily,119,33,F1618441365172NLPHI0,2024-09-13T19:09:50.455000Z,members of a role,,False,USER
+emily,121,34,F1618441365256YEXV1B,2024-08-15T19:42:40.097000Z,What is my GPA?,,False,USER
+emily,122,34,F1618441365257ZKXKLN,2024-08-15T19:42:41.097000Z,Failure on open answer,OPEN_DOMAIN,False,CHATBOT
+emily,127,35,F1618441365461LPBREQ,2024-09-13T19:10:34.095000Z,QA environment,,False,USER
+emily,128,35,F1618441365462VUNDVW,2024-09-13T19:10:35.095000Z,"I understand you're interested in the QA environment. Can you tell me more about what you'd like to know? For example:
+
+* Are you looking for information about specific aspects of the QA environment, like the testing tools used, the infrastructure setup, or the testing process?
+* Are you interested in learning about the purpose of a QA environment?
+* Or perhaps you're looking for examples of how a QA environment is used in a specific context?
+
+The more details you can provide, the better I can understand your needs and provide you with relevant information.",OPEN_DOMAIN,False,CHATBOT
+emily,129,36,F1618441365545QU01XM,2024-09-13T19:12:16.133000Z,what is the academic profile format,,False,USER
+emily,130,36,F1618441365546LOEO3Q,2024-09-13T19:12:17.133000Z,"The academic profile format can vary depending on the purpose and audience. However, generally, it should include the following sections:
+
+* **Contact Information:** Your name, address, phone number, and email address.
+* **Education:**  List your degrees, including the name of the institution, the degree, the year of graduation, and any relevant honors or awards.
+* **Experience:**  Include teaching, research, or professional experience, including dates of employment, job titles, and a brief description of your responsibilities.
+* **Skills:** Highlight your relevant skills, such as research methods, data analysis, programming languages, or teaching experience.
+* **Publications:** List your publications, including journal articles, books, or presentations.
+* **Awards and Honors:** Mention any awards or honors you have received.
+* **Professional Affiliations:** List any professional organizations you belong to.
+* **Interests:** Briefly mention your research interests or areas of expertise.
+
+You can also include a **personal statement** that summarizes your academic background and career goals. 
+
+Remember to tailor your academic profile to the specific application or purpose.",OPEN_DOMAIN,False,CHATBOT
+emily,131,37,F1618441365608V10MLR,2024-09-19T14:22:33.432000Z,logout needs to be signed,,False,USER
+emily,132,37,F1618441365609SUD4BI,2024-09-19T14:22:34.432000Z,"I'm sorry, I don't understand. Can you please rephrase your request?",OPEN_DOMAIN,False,CHATBOT
+emily,134,37,F1618441365692BSKIOH,2024-09-19T14:23:09.226000Z,"Parthie, I understand that you are facing a challenge with your school's IdP requiring a signed SAML logout request. To assist you further, I need some more information:
+
+* **What specific IdP are you using?**  Knowing the IdP will help me identify the exact configuration settings and potential solutions.
+* **What technology are you using to handle the SAML logout process?** Are you using a specific library or framework, or are you manually crafting the SAML messages? 
+* **What error message are you encountering?**  This will provide valuable insights into the issue.
+
+Once I have this information, I can provide you with more specific guidance on how to configure your SAML logout request to be signed.",OPEN_DOMAIN,False,CHATBOT
+emily,133,37,F1618441365691GO1GMJ,2024-09-19T14:23:08.226000Z,"If a school's IdP requires the SAML logout request to be signed, what do I do?",,False,USER
+emily,135,38,F1618441365766DJ3CPU,2024-09-23T15:12:21.760000Z,format of user provisioning,,False,USER
+emily,136,38,F1618441365767E0NUKZ,2024-09-23T15:12:22.760000Z,"User provisioning typically involves a set of processes and procedures that ensure new users have the necessary access and permissions to use company systems and resources.  The specific format can vary depending on the organization's size, complexity, and security requirements. However, a common format might include these steps:
+
+1. **Request:** A new user request is submitted, often through a form or a dedicated system. 
+2. **Verification:** The request is reviewed and verified to ensure accuracy and legitimacy.
+3. **Account Creation:** A new user account is created in the appropriate systems, including directories, applications, and network access.
+4. **Role Assignment:** The user is assigned appropriate roles and permissions based on their job function and responsibilities.
+5. **Access Management:** Ongoing management of user access and permissions, including updates, changes, and deprovisioning when necessary.
+
+Remember, user provisioning is a critical security process. It's important to have a well-defined and documented process that is regularly reviewed and updated to ensure it remains effective.",OPEN_DOMAIN,False,CHATBOT
+emily,138,39,F1618441365834SQ5WC5,2024-09-23T15:12:59.578000Z,Roles are sets of responsibilities and permissions that define what a user can do within a system or organization.,OPEN_DOMAIN,False,CHATBOT
+emily,137,39,F1618441365833OB53AJ,2024-09-23T15:12:58.578000Z,what are roles,,False,USER
+emily,140,40,F1618441365893ACW3A0,2024-09-23T15:47:25.046000Z,"Tier 1 basics are the fundamental concepts and skills required for entry-level positions in a particular field.  These basics can vary depending on the industry, but generally include:
+
+* **Core knowledge:** Understanding the key concepts and principles of the field.
+* **Basic skills:** Proficiency in the essential tools and techniques used in the field.
+* **Problem-solving:** Ability to identify and resolve simple problems.
+* **Communication:** Effective written and verbal communication skills.
+* **Teamwork:** Ability to collaborate with others.
+
+For example, tier 1 basics for a customer service representative might include:
+
+* **Core knowledge:** Understanding of the company's products and services.
+* **Basic skills:** Proficiency in using a customer relationship management (CRM) system.
+* **Problem-solving:** Ability to resolve common customer issues.
+* **Communication:** Excellent communication skills, both written and verbal.
+* **Teamwork:** Ability to work effectively with other customer service representatives.
+
+Tier 1 basics are essential for anyone starting out in a new field. They provide a solid foundation upon which to build further knowledge and skills.",OPEN_DOMAIN,False,CHATBOT
+emily,139,40,F1618441365892NSYHV3,2024-09-23T15:47:24.046000Z,tier 1 basics,,False,USER
+emily,141,41,F16184413659754PRJA2,2024-09-23T15:48:05.307000Z,academic profile formet,,False,USER
+emily,142,41,F1618441365976TA0Y4C,2024-09-23T15:48:06.307000Z,"I can help you with that! An academic profile is a document that showcases your academic achievements, skills, and experience. Here's a general format you can use:
+
+**1. Personal Information:**
+
+* **Name:** [Your Full Name]
+* **Contact Information:** [Email Address, Phone Number, LinkedIn Profile URL (optional)]
+
+**2. Education:**
+
+* **Degree:** [Degree Name (e.g., Bachelor of Arts, Master of Science)]
+* **Major:** [Your Major]
+* **Institution:** [Name of University/College]
+* **Graduation Date:** [Month and Year]
+* **GPA:** [Your GPA (optional)]
+* **Relevant Coursework:** [List of courses relevant to your field]
+
+**3. Research Experience:**
+
+* **Project Title:** [Title of your research project]
+* **Institution/Lab:** [Where you conducted the research]
+* **Role:** [Your role in the project (e.g., Researcher, Assistant)]
+* **Description:** [Briefly describe your research project, including methods, findings, and contributions]
+* **Publications/Presentations:** [List any publications or presentations related to your research]
+
+**4. Skills and Expertise:**
+
+* **Technical Skills:** [List your technical skills, such as programming languages, software, data analysis tools]
+* **Soft Skills:** [List your soft skills, such as communication, teamwork, critical thinking, problem-solving]
+* **Languages:** [List any languages you speak fluently]
+
+**5. Awards and Honors:**
+
+* **Award Name:** [Name of the award]
+* **Year Awarded:** [Year the award was given]
+* **Description:** [Brief description of the award]
+
+**6. Professional Experience:**
+
+* **Position:** [Your job title]
+* **Organization:** [Name of the organization]
+* **Dates of Employment:** [Start and end dates]
+* **Responsibilities:** [List your key responsibilities and accomplishments]
+
+**7.  Interests and Activities:**
+
+* **Research Interests:** [List your research interests]
+* **Professional Affiliations:** [List any professional organizations you are a member of]
+* **Volunteer Work:** [List any volunteer experience]
+
+**8. References:**
+
+* **[Professor Name]** [Title], [Department], [Institution]
+* **[Professor Name]** [Title], [Department], [Institution]
+* **[Professor Name]** [Title], [Department], [Institution]
+
+**Tips for Writing an Academic Profile:**
+
+* **Tailor your profile to the specific audience or purpose.**
+* **Use clear and concise language.**
+* **Highlight your most relevant achievements and skills.**
+* **Proofread carefully for any errors.**
+* **Consider using a professional template or design to make your profile visually appealing.** 
+
+Remember, this is just a general format. You can adjust it to fit your specific needs and goals. Good luck!",OPEN_DOMAIN,False,CHATBOT
+emily,144,41,F1618441366053MXWIMP,2024-09-23T15:48:31.570000Z,"There isn't one single ""academic profile file format"" that's universally used. The format depends on the specific platform or institution you're working with. 
+
+Here are some common ways academic profiles are structured:
+
+* **PDF:**  A PDF is a good choice for sharing a static, formatted version of your profile. 
+* **Word Document (.doc or .docx):** This is another common format for creating and editing academic profiles, offering flexibility in formatting.
+* **Online Platforms:** Many universities and research institutions have their own online platforms for managing academic profiles. These platforms often use specific formats for uploading and storing data. 
+* **XML or JSON:**  These are structured data formats that are increasingly used for storing and exchanging academic profile information.
+
+**To give you a more specific answer, please tell me:**
+
+* **Where are you planning to use this academic profile?** (e.g., a specific website, university system, online platform, or a document you're creating)
+* **What information do you want to include in your profile?** (e.g., publications, teaching experience, research interests)
+
+Once I have this information, I can provide you with more specific guidance on the best file format for your needs.",OPEN_DOMAIN,False,CHATBOT
+emily,143,41,F1618441366052AYPLDI,2024-09-23T15:48:30.570000Z,file format academic profile,,False,USER
+emily,145,42,F1618441366119EQXOFS,2024-09-27T03:09:01.974000Z,test,,False,USER
+emily,146,42,F16184413661205JM3FF,2024-09-27T03:09:02.974000Z,Parthie.,OPEN_DOMAIN,False,CHATBOT
+emily,147,43,F1618441366202Y22J3Y,2024-09-27T03:09:04.682000Z,lunch?,,False,USER
+emily,148,43,F1618441366203FVLUB5,2024-09-27T03:09:05.682000Z,"Parthie, what kind of lunch are you looking for?  I can help you find a restaurant near you, or I can give you some ideas for what to make at home.",OPEN_DOMAIN,False,CHATBOT
+emily,150,44,F1618441366264GK5CNG,2024-09-27T03:09:06.593000Z,This is a test.,OPEN_DOMAIN,False,CHATBOT
+emily,149,44,F1618441366263GYZMHJ,2024-09-27T03:09:05.593000Z,test,,False,USER
+emily,158,45,F1618441366550SBGRP1,2024-10-10T19:20:23.300000Z,"Yes, schools can configure their Single Sign-On (SSO) systems. SSO allows students and staff to access multiple applications with a single set of credentials, making it more convenient and secure.",OPEN_DOMAIN,False,CHATBOT
+emily,155,45,F1618441366490Z23FCE,2024-10-10T19:19:20.979000Z,Schools can configure their SSO,,False,USER
+emily,156,45,F1618441366491IMPEO5,2024-10-10T19:19:21.979000Z,"Yes, schools can configure their Single Sign-On (SSO) systems to provide a secure and convenient way for students, teachers, and staff to access various online resources and applications.",OPEN_DOMAIN,False,CHATBOT
+emily,157,45,F16184413665494GICWF,2024-10-10T19:20:22.300000Z,Schools can configure their SSO,,False,USER
+emily,159,46,F1618441366632QMKBTV,2024-10-11T13:42:41.503000Z,what is user provisioning,,False,USER
+emily,161,46,F1618441366691ESKBMW,2024-10-11T13:43:06.635000Z,what is the new canny link,,False,USER
+emily,160,46,F1618441366633CB3SUE,2024-10-11T13:42:42.503000Z,"User provisioning is the process of creating, managing, and deleting user accounts and their associated permissions and access rights within an organization's IT systems. It involves tasks such as:
+
+* **Account Creation:** Setting up new user accounts with appropriate credentials and access levels.
+* **Account Management:** Modifying user information, roles, and permissions as needed.
+* **Account Deactivation/Deletion:** Removing user accounts when they are no longer required.
+* **Access Control:** Enforcing policies and rules to ensure that users have the appropriate level of access to resources.
+* **Identity Management:** Linking user accounts to their real-world identities and managing their lifecycle.
+
+User provisioning is crucial for security, compliance, and efficiency. It helps to:
+
+* **Secure sensitive data:** By granting access only to authorized users.
+* **Comply with regulations:** By meeting industry standards and legal requirements.
+* **Improve productivity:** By streamlining user account management and reducing administrative overhead.
+* **Reduce risks:** By minimizing the potential for unauthorized access and data breaches.
+
+Effective user provisioning requires a robust system that integrates with various IT systems and applications. It is often managed by dedicated identity and access management (IAM) solutions.",OPEN_DOMAIN,False,CHATBOT
+emily,162,46,F1618441366692ZJMMDE,2024-10-11T13:43:07.635000Z,backend call: Canny link,OPEN_DOMAIN,False,CHATBOT
+emily,165,47,F1618441407697Y14JJH,2024-08-15T19:44:30.733000Z,What is my GPA?,,False,USER
+emily,166,47,F1618441407698AUT05W,2024-08-15T19:44:31.733000Z,Failure on open answer,OPEN_DOMAIN,False,CHATBOT
+emily,167,48,F1618441408818RHVKTU,2024-09-23T15:49:47.631000Z,ss,,False,USER
+emily,168,48,F1618441408819IQV3NB,2024-09-23T15:49:48.631000Z,"I'm sorry, I don't understand. Can you please rephrase your question?",OPEN_DOMAIN,False,CHATBOT
+emily,181,49,F1618441415871UYGMQL,2024-08-15T19:45:21.990000Z,What is my GPA?,,False,USER
+emily,182,49,F1618441415872BCXBJ2,2024-08-15T19:45:22.990000Z,"I do not have access to your personal information, including your GPA.  If you would like to calculate your GPA, I can help you with that. Please tell me your grades and the credits for each course.",OPEN_DOMAIN,False,CHATBOT
+emily,201,50,F1618441419281JYLKN0,2024-10-10T19:12:51.206000Z,What is unauthenticated view,,False,USER
+emily,199,50,F1618441419217MEH5Y3,2024-10-10T19:12:37.364000Z,how do I add a school to helpdesk,,False,USER
+emily,200,50,F1618441419218GPX05C,2024-10-10T19:12:38.364000Z,inline call: Helpdesk,OPEN_DOMAIN,False,CHATBOT
+emily,202,50,F1618441419282SKESNI,2024-10-10T19:12:52.206000Z,"An unauthenticated view is a web page or resource that can be accessed without requiring a user to log in or provide any credentials. This means anyone can view the content without needing to authenticate themselves. 
+
+Here are some examples of unauthenticated views:
+
+* **Homepage:** Most websites have a homepage that anyone can access without logging in.
+* **Contact Us Page:**  A contact us page allows visitors to reach out to the website owner without needing an account.
+* **Blog Posts:**  Publicly accessible blog posts can be viewed by anyone.
+* **Product Catalogs:**  Online stores often display their product catalogs to allow browsing without requiring login.
+
+It's important to note that while unauthenticated views are accessible to everyone, they may not always display all the content or functionality available to logged-in users.",OPEN_DOMAIN,False,CHATBOT
+emily,206,51,F1618441427044B1DBXU,2024-10-11T15:53:26.781000Z,"I'm sorry, but I don't have information about a Canny link in this context.",SOURCED,False,CHATBOT
+emily,205,51,F1618441427043HRYXXS,2024-10-11T15:53:25.781000Z,what is the canny link,,False,USER
+emily,210,52,F1618441431908JHESV4,2024-10-11T15:55:17.953000Z,backend call: sso,VERIFIED,False,CHATBOT
+emily,209,52,F1618441431907CIAF32,2024-10-11T15:55:16.953000Z,sso for qa,,False,USER
+emily,212,52,F1618441434008HR4YGG,2024-10-11T15:55:34.790000Z,"To set up SSO for QA, you'll need to follow these steps:
+
+1. Go to the customer's instance > Admin Plus.
+2. Go to SAML > and click SAML Config.
+3. You'll find two main sections:
+    - **Service Provider:** This represents Pathify, the service being provided.
+    - **Identity Provider (IdP) Settings:** This is where the customer will need to provide the necessary information.
+4. The customer will need to provide the fields listed under the Identity Provider (IdP) Settings section.",SOURCED,False,CHATBOT
+emily,207,52,F1618441429916VIYKT3,2024-10-11T15:54:46.358000Z,what is unauthenticated view,,False,USER
+emily,211,52,F1618441434007AB0YHQ,2024-10-11T15:55:33.790000Z,how do I set up SSO for QA,,False,USER
+emily,213,52,F16184414360373AY033,2024-10-11T15:56:01.109000Z,user not found in user provisioning,,False,USER
+emily,208,52,F1618441429917IRJ13F,2024-10-11T15:54:47.358000Z,Unauthenticated users cannot create shortcuts.,SOURCED,False,CHATBOT
+emily,214,52,F1618441436038TRGG1V,2024-10-11T15:56:02.109000Z,backend call: user,VERIFIED,False,CHATBOT
+emily,216,53,F1618441440391BU3VYX,2024-10-11T15:57:01.731000Z,"I'm sorry, but I don't have any information about what happens if a user is not found on user provisioning. My knowledge is limited to the provided context.",SOURCED,False,CHATBOT
+emily,215,53,F1618441440390W1OCUT,2024-10-11T15:57:00.731000Z,what if a user is not found on user provisioning,,False,USER
+emily,218,53,F161844144105251OA24,2024-10-11T15:57:26.415000Z,"I'm sorry, I can't answer that question. The provided context only mentions how to change user data, not what happens if a user is not found on user provisioning.",SOURCED,False,CHATBOT
+emily,222,53,F1618441446320FCDWC2,2024-10-11T16:00:03.573000Z,"The document doesn't mention schools specifically.  It does cover QA environments for customers.  To learn more about how to configure SSO for a school's QA environment, you'll need to refer to the Environment Creation Ticket Submission & Workflow document.",SOURCED,False,CHATBOT
+emily,220,53,F1618441443106QO0BCQ,2024-10-11T15:58:03.147000Z,"Sorry, but Parthie doesn't offer custom widget building. You'll need to learn how to do it yourself using Flow. If you haven't had Flow training, we offer paid training that teaches you how to build widgets. If you've already gone through Flow training, reach out to your trainer for help.",SOURCED,False,CHATBOT
+emily,217,53,F1618441441051ZV5CKS,2024-10-11T15:57:25.415000Z,what if a user is not found on user provisioning,,False,USER
+emily,219,53,F1618441443105XRXN3H,2024-10-11T15:58:02.147000Z,how do I build a custom widget,,False,USER
+emily,221,53,F1618441446319HEL0NS,2024-10-11T16:00:02.573000Z,Can Schools configure their SSO for their QA environments,,False,USER
+emily,223,54,F1618441459939HWN3HF,2024-10-11T17:21:58.524000Z,What is the canny url,,False,USER
+emily,224,54,F1618441459940SJL1MK,2024-10-11T17:21:59.524000Z,"I'm sorry, but I can't provide the Canny URL. My knowledge is limited to the provided context about updating a customer's SSO URL.",SOURCED,False,CHATBOT
+emily,225,54,F1618441462076S3L2FT,2024-10-11T17:23:25.926000Z,the are the first troubleshooting steps,,False,USER
+emily,226,54,F1618441462077AXC0MU,2024-10-11T17:23:26.926000Z,The are the first troubleshooting steps? Please provide more context! What are you troubleshooting?,OPEN_DOMAIN,False,CHATBOT
+emily,227,54,F1618441464106CE1UOD,2024-10-11T17:24:00.632000Z,what are superuser settings,,False,USER
+emily,228,54,F1618441464107GVNV4W,2024-10-11T17:24:01.632000Z,"Superuser settings are a set of permissions and privileges that grant a user elevated access to a system. They can perform actions that are not available to regular users, such as modifying system configurations, accessing sensitive data, and controlling other users' accounts.",OPEN_DOMAIN,False,CHATBOT
+emily,229,55,F1618441924355LLF4NP,2024-10-14T19:37:29.016000Z,where's susie,,False,USER
+emily,230,55,F1618441924356MDO505,2024-10-14T19:37:30.016000Z,Susie Palmer Test's contact details are: Email: susie.palmer@pathify.com Phone: +33333333333.,SOURCED,False,CHATBOT
+emily,231,55,F1618441925257X4F0OS,2024-10-14T19:38:07.249000Z,where's susie,,False,USER
+emily,232,55,F1618441925258CP4JUV,2024-10-14T19:38:08.249000Z,Susie Palmer Test's contact information is available:  Email: susie.palmer@pathify.com Phone: +33333333333.,SOURCED,False,CHATBOT
+emily,233,55,F1618441927543ODWYMD,2024-10-14T19:38:46.144000Z,where's susie,,False,USER
+emily,234,55,F16184419275440ISEKO,2024-10-14T19:38:47.144000Z,Susie Palmer Test is at Pathify. Her email is susie.palmer@pathify.com and her phone number is +33333333333.,SOURCED,False,CHATBOT
+emily,235,56,F969460241139FRMJLV,2024-11-14T17:01:52.749000Z,hi,,False,USER
+emily,236,56,F969460241140CPGEIC,2024-11-14T17:01:53.749000Z,Hi Parthie! How can I help you today?,OPEN_DOMAIN,False,CHATBOT
+emily,237,57,F1490193164EY152C,2024-12-10T19:40:22.368000Z,How big is the moon?,,False,USER
+emily,238,57,F14901931654U1MYC,2024-12-10T19:40:23.368000Z,"I'm sorry, I can't answer that question. The provided text is about Bowling Green State University and doesn't contain any information about the moon's size.",SOURCED,False,CHATBOT
+emily,239,58,F1490201356EPXWXN,2024-12-10T19:42:09.768000Z,How big is the moon?,,False,USER
+emily,240,58,F1490201357JXUWQC,2024-12-10T19:42:10.768000Z,"I'm sorry, I can't answer that question. I'm only able to provide information from the text you provided.",SOURCED,False,CHATBOT
+emily,241,59,F1490260496FYBUHO,2024-12-10T22:08:16.469000Z,How big is the moon?,,False,USER
+emily,242,59,F1490260497GDBQY5,2024-12-10T22:08:17.469000Z,"I'm sorry, Parthie, but the information you're looking for isn't available in the text you provided.",SOURCED,False,CHATBOT
+emily,243,60,F5875506075482VZW5Y,2024-12-13T15:46:54.695000Z,how far away is the moon?,,False,USER
+emily,244,60,F5875506075490NZR0J,2024-12-13T15:46:55.695000Z,"I'm sorry, Parthie, but I can't answer that question. The information I have is about Bowling Green State University and a study about the sixth taste.",SOURCED,False,CHATBOT
+emily,245,61,F587550610565RCZ5RO,2024-12-13T15:48:36.542000Z,how far away is the moon?,,False,USER
+emily,246,61,F587550610566B4SIAT,2024-12-13T15:48:37.542000Z,"The distance between the Earth and the Moon varies because the Moon's orbit is not perfectly circular. On average, the Moon is about 238,855 miles (384,400 kilometers) away from Earth.",OPEN_DOMAIN,False,CHATBOT
+emily,247,61,F5875506119580O415P,2024-12-13T15:49:09.522000Z,who is taylor swift,,False,USER
+emily,248,61,F5875506119595QUBG5,2024-12-13T15:49:10.522000Z,Taylor Swift is a very famous American singer-songwriter. She's known for her heartfelt lyrics and catchy tunes. She's won a ton of awards and is one of the best-selling music artists of all time!,OPEN_DOMAIN,False,CHATBOT
+emily,249,61,F587550612005GEFPK2,2024-12-13T15:49:24.667000Z,who is emily ackerman,,False,USER
+emily,250,61,F587550612006LHGWVP,2024-12-13T15:49:25.667000Z,"I do not have access to personal information about individuals, including Emily Ackerman.",OPEN_DOMAIN,False,CHATBOT
+emily,251,61,F587550612867VCX4C5,2024-12-13T15:49:43.737000Z,who is casey cartwright,,False,USER
+emily,252,61,F587550612868OCKTXS,2024-12-13T15:49:44.737000Z,"I do not have access to personal information about individuals, including Casey Cartwright.",SOURCED,False,CHATBOT
+emily,253,61,F5875506138621RDRN0,2024-12-13T15:51:25.264000Z,what are the lyrics to shake it off,,False,USER
+emily,254,61,F5875506138634PUSJK,2024-12-13T15:51:26.264000Z,"I can't give you the lyrics to ""Shake It Off"" by Taylor Swift. I don't have access to real-time information, including song lyrics.",OPEN_DOMAIN,False,CHATBOT
+emily,255,62,F489110265059GP2PPX,2024-12-16T23:09:43.469000Z,Tell me about the moon.,,False,USER
+emily,256,62,F489110265060GPGZKS,2024-12-16T23:09:44.469000Z,"The Moon is Earth's only natural satellite. It's a rocky, airless world that orbits our planet, reflecting sunlight and causing tides. The Moon is about one-quarter the size of Earth and has a diameter of about 2,159 miles (3,474 kilometers).  It's covered in craters, mountains, and plains, and it's a fascinating object of study for scientists.",OPEN_DOMAIN,False,CHATBOT
+emily,257,63,F1411089559592LB0OG,2025-01-09T17:07:21.865000Z,Is there a Pathify logo?,,False,USER
+emily,258,63,F141108955960KGLDDD,2025-01-09T17:07:22.865000Z,"I am unsure what you mean by ""Pathify"".  Do you mean Parthie?  If so, I do not have access to information about a logo for Parthie.",OPEN_DOMAIN,False,CHATBOT
+emily,259,63,F141108956755TLQR0E,2025-01-09T17:08:09.724000Z,is there a USU annual report?,,False,USER
+emily,260,63,F141108956756FIWBPR,2025-01-09T17:08:10.724000Z,I do not have access to that information.,OPEN_DOMAIN,False,CHATBOT
+emily,261,63,F141108957723G4CGR0,2025-01-09T17:08:44.919000Z,is there a USU annual report?,,False,USER
+emily,262,63,F1411089577240WH1RU,2025-01-09T17:08:45.919000Z,I do not have access to that information.,OPEN_DOMAIN,False,CHATBOT
+emily,263,63,F141108958853KYQ15K,2025-01-09T17:09:26.458000Z,Tell me about the  MyUSU app,,False,USER
+emily,264,63,F1411089588544XERJF,2025-01-09T17:09:27.458000Z,"I do not have access to specific information about the MyUSU app.  To get information about that app, you will need to consult the app's website or contact the app's support.",OPEN_DOMAIN,False,CHATBOT
+emily,265,63,F141108979177VBEGJS,2025-01-09T17:11:08.650000Z,is there a USU annual report?,,False,USER
+emily,266,63,F14110897917854BEGZ,2025-01-09T17:11:09.650000Z,I do not have access to that information.,OPEN_DOMAIN,False,CHATBOT
+emily,267,63,F141109001854OHEUN2,2025-01-09T17:13:20.595000Z,is there a USU annual report?,,False,USER
+emily,268,63,F1411090018554XGGFD,2025-01-09T17:13:21.595000Z,I do not have access to that information.,OPEN_DOMAIN,False,CHATBOT
+emily,269,63,F141109064045BIHBW2,2025-01-09T17:13:56.817000Z,is there a USU annual report?,,False,USER
+emily,270,63,F141109064046JSYHSE,2025-01-09T17:13:57.817000Z,I do not have access to that information.,OPEN_DOMAIN,False,CHATBOT
+emily,271,63,F141109066299ZCZMGM,2025-01-09T17:14:29.142000Z,is there a USU annual report?,,False,USER
+emily,272,63,F141109066300ERNBPX,2025-01-09T17:14:30.142000Z,"Based on the provided text, I don't have access to a USU annual report.",SOURCED,False,CHATBOT
+emily,273,64,F572346092318TIYAMQ,2025-01-25T01:15:26.798000Z,Hello! I would like to know who my advisor is.,,False,USER
+emily,274,64,F572346092319YPQSQC,2025-01-25T01:15:27.798000Z,I do not have access to that information.  I need more information to assist you.,OPEN_DOMAIN,False,CHATBOT
+emily,275,65,F1319807706558LCRTXE,2025-01-29T21:17:39.177000Z,Where can I eat on campus?,,False,USER
+emily,276,65,F1319807706559ZECCIM,2025-01-29T21:17:40.177000Z,"I'm sorry, I don't have information about where to eat on campus.  My knowledge is limited to the provided context regarding financial aid.",SOURCED,False,CHATBOT
+emily,277,66,F13198077081985NSJI5,2025-01-29T21:18:47.581000Z,where can I eat on campus?,,False,USER
+emily,278,66,F1319807708199AXYPRH,2025-01-29T21:18:48.581000Z,"I'm sorry, I don't have information about where to eat on campus.  My knowledge is limited to the provided context about financial aid.",SOURCED,False,CHATBOT
+emily,279,66,F131980770953912AYWQ,2025-01-29T21:19:46.795000Z,where can I eat on campus?,,False,USER
+emily,280,66,F1319807709540H5WI4C,2025-01-29T21:19:47.795000Z,"I'm sorry, I don't have information about where to eat on campus.  My knowledge is limited to the provided context about financial aid.",SOURCED,False,CHATBOT
+emily,281,66,F1319807710475QYEORB,2025-01-29T21:20:12.048000Z,are there any cafes on campus?,,False,USER
+emily,282,66,F13198077104762MSVEK,2025-01-29T21:20:13.048000Z,"Yes, there is the Corner Café on the San Jacinto College campus.",SOURCED,False,CHATBOT
+emily,283,67,F1319807712337P50T3T,2025-01-29T21:20:56.340000Z,Are there any cafes on campus?,,False,USER
+emily,284,67,F13198077123384IRCS2,2025-01-29T21:20:57.340000Z,"I do not have access to real-time information, including details about specific locations like cafes on a campus.  To find out about cafes on campus, I suggest checking the campus map or website.",OPEN_DOMAIN,False,CHATBOT
+emily,285,67,F1319807713655FFOIWB,2025-01-29T21:22:12.684000Z,ARE THERE ANY CAFES CAMPUS?,,False,USER
+emily,286,67,F1319807713656JQSJHM,2025-01-29T21:22:13.684000Z,"I'm sorry, Parthie, but I don't have any information about cafes on campus.",SOURCED,False,CHATBOT
+emily,287,67,F1319807714731XXKYAA,2025-01-29T21:22:50.628000Z,ARE THERE ANY CAFES ON CAMPUS?,,False,USER
+emily,288,67,F1319807714732OM5V2D,2025-01-29T21:22:51.628000Z,There are several cafes on campus.  I can provide more specific information if you tell me which campus you're interested in.,OPEN_DOMAIN,False,CHATBOT
+emily,289,67,F13198077161101RQDQK,2025-01-29T21:23:42.955000Z,SAN JACINTO CAMPUS,,False,USER
+emily,290,67,F1319807716111VWQJFT,2025-01-29T21:23:43.955000Z,"I'm sorry, but I don't have any information about the San Jacinto Campus in my current context.",SOURCED,False,CHATBOT
+emily,291,67,F1319807717165YUQT1Q,2025-01-29T21:24:22.088000Z,ARE THERE ANY CAFES ON CAMPUS?,,False,USER
+emily,292,67,F1319807717166MEYOXW,2025-01-29T21:24:23.088000Z,"Yes, there is the Corner Café on the San Jacinto College campus.",SOURCED,False,CHATBOT
+emily,293,67,F1319807718846L2DEN3,2025-01-29T21:26:45.088000Z,are there any cafes on campus?,,False,USER
+emily,294,67,F13198077188474UW5Y2,2025-01-29T21:26:46.088000Z,"Yes, there is the Corner Café on the San Jacinto College campus.",SOURCED,False,CHATBOT
+emily,295,68,F1319807720949EH013O,2025-01-29T21:29:38.653000Z,are there any cafes on campus?,,False,USER
+emily,296,68,F1319807720950H522A4,2025-01-29T21:29:39.653000Z,"Yes, there is the Corner Café on the San Jacinto College campus.",SOURCED,False,CHATBOT
+emily,297,68,F1319807723862RTWLHG,2025-01-29T21:30:31.499000Z,are there any cafes on campus?,,False,USER
+emily,298,68,F1319807723863NXCDMR,2025-01-29T21:30:32.499000Z,"Yes, there is the Corner Café on the San Jacinto College campus.",SOURCED,False,CHATBOT
+emily,299,68,F1319807724894YSLFDZ,2025-01-29T21:31:12.136000Z,are there any cafes on campus?,,False,USER
+emily,300,68,F1319807724895KWRP2O,2025-01-29T21:31:13.136000Z,"Yes, there is the Corner Café on the San Jacinto College campus.",SOURCED,False,CHATBOT
+emily,301,69,F13198077264634Z3XNU,2025-01-29T21:32:18.380000Z,are there any cafes on campus?,,False,USER
+emily,302,69,F13198077264641H1YID,2025-01-29T21:32:19.380000Z,"Yes, there is the Corner Café on the San Jacinto College campus.",SOURCED,False,CHATBOT
+emily,304,69,F1319807728157ZZDMPT,2025-01-29T21:33:02.187000Z,"I'm sorry, but I don't have information about a cafe called Urbana Cafe on campus.",SOURCED,False,CHATBOT
+emily,303,69,F1319807728156P4AUVF,2025-01-29T21:33:01.187000Z,is there a cafe on campus called Urbana Cafe?,,False,USER
+emily,305,70,F13198077282121IFTMS,2025-01-29T21:33:09.653000Z,are there cafes on campus,,False,USER
+emily,306,70,F1319807728213I2XIY1,2025-01-29T21:33:10.653000Z,"Yes, there is a Corner Café on each of the San Jacinto College campuses.",SOURCED,False,CHATBOT
+emily,307,70,F1319807729107BFT0LG,2025-01-29T21:33:33.639000Z,what about urbana cafe?,,False,USER
+emily,308,70,F1319807729108YX4GUK,2025-01-29T21:33:34.639000Z,"I do not have specific information about Urbana Cafe.  To find information about Urbana Cafe, I would need more details, such as its location.",OPEN_DOMAIN,False,CHATBOT
+emily,309,71,F1319807737205OGQ4VV,2025-01-29T21:48:52.390000Z,are there any cafes at school?,,False,USER
+emily,310,71,F1319807737206MSQEKI,2025-01-29T21:48:53.390000Z,There are no cafes at Parthie.,OPEN_DOMAIN,False,CHATBOT
+emily,311,72,F1319807738422UCMM5L,2025-01-29T21:49:54.673000Z,are there any cafes on campus?,,False,USER
+emily,312,72,F1319807738423DKN30X,2025-01-29T21:49:55.673000Z,"Yes, there is the Corner Café on the San Jacinto College campus.",SOURCED,False,CHATBOT
+emily,313,73,F13198077490305YIQ22,2025-01-29T22:21:44.620000Z,cafe,,False,USER
+emily,314,73,F1319807749031TM0XKZ,2025-01-29T22:21:45.620000Z,"The provided text mentions two cafes: Urbana Cafe in Cincinnati, Ohio, and Corner Cafe at San Jacinto College.  There is no further information about Urbana Cafe.  Corner Cafe is open 7 a.m. to 1 p.m. weekdays, serving breakfast 7-9:30 a.m. and lunch 10:30 a.m. to 1 p.m.",SOURCED,False,CHATBOT
+emily,315,74,F1772253473461ZBG2T,2025-01-30T13:03:57.566000Z,cafe,,False,USER
+emily,316,74,F177225347347QKZCFI,2025-01-30T13:03:58.566000Z,"The provided text mentions two cafes: Urbana Cafe in Cincinnati, Ohio, and the Corner Cafe at San Jacinto College.  There is no further information about Urbana Cafe.  The Corner Cafe is open 7 a.m. to 1 p.m. weekdays, serving breakfast 7-9:30 a.m. and lunch 10:30 a.m. to 1 p.m.",SOURCED,False,CHATBOT
+emily,317,74,F177225348469D0ECQM,2025-01-30T13:04:39.335000Z,cafe,,False,USER
+emily,318,74,F177225348470KRNRDE,2025-01-30T13:04:40.335000Z,"Parthie, the Corner Cafe at San Jacinto College is open Monday-Friday from 7 a.m. to 1 p.m.  Breakfast is served from 7 a.m. to 9:30 a.m., and lunch from 10:30 a.m. to 1 p.m.",SOURCED,False,CHATBOT
+emily,319,74,F177225349859DQTZGO,2025-01-30T13:05:44.046000Z,where can I get a coffee?,,False,USER
+emily,320,74,F177225349860MZ41RI,2025-01-30T13:05:45.046000Z,"I'm sorry, I don't have information about where to get coffee.  My knowledge is limited to the provided context about financial aid.",SOURCED,False,CHATBOT
+emily,321,74,F1772253518012UW1VP,2025-01-30T13:06:30.473000Z,where can I eat,,False,USER
+emily,322,74,F177225351802XDHDB4,2025-01-30T13:06:31.473000Z,"I'm sorry, I don't have any information about where you can eat.",SOURCED,False,CHATBOT
+emily,323,74,F177225352188NRFSEA,2025-01-30T13:06:59.632000Z,coffee,,False,USER
+emily,324,74,F1772253521893KC5FN,2025-01-30T13:07:00.632000Z,"The Bakersfield Regional Center has Cloud 9 Coffee nearby, offering a 10% discount to PLNU students.",SOURCED,False,CHATBOT
+emily,325,75,F177225356139BSZTQY,2025-01-30T13:10:28.013000Z,food,,False,USER
+emily,326,75,F177225356140O331WS,2025-01-30T13:10:29.013000Z,"Parthie, based on the provided text, Dr. Cynthia Baron, an associate professor of theater and film at Bowling Green State University, co-authored a book titled “Appetites and Anxieties: Food, Film, and the Politics of Representation.”  The book explores the diverse ways films use food, from community building to social critique, and even examines cannibal films as expressions of social taboos.  The book also analyzes food documentaries and their impact on viewers.",SOURCED,False,CHATBOT
+emily,327,76,F177225370927UXLC1S,2025-01-30T13:54:36.044000Z,where can I eat?,,False,USER
+emily,328,76,F177225370928YFQLZH,2025-01-30T13:54:37.044000Z,"Parthie, you can eat at Urbana Cafe in Cincinnati, Ohio.",SOURCED,False,CHATBOT
+emily,329,77,F177225372690ISCGRZ,2025-01-30T13:56:02.015000Z,where can I eat?,,False,USER
+emily,330,77,F177225372691U3USDX,2025-01-30T13:56:03.015000Z,"Parthie, you can eat at Urbana Cafe in Cincinnati, Ohio.",SOURCED,False,CHATBOT
+emily,331,78,F111157626848635VVUW,2025-01-30T18:50:41.118000Z,company logo,,False,USER
+emily,332,78,F111157626848725GS2W,2025-01-30T18:50:42.118000Z,backend call: company logo,VERIFIED,False,CHATBOT
+emily,343,78,F1111576289293FZVZMU,2025-01-30T19:07:51.641000Z,who is the student ambassador for the portal?,,False,USER
+emily,344,78,F1111576289294WUW34B,2025-01-30T19:07:52.641000Z,"I'm sorry, I don't have information about specific student ambassadors for the portal.  My knowledge is limited to the fact that the Student Ambassador Group helps students and prospective students explore the school and online portal.",SOURCED,False,CHATBOT
+emily,345,78,F1111576299494AKWALK,2025-01-30T19:20:46.846000Z,does the school have any greek sororities?,,False,USER
+emily,346,78,F1111576299495QWBKQY,2025-01-30T19:20:47.846000Z,I do not have access to that information.,OPEN_DOMAIN,False,CHATBOT
+emily,333,79,F1111576271180OFG5JF,2025-01-30T18:52:10.154000Z,company logo,,False,USER
+emily,334,79,F11115762711812FBYYW,2025-01-30T18:52:11.154000Z,backend call: company logo,VERIFIED,False,CHATBOT
+emily,335,79,F1111576271226FEGUMZ,2025-01-30T18:52:29.289000Z,company logo,,False,USER
+emily,336,79,F1111576271227DR0DD2,2025-01-30T18:52:30.289000Z,backend call: company logo,VERIFIED,False,CHATBOT
+emily,337,80,F1111576272828VG22EQ,2025-01-30T18:53:18.867000Z,what is the company logo?,,False,USER
+emily,338,80,F11115762728292DPTB5,2025-01-30T18:53:19.867000Z,"I'm sorry, Parthie, but I cannot describe the company logo.  The provided text only mentions ""[Company Logo. Image of the company logo]"" which indicates an image was present but doesn't provide a description of the image itself.",SOURCED,False,CHATBOT
+emily,339,80,F1111576273639YXTNMN,2025-01-30T18:54:00.781000Z,company logo,,False,USER
+emily,340,80,F1111576273640H51OVI,2025-01-30T18:54:01.781000Z,backend call: company logo,VERIFIED,False,CHATBOT
+emily,341,80,F111157627667100100S,2025-01-30T18:55:38.237000Z,Is there a survey I can fill out to provide feedback on training?,,False,USER
+emily,342,80,F1111576276672H2GODY,2025-01-30T18:55:39.237000Z,"I'm sorry, I don't have any information about a training feedback survey.  My knowledge is limited to providing instructions on password resets.",SOURCED,False,CHATBOT
+emily,347,81,F1111576303014DESGDY,2025-01-30T19:22:05.612000Z,does the school have any greek groups?,,False,USER
+emily,348,81,F11115763030150CVBMX,2025-01-30T19:22:06.612000Z,I do not have access to that information about Parthie.,OPEN_DOMAIN,False,CHATBOT
+emily,351,81,F1111576305229IVPK4I,2025-01-30T19:24:20.501000Z,zeta beta zeta,,False,USER
+emily,349,81,F1111576304326H3W44R,2025-01-30T19:23:56.626000Z,what greek chapters are on campus?,,False,USER
+emily,350,81,F1111576304327WAPLPD,2025-01-30T19:23:57.626000Z,"I do not have access to real-time information, including lists of Greek organizations at specific universities.  To find that information, I suggest checking the university's website, specifically looking for a student organizations or Greek life section.",OPEN_DOMAIN,False,CHATBOT
+emily,352,81,F11115763052300LRDNN,2025-01-30T19:24:21.501000Z,"Parthie, that's Rush Zeta Beta Zeta Women's Sorority, the #1 house on campus!",SOURCED,False,CHATBOT
+emily,353,82,F1414431435955KCNMJ1,2025-02-07T14:37:19.603000Z,ball state event,,False,USER
+emily,354,82,F1414431435956X4D2NL,2025-02-07T14:37:20.603000Z,"I'm sorry, but I don't have any information about events at Ball State University in my current knowledge base.  My information only covers events at Illinois State University and Iowa State University.",SOURCED,False,CHATBOT
+emily,355,83,F1414431436550QRBH2J,2025-02-07T14:37:59.284000Z,what are my tasks,,False,USER
+emily,356,83,F1414431436551STRN1X,2025-02-07T14:38:00.284000Z,"Based on the provided text, your tasks depend on your role.  If you are a student, your tasks are to access MyUSU at my.usu.edu,  log in using your A number and password, update your profile, and explore the features.  If you are staff or faculty, your tasks are similar, but you'll also want to explore the staff-specific tools and features within MyUSU.",SOURCED,False,CHATBOT
+emily,357,84,F1414431438026TCKTN3,2025-02-07T14:39:14.374000Z,emilys contact,,False,USER
+emily,358,84,F1414431438027042R2N,2025-02-07T14:39:15.374000Z,"I do not have access to private information about individuals, including Emily's contact details.",OPEN_DOMAIN,False,CHATBOT
+emily,359,84,F1414431439504AA45OG,2025-02-07T14:39:41.290000Z,what are my taks,,False,USER
+emily,360,84,F1414431439505XNCCY0,2025-02-07T14:39:42.290000Z,"I do not have access to your tasks.  To get that information, you will need to check your task management system or calendar.",OPEN_DOMAIN,False,CHATBOT
+emily,361,85,F1414431440814AGMHFW,2025-02-07T14:40:41.941000Z,susie palmer,,False,USER
+emily,362,85,F1414431440815WQVUSF,2025-02-07T14:40:42.941000Z,"Parthie, Susie Palmer's contact details are: Email: susie.palmer@pathify.com, Phone: +33333333333",SOURCED,False,CHATBOT
+emily,367,85,F1414431444174C5UVOX,2025-02-07T14:43:16.898000Z,when is the next event,,False,USER
+emily,368,85,F14144314441755HEDSZ,2025-02-07T14:43:17.898000Z,"Parthie, I do not have access to information about upcoming events.",SOURCED,False,CHATBOT
+emily,363,86,F1414431440860NEEBXR,2025-02-07T14:40:43.081000Z,what are my tasks,,False,USER
+emily,364,86,F1414431440861N4QCLT,2025-02-07T14:40:44.081000Z,"Based on the provided text, your tasks depend on your role.  If you are a student, your tasks are to access MyUSU at my.usu.edu, log in with your A number and password, update your profile, and explore the features.  If you are staff or faculty, your tasks include the same initial steps, but also involve exploring the many staff-specific tools and features within MyUSU.  There is no information about tasks for other roles.",SOURCED,False,CHATBOT
+emily,365,87,F14144314429452U0JMD,2025-02-07T14:42:10.276000Z,whats the vermont classroom schedule,,False,USER
+emily,366,87,F1414431442946QFXQTY,2025-02-07T14:42:11.276000Z,"I am sorry, but I do not have access to the internet to get the context from the given PDF. Therefore, I cannot provide you with the Vermont classroom schedule.",SOURCED,False,CHATBOT
+emily,369,88,F1414431446127BQFDUE,2025-02-07T14:44:23.610000Z,what are the customer prerequisites for mobile app submission,,False,USER
+emily,370,88,F1414431446128W2PU4Q,2025-02-07T14:44:24.610000Z,"For mobile app submission, the customer must provide: a mobile app icon, a feature graphic, the mobile app name, and a mobile app description.  If using a customer account, the iOA API key and iOS Push Notification key are also essential.",SOURCED,False,CHATBOT
+emily,371,88,F14144314465974QF10H,2025-02-07T14:44:59.450000Z,how do we do mobile app testing,,False,USER
+emily,372,88,F1414431446598NCJWEU,2025-02-07T14:45:00.450000Z,"For iOS, internal testing uses the TestFlight app; internal users must be added to your App Store Connect account (only possible if the customer uses their own App Store account).  For Android, testing is done by providing an APK file for download to any Android device.  No other testing options (including external testing) are offered.  Customers can use their SSO to restrict access to their production app for external test groups if desired.  Apps cannot be released as unlisted.",SOURCED,False,CHATBOT
+emily,373,89,F1414431451090FUGBKR,2025-02-07T14:52:08.540000Z,best practices for groups,,False,USER
+emily,374,89,F14144314510911LDSFL,2025-02-07T14:52:09.540000Z,"To ensure your MyUSU group thrives, follow these best practices:
+
+**Visual Elements:**
+
+*   Use a clear, recognizable avatar (96x96 px, USU Sky Blue background, simple white icon) and banner (704x192 px, representing the university and group; use the USU PhotoShelter Public Gallery).  Get approval from the MyUSU Coordinator for custom avatars.
+*   Maintain visual consistency with your brand.  Ensure images are high-quality and appropriately cropped.
+
+**Group Information:**
+
+*   Use the full name of your department, organization, or program for your group name. Include the acronym in parentheses if applicable.  Do not include ""Utah State University"" or ""USU"" unless it's part of the official name.
+*   Write a concise group description (four lines maximum initially) that clearly states your group's purpose, mission, services, and how users can benefit.  Mention any affiliations with larger USU units.
+*   Provide complete and regularly monitored contact information (email, website, location, phone number). Use a link in bio tool to connect to multiple touchpoints.
+*   Use relevant labels to improve search results. Contact the MyUSU Coordinator to add new labels.
+*   Set your group privacy (public or private) and adjust full privacy settings by contacting the MyUSU Coordinator.
+
+**Advanced Settings:**
+
+*   Choose a default tab (Discussion, Events, Resources, or a custom page) that best highlights your group's information.
+*   Decide who can post, comment, join/leave, create events, and manage resources.  The guide recommends Admin-only control for most of these for initial setup.  Consider post approval to maintain quality.
+*   Enable the welcome notification feature to greet new members.
+*   If applicable, enable Events, Files, and Pages tabs.
+
+**Group Resources:**
+
+*   Organize your resources using folders.
+*   Use the edit function to add descriptions to files and links.
+*   Pin important resources for easy access.
+
+**Group Page:**
+
+*   Enable the group page in Advanced Settings.
+*   Choose a clear icon and name for your page.
+*   Use formatting tools to create a well-organized and informative page.
+
+**Content Strategy:**
+
+*   Define who can post (admins, members, or everyone) and consider post approval to maintain quality and avoid spam.
+*   Focus on relevant, engaging content.
+*   Use high-quality images (1024x400 px or 1024x768 px recommended) in your posts.
+*   Post consistently during peak times (10 AM-1 PM, Monday and Tuesday) to maximize visibility.
+
+
+Remember to contact the MyUSU Coordinator for assistance with any questions or to request personalized training.",SOURCED,False,CHATBOT
+emily,375,90,F892869597922BBWBI,2025-02-07T19:23:10.159000Z,Where can I eat?,,False,USER
+emily,376,90,F89286959793DBMYJU,2025-02-07T19:23:11.159000Z,"I'm sorry, I don't have any information about restaurants in that area.",SOURCED,False,CHATBOT
+emily,377,90,F89286960792APOWWT,2025-02-07T19:23:41.177000Z,Is there a cafe?,,False,USER
+emily,378,90,F89286960793PXVYB4,2025-02-07T19:23:42.177000Z,"Yes, there is a Corner Café on the San Jacinto College campus.",SOURCED,False,CHATBOT
+emily,379,91,F89286962927IIK34P,2025-02-07T19:25:45.497000Z,Where can I eat?,,False,USER
+emily,380,91,F89286962928XITEV3,2025-02-07T19:25:46.497000Z,"The provided text mentions Urbana Cafe in Cincinnati, Ohio, and the Corner Cafe at San Jacinto College.  There is no information about their menus or hours of operation beyond what is listed for the Corner Cafe.",SOURCED,False,CHATBOT
+emily,381,92,F892869651624SVNJ0,2025-02-07T19:27:11.310000Z,Where can I eat?,,False,USER
+emily,382,92,F892869651630HPRQZ,2025-02-07T19:27:12.310000Z,"Parthie, you can eat at Urbana Cafe in Cincinnati, Ohio.",SOURCED,False,CHATBOT
+emily,384,93,F89286967728ROIE0L,2025-02-07T19:30:21.472000Z,"Parthie, you can eat at Urbana Cafe in Cincinnati, Ohio.",SOURCED,False,CHATBOT
+emily,388,93,F89286970191NL0KWZ,2025-02-07T19:32:51.975000Z,"Parthie, I don't have any information about a cafe called ""Urbana Cafe"" in Cincinnati, Ohio.  I need more information to help you.",SOURCED,False,CHATBOT
+emily,392,93,F89286974316N1NFZQ,2025-02-07T19:37:24.583000Z,"I do not have access to real-time information, including the locations of cafes.  To find a cafe near you, I suggest using an online search engine or a map application.",OPEN_DOMAIN,False,CHATBOT
+emily,397,93,F449756396005JABL1P,2025-02-07T19:41:58.524000Z,cafe,,False,USER
+emily,383,93,F89286967727GICZGJ,2025-02-07T19:30:20.472000Z,where can I eat?,,False,USER
+emily,385,93,F89286968962NYRZHH,2025-02-07T19:32:15.148000Z,what cafes are available?,,False,USER
+emily,393,93,F89286974381NMPHD3,2025-02-07T19:37:44.921000Z,cafe,,False,USER
+emily,396,93,F449756395959QUKRVX,2025-02-07T19:41:46.170000Z,"I do not have access to real-time information, including the locations of cafes.  To find cafes near you, I suggest using online search engines like Google, Bing, or map applications such as Google Maps or Apple Maps.",OPEN_DOMAIN,False,CHATBOT
+emily,386,93,F89286968963CSLAX2,2025-02-07T19:32:16.148000Z,"I do not have access to real-time information, including a list of currently available cafes.  To find cafes near you, I suggest using an online search engine or a map application.",OPEN_DOMAIN,False,CHATBOT
+emily,390,93,F89286971995E0BLJC,2025-02-07T19:35:58.677000Z,"I do not have access to real-time information, including the locations of cafes.  To find cafes near you, I suggest using online search engines like Google, Bing, or map applications such as Google Maps or Apple Maps.",OPEN_DOMAIN,False,CHATBOT
+emily,391,93,F89286974315ONWIXY,2025-02-07T19:37:23.583000Z,cafe,,False,USER
+emily,395,93,F449756395958WDBKJT,2025-02-07T19:41:45.170000Z,cafe,,False,USER
+emily,387,93,F89286970190XWMC5I,2025-02-07T19:32:50.975000Z,cafe,,False,USER
+emily,389,93,F89286971994MLADNE,2025-02-07T19:35:57.677000Z,cafe,,False,USER
+emily,394,93,F8928697438231OKUF,2025-02-07T19:37:45.921000Z,"Parthie, the Corner Cafe at San Jacinto College is open 7:00 a.m. to 1:00 p.m., Monday through Friday.  Breakfast is served from 7:00 a.m. to 9:30 a.m., and lunch from 10:30 a.m. to 1:00 p.m.",SOURCED,False,CHATBOT
+emily,398,93,F4497563960064DHSYA,2025-02-07T19:41:59.524000Z,"I do not have access to real-time information, including the location of cafes.  To find cafes near you, I suggest using online search engines such as Google, Bing, or Maps.",OPEN_DOMAIN,False,CHATBOT
+emily,400,94,F449756397818VVYSNL,2025-02-07T19:42:49.068000Z,"I do not have access to real-time information, including the locations of cafes.  To find a cafe near you, I suggest using an online search engine or a map application.",OPEN_DOMAIN,False,CHATBOT
+emily,402,94,F449756398747FTFPGH,2025-02-07T19:43:26.470000Z,"Parthie, the Corner Cafe at San Jacinto College is open Monday-Friday, 7 a.m. to 1 p.m.  Breakfast is served from 7 a.m. to 9:30 a.m., and lunch from 10:30 a.m. to 1 p.m.",SOURCED,False,CHATBOT
+emily,399,94,F4497563978171PPMFT,2025-02-07T19:42:48.068000Z,cafe,,False,USER
+emily,403,94,F449756399737AHXIIN,2025-02-07T19:44:08.915000Z,cafe,,False,USER
+emily,401,94,F449756398746NF10M1,2025-02-07T19:43:25.470000Z,cafe,,False,USER
+emily,404,94,F4497563997382ZINIX,2025-02-07T19:44:09.915000Z,"I do not have access to real-time information, including the locations of cafes.  To find a cafe near you, I suggest using online search engines like Google, Bing, or map applications such as Google Maps or Apple Maps.",OPEN_DOMAIN,False,CHATBOT
+emily,405,94,F449756400960JY11IZ,2025-02-07T19:45:03.138000Z,cafe,,False,USER
+emily,406,94,F449756400961TEYDCN,2025-02-07T19:45:04.138000Z,"Parthie, I don't have any information about a cafe called ""Urbana Cafe"" in Cincinnati, Ohio, in my current context.  I need more information to help you.",SOURCED,False,CHATBOT
+emily,407,95,F449756406243XI325W,2025-02-07T19:52:43.185000Z,where can I eat,,False,USER
+emily,408,95,F449756406244Z5FY2P,2025-02-07T19:52:44.185000Z,"Parthie, you can eat at Urbana Cafe in Cincinnati, Ohio.",SOURCED,False,CHATBOT
+emily,409,96,F449756480664LLIARC,2025-02-07T20:06:28.112000Z,cafe,,False,USER
+emily,410,96,F449756480665DJJZZB,2025-02-07T20:06:29.112000Z,"Parthie, the Corner Cafe at San Jacinto College is open from 7:00 a.m. to 1:00 p.m. Monday through Friday.  Breakfast is served from 7:00 a.m. to 9:30 a.m., and lunch from 10:30 a.m. to 1:00 p.m.  The menu is available online (link provided in the document but not accessible here).",SOURCED,False,CHATBOT
+emily,411,97,F449756487059MQKNHX,2025-02-07T20:23:19.839000Z,Tell me about the cafes on campus,,False,USER
+emily,412,97,F449756487060Z4CH2H,2025-02-07T20:23:20.839000Z,"I do not have access to real-time information, including details about specific cafes on campus.  To get the most up-to-date information on campus cafes, I suggest checking the university's website or contacting the student services department.",OPEN_DOMAIN,False,CHATBOT
+emily,413,98,F1416269931114IKI1DC,2025-02-08T00:58:07.796000Z,Tell me about the cafes on campus.,,False,USER
+emily,414,98,F1416269931115S5DTUQ,2025-02-08T00:58:08.796000Z,"I do not have access to real-time information, including details about specific cafes on a particular campus.  To get that information, you will need to check the campus website, a campus map, or other official campus resources.",OPEN_DOMAIN,False,CHATBOT
+emily,415,98,F1416269994573LGS4TW,2025-02-08T00:59:17.877000Z,Tell me about the cafes on campus.,,False,USER
+emily,416,98,F1416269994574TQTSPB,2025-02-08T00:59:18.877000Z,"I do not have access to real-time information, including details about specific cafes on a particular campus.  To get that information, you will need to check the campus website, a campus map, or other official campus resources.",OPEN_DOMAIN,False,CHATBOT
+emily,417,99,F3001718258881DGLA4,2025-02-08T16:11:51.788000Z,How do I update my sign on?,,False,USER
+emily,418,99,F300171825889QFHZOM,2025-02-08T16:11:52.788000Z,"I'm sorry, I don't have information on how to update your sign-on.  My knowledge base only covers updating customer no-reply emails, deprovisioning users, and submitting requests for new environments.",SOURCED,False,CHATBOT
+emily,419,99,F300171826795BUFVAZ,2025-02-08T16:12:25.760000Z,How do I update my single sign on?,,False,USER
+emily,420,99,F300171826796CG2BL5,2025-02-08T16:12:26.760000Z,"I'm sorry, I don't have the answer to your question about updating single sign-on.  My knowledge is limited to the provided instructions on updating a customer's no-reply email.",SOURCED,False,CHATBOT
+emily,421,99,F300171827867YDAP3Q,2025-02-08T16:13:17.358000Z,How do I update my SSO?,,False,USER
+emily,422,99,F300171827868PJRXK4,2025-02-08T16:13:18.358000Z,"To update your SSO URL, follow these steps:
+
+1. Go to the customer's instance.
+2. Navigate to Admin Plus.
+3. Go to SAML and click SAML Config.
+4. You'll find two main sections: ""Service Provider"" (Pathify) and ""Identity Provider (IdP) Settings"".
+5.  The customer will need to provide the necessary fields under the ""Identity Provider (IdP) Settings"" section.",SOURCED,False,CHATBOT
+emily,423,99,F300171828776GRYXVR,2025-02-08T16:14:05.748000Z,building custom widgets,,False,USER
+emily,424,99,F300171828777VGWUPB,2025-02-08T16:14:06.748000Z,"No, we cannot build custom widgets for customers.  Building widgets and developing on Flow is outside our support capabilities.  If customers haven't had Flow training, we offer paid training. If they have had training, they should contact their trainer.",SOURCED,False,CHATBOT
+emily,425,100,F132309376491DIPUHM,2025-02-09T01:58:05.554000Z,"oxford, england",,False,USER
+emily,426,100,F132309376492DMZ21T,2025-02-09T01:58:06.554000Z,"Oxford, England is a historic university city located in Oxfordshire, about 60 miles (97 km) northwest of London.  It's renowned worldwide for the University of Oxford, one of the oldest and most prestigious universities in the English-speaking world.  The city itself is a beautiful blend of medieval architecture, modern amenities, and stunning natural scenery along the River Cherwell.",OPEN_DOMAIN,False,CHATBOT
+emily,427,101,F250769751730S4KVPE,2025-02-10T17:34:43.220000Z,where can I cafe?,,False,USER
+emily,428,101,F250769751731V2ACNX,2025-02-10T17:34:44.220000Z,"The Corner Cafe at San Jacinto College is open 7:00 a.m. to 1:00 p.m., Monday through Friday.  Breakfast is served from 7:00 a.m. to 9:30 a.m., and lunch from 10:30 a.m. to 1:00 p.m.  There are locations at the Central, North, South, and Maritime campuses.  The menu is available online (link provided in the original text, but I cannot access external websites).",SOURCED,False,CHATBOT
+emily,429,101,F250769753206GNIFTZ,2025-02-10T17:36:34.022000Z,where can I cafe,,False,USER
+emily,430,101,F250769753207PMYWGZ,2025-02-10T17:36:35.022000Z,"The provided text mentions the Corner Cafe at San Jacinto College.  It's open weekdays from 7 a.m. to 1 p.m.  There are multiple locations across the college's campuses.  To find a cafe near you, you'll need to provide your location.",SOURCED,False,CHATBOT
+emily,431,102,F25076975921825DIMF,2025-02-10T17:47:03.201000Z,where is a cafe?,,False,USER
+emily,432,102,F250769759219MH2RYZ,2025-02-10T17:47:04.201000Z,"There is an Urbana Cafe in Cincinnati, Ohio.",SOURCED,False,CHATBOT
+emily,433,102,F250769760180IGKCE2,2025-02-10T17:47:30.375000Z,where can I cafe?,,False,USER
+emily,434,102,F250769760181XSVO00,2025-02-10T17:47:31.375000Z,"The provided text mentions the Corner Cafe at San Jacinto College, which is open 7:00 a.m. to 1:00 p.m. weekdays.  It also mentions an Urbana Cafe in Cincinnati, Ohio, but provides no further details about its location.",SOURCED,False,CHATBOT
+emily,435,103,F2507697775154FOC5G,2025-02-10T18:08:46.165000Z,Where can I eat?,,False,USER
+emily,436,103,F250769777516H1WA2B,2025-02-10T18:08:47.165000Z,"Based on the provided text, you could eat at Urbana Cafe in Cincinnati, Ohio.",SOURCED,False,CHATBOT
+emily,437,104,F2507698054030ZOO4W,2025-02-10T18:09:57.562000Z,Where can I eat?,,False,USER
+emily,438,104,F250769805404X4GPZW,2025-02-10T18:09:58.562000Z,"Based on the provided text, you could eat at Urbana Cafe in Cincinnati, Ohio.",SOURCED,False,CHATBOT
+emily,439,105,F250769807784KLBKIT,2025-02-10T18:10:50.389000Z,Where can I eat?,,False,USER
+emily,440,105,F250769807785JJSQNZ,2025-02-10T18:10:51.389000Z,"Based on the provided text, you could eat at Urbana Cafe in Cincinnati, Ohio.",SOURCED,False,CHATBOT
+emily,441,106,F250769826241OGZNI0,2025-02-10T18:16:34.963000Z,Where can I eat?,,False,USER
+emily,442,106,F250769826242SB13QV,2025-02-10T18:16:35.963000Z,"I know of one place: Urbana Cafe in Cincinnati, Ohio.",SOURCED,False,CHATBOT
+emily,443,107,F250769831349IZRF23,2025-02-10T18:18:13.502000Z,Where can I eat?,,False,USER
+emily,444,107,F250769831350WWCJYT,2025-02-10T18:18:14.502000Z,"Based on the provided text, you could eat at Urbana Cafe in Cincinnati, Ohio.",SOURCED,False,CHATBOT
+emily,445,108,F2507698523660BXXMP,2025-02-10T18:19:51.809000Z,Where can I eat?,,False,USER
+emily,446,108,F250769852367UYI1U4,2025-02-10T18:19:52.809000Z,"I know of one place: Urbana Cafe in Cincinnati, Ohio.",SOURCED,False,CHATBOT
+emily,447,109,F250769855320YF4R2I,2025-02-10T18:20:03.034000Z,Where can I eat?,,False,USER
+emily,448,109,F250769855321NQC4IL,2025-02-10T18:20:04.034000Z,"Based on the provided text, you could eat at Urbana Cafe in Cincinnati, Ohio.",SOURCED,False,CHATBOT
+emily,449,110,F250769873184T2QYHC,2025-02-10T18:58:22.214000Z,where can I cafe,,False,USER
+emily,450,110,F250769873185CFQU1A,2025-02-10T18:58:23.214000Z,"The provided text mentions the Corner Cafe at San Jacinto College, which is open 7:00 a.m. to 1:00 p.m. weekdays.  Breakfast is served 7:00 a.m. - 9:30 a.m. and lunch 10:30 a.m. - 1:00 p.m.  There is also mention of an Urbana Cafe in Cincinnati, Ohio, but no details are given.",SOURCED,False,CHATBOT
+emily,451,110,F250769875633OT5WJB,2025-02-10T18:59:03.118000Z,where can I cafe,,False,USER
+emily,452,110,F250769875634V3JVSY,2025-02-10T18:59:04.118000Z,"The provided text mentions the Corner Cafe at San Jacinto College and the Urbana Cafe in Cincinnati, Ohio.  However, no further details about the Urbana Cafe are available.",SOURCED,False,CHATBOT
+emily,453,111,F651839917570RBBKEZ,2025-02-11T16:18:41.710000Z,where can I study abroad?,,False,USER
+emily,454,111,F651839917571HANIYA,2025-02-11T16:18:42.710000Z,"Based on the provided text, you can study abroad in Gaming, Austria; Oxford, England; or, with faculty assistance, at many other universities in various countries.",SOURCED,False,CHATBOT
+emily,455,111,F651839918640BBXW0Z,2025-02-11T16:19:17.356000Z,does the school have a study abroad program?,,False,USER
+emily,456,111,F651839918641QMJOEG,2025-02-11T16:19:18.356000Z,"Yes, Franciscan University has a study abroad program with options including a semester in Gaming, Austria; a semester studying the Medieval period in Oxford, England; and the possibility of crafting a custom study abroad experience at various universities in other countries.",SOURCED,False,CHATBOT
+emily,457,112,F6518399206194RLM4J,2025-02-11T16:21:46.852000Z,does the school offer a study abroad program in India?,,False,USER
+emily,458,112,F651839920620J1ML01,2025-02-11T16:21:47.852000Z,"Based on the provided text, there is no mention of a study abroad program in India.  The document details programs in Austria and England, and mentions the possibility of creating a custom program in other countries, but India is not specifically listed.",SOURCED,False,CHATBOT
+emily,459,113,F1091081138571OA4GSH,2025-02-12T23:00:41.071000Z,Where is the cafe?,,False,USER
+emily,460,113,F1091081138572X3YY01,2025-02-12T23:00:42.071000Z,"The provided text mentions Corner Cafe locations on the San Jacinto College campuses: Central, North, South, and Maritime.  Specific building locations are given for each.  There is no Urbana Cafe information in this document.",SOURCED,False,CHATBOT
+emily,461,114,F974661512796LZCRWN,2025-02-13T17:41:06.115000Z,fad,,False,USER
+emily,462,114,F974661512797JLYA0Z,2025-02-13T17:41:07.115000Z,"I am unfamiliar with the term ""fad"" in this context.  Could you please provide more information or context?",OPEN_DOMAIN,False,CHATBOT
+emily,463,115,F1633761498709CNH51L,2025-02-13T19:47:23.291000Z,is there a study abroad program for india?,,False,USER
+emily,464,115,F1633761498710AZSNR0,2025-02-13T19:47:24.291000Z,"Based on the provided text, there is no mention of a study abroad program in India.  The information only details programs in Austria and mentions the possibility of creating a custom program in other countries, but India is not specifically listed.",SOURCED,False,CHATBOT
+emily,465,116,F1633761500624P2JUPJ,2025-02-13T19:49:35.883000Z,is there a study abroad program for india?,,False,USER
+emily,466,116,F1633761500625Z5HXA4,2025-02-13T19:49:36.883000Z,"Based on the provided text, there is mention of an ""India Program Overview"" and an ""India Study Abroad Program,"" but no details are given about either.  More information is needed to answer your question fully.",SOURCED,False,CHATBOT
+emily,467,116,F1633761502732T0AGDK,2025-02-13T19:52:56.627000Z,is there a program to study abroad in India?,,False,USER
+emily,468,116,F1633761502733KGDQMX,2025-02-13T19:52:57.627000Z,"Based on the provided text, there is mention of an ""India Program Overview"" and an ""India Study Abroad Program,"" but there are no details about the program itself.  More information is needed to answer your question fully.",SOURCED,False,CHATBOT
+emily,469,116,F1633761503796DH0ZES,2025-02-13T19:53:43.768000Z,Is there a program to study abroad in india,,False,USER
+emily,470,116,F1633761503797IVS3M5,2025-02-13T19:53:44.768000Z,"Based on the provided text, there is mention of an ""India Program Overview"" and an ""India Study Abroad Program,"" but there are no details about the program itself.  More information is needed to answer your question fully.",SOURCED,False,CHATBOT
+emily,471,117,F16337615063451YUDFE,2025-02-13T19:57:06.914000Z,Is there a program to study abroad in India?,,False,USER
+emily,472,117,F1633761506346LALJV3,2025-02-13T19:57:07.914000Z,"Based on the provided text, there is mention of an ""India Program Overview"" but no details about it are given.  There is information about study abroad programs in Austria and general information about other programs, but nothing specific about India.",SOURCED,False,CHATBOT
+emily,473,118,F1633761508953KW4M4G,2025-02-13T20:00:46.993000Z,Is there a program to study abroad in India?,,False,USER
+emily,474,118,F1633761508954MEIFNZ,2025-02-13T20:00:47.993000Z,"Based on the provided text, there is no mention of a study abroad program in India.  The information only details programs in Austria and mentions the possibility of creating a custom program in other countries, but India is not specifically listed.",SOURCED,False,CHATBOT
+emily,475,119,F5200791091410SYON5,2025-02-13T23:46:53.464000Z,Tim,,False,USER
+emily,476,119,F5200791091421X4SEI,2025-02-13T23:46:54.464000Z,I do not have any information about a person named Tim.  Is there anything else I can help you with?,OPEN_DOMAIN,False,CHATBOT
+emily,477,119,F520079110222AWQOFN,2025-02-13T23:48:00.018000Z,Palmer,,False,USER
+emily,478,119,F520079110223YA1EAQ,2025-02-13T23:48:01.018000Z,"That's Susie Palmer.  Her contact details are: Email: susie.palmer@pathify.com, Phone: +33333333333",SOURCED,False,CHATBOT
+emily,479,120,F520079117338HPDGZQ,2025-02-14T00:07:45.795000Z,Are there any study abroad orientations?,,False,USER
+emily,480,120,F520079117339U0ZTP2,2025-02-14T00:07:46.795000Z,"Yes, there is a Study Abroad Orientation starting February 14th, 2025, at 8:00 PM EST in Cincinnati, OH.  This orientation will cover study abroad opportunities in Austria, India, and England.",SOURCED,False,CHATBOT
+emily,481,121,F520079120496OJIC4R,2025-02-14T00:12:56.566000Z,is there a study abroad program for India?,,False,USER
+emily,482,121,F520079120497V0METD,2025-02-14T00:12:57.566000Z,"Based on the provided text, there is no mention of a study abroad program in India.  The document only details programs in Austria and mentions the possibility of creating a custom program in other countries, but India is not specifically listed.",SOURCED,False,CHATBOT
+emily,483,121,F520079123315LEM3C2,2025-02-14T00:17:33.368000Z,Is there a study abroad program for India?,,False,USER
+emily,484,121,F520079123316DCL4F0,2025-02-14T00:17:34.368000Z,"Based on the provided text, there is no mention of a study abroad program in India.  The document only details programs in Austria and mentions the possibility of creating a custom program in other countries, but India is not specifically listed.",SOURCED,False,CHATBOT
+emily,485,121,F520079123363D2OTV4,2025-02-14T00:17:49.951000Z,India,,False,USER
+emily,486,121,F520079123364QSVCYM,2025-02-14T00:17:50.951000Z,"I need more information about what you'd like to know regarding India.  The phrase ""India Program Overview"" is too broad.  Please specify your query, for example:
+
+* ""What are the goals of the India Program?""
+* ""What are the key initiatives of the India Program?""
+* ""What is the budget for the India Program?""
+* ""What is the timeline for the India Program?""
+
+I need a more specific question to provide a helpful answer.",SOURCED,False,CHATBOT
+emily,487,121,F520079124377ULQCUV,2025-02-14T00:18:11.151000Z,India Study Abroad Program,,False,USER
+emily,488,121,F5200791243780WYLYD,2025-02-14T00:18:12.151000Z,"I'm sorry, but I don't have information about an India Study Abroad Program.  My knowledge is limited to the Austria Study Abroad Program.",SOURCED,False,CHATBOT
+emily,489,121,F52007912590452ERFL,2025-02-14T00:19:05.163000Z,India Study Abroad Program,,False,USER
+emily,490,121,F520079125905K4UWZA,2025-02-14T00:19:06.163000Z,"I'm sorry, but I don't have any information about an India Study Abroad Program.  My knowledge is limited to the Austria Study Abroad Program.",SOURCED,False,CHATBOT
+emily,491,122,F520079126882PXBOTE,2025-02-14T00:19:41.685000Z,Is there a study abroad program for India?,,False,USER
+emily,492,122,F520079126883AKLI5X,2025-02-14T00:19:42.685000Z,"Based on the provided text, there is no mention of a study abroad program in India.  The options listed are Austria and England, with the possibility of creating a custom program in other countries.",SOURCED,False,CHATBOT
+emily,493,122,F520079127772O44SZE,2025-02-14T00:20:01.289000Z,India Study abroad program,,False,USER
+emily,494,122,F520079127773HF3GGG,2025-02-14T00:20:02.289000Z,"I'm sorry, but I don't have information about an India Study Abroad Program.  My knowledge is limited to the Austria Study Abroad Program.",SOURCED,False,CHATBOT
+emily,495,123,F52007913189554RUMC,2025-02-14T00:27:51.963000Z,Is there a study abroad program for India?,,False,USER
+emily,496,123,F520079131896INPNMY,2025-02-14T00:27:52.963000Z,"Based on the provided text, there is no mention of a study abroad program in India.  The information only details programs in Austria and mentions the possibility of creating a custom program in other countries, but India is not specifically listed.",SOURCED,False,CHATBOT
+emily,509,124,F520079189453VAUSLE,2025-02-14T02:41:58.159000Z,india program overview,,False,USER
+emily,497,124,F520079183607FYYFMN,2025-02-14T02:37:34.277000Z,french food,,False,USER
+emily,498,124,F520079183608D25Q42,2025-02-14T02:37:35.277000Z,"Please provide me with the content of the ""French Food Program Overview"" so I can answer your question about French food.  I need that document's text to give you a relevant response.",SOURCED,False,CHATBOT
+emily,499,124,F520079184837QI2FEY,2025-02-14T02:39:06.652000Z,is there a france study abroad program,,False,USER
+emily,500,124,F520079184838LUJ3XV,2025-02-14T02:39:07.652000Z,"Based on the provided text, there is mention of study abroad programs in Austria, England, and other unspecified countries.  However, there is no information about a study abroad program specifically in France.",SOURCED,False,CHATBOT
+emily,501,124,F520079185706QOY1HU,2025-02-14T02:39:33.872000Z,are there food options when studying in france,,False,USER
+emily,502,124,F5200791857074Q5UWM,2025-02-14T02:39:34.872000Z,"Based on the provided text, there is no information about food options for study abroad programs in France.  Therefore, I cannot answer your question.",SOURCED,False,CHATBOT
+emily,503,124,F520079186586YBTKSS,2025-02-14T02:40:07.380000Z,what are the france study abroad food options,,False,USER
+emily,504,124,F52007918658714UKZU,2025-02-14T02:40:08.380000Z,"I'm sorry, but the provided text doesn't contain information about food options for a France study abroad program.  The text mentions study abroad opportunities in Austria, England, and other unspecified countries, but not France.",SOURCED,False,CHATBOT
+emily,505,124,F520079187485XVR05D,2025-02-14T02:40:39.015000Z,France programa overview,,False,USER
+emily,506,124,F520079187486H54K3P,2025-02-14T02:40:40.015000Z,"I do not have access to specific program overviews for France.  I only have the program names:  [France Program Overview], [Oxford England Program Overview], and [India Program Overview].  To get the overview you are looking for, you will need to provide more information about the specific program in France you are interested in.",SOURCED,False,CHATBOT
+emily,507,124,F5200791890351FK54I,2025-02-14T02:41:30.416000Z,how many students study in france,,False,USER
+emily,508,124,F520079189036RZXXTW,2025-02-14T02:41:31.416000Z,"I'm sorry, but I don't have the answer to how many students study in France. My knowledge is limited to the context of ""France Study Abroad Program Food Options"".",SOURCED,False,CHATBOT
+emily,510,124,F5200791894544XXJPI,2025-02-14T02:41:59.159000Z,"I do not have access to information about an ""India Program Overview"" in the provided text.  The document contains information about programs at Bowling Green State University and a research conference on fathers and fathering, but nothing related to India.",SOURCED,False,CHATBOT
+emily,511,124,F520079190417O5GSVF,2025-02-14T02:42:45.885000Z,what is the study abroad orientation about?,,False,USER
+emily,512,124,F5200791904191LMHW4,2025-02-14T02:42:46.885000Z,"The study abroad orientation on February 14th, 2025, from 8 PM to 9 PM EST in Cincinnati, OH, provides an overview of what to expect when studying abroad in Austria, India, or England.  It will cover information relevant to those specific locations.  There is also mention of crafting a custom study abroad experience in other countries.",SOURCED,False,CHATBOT
+emily,513,125,F1512514918749RTHFD3,2025-02-14T23:43:44.086000Z,who is president?,,False,USER
+emily,514,125,F1512514918750Q51ZER,2025-02-14T23:43:45.086000Z,"Based on the provided text, there are two individuals mentioned as presidents.  Rodney Rogers is named as the president of Bowling Green State University (BGSU) in a 2018 article.  A separate article mentions a President Mazey presiding over a commencement in August 2011.  The text doesn't state whether this is the same university or a different one.",SOURCED,False,CHATBOT
+emily,515,126,F151251491980505YUS2,2025-02-14T23:44:58.139000Z,who is president of usa?,,False,USER
+emily,516,126,F1512514919806SYDRGS,2025-02-14T23:44:59.139000Z,The current president of the USA is Joe Biden.,OPEN_DOMAIN,False,CHATBOT
+emily,517,126,F1512514920817OYJPBC,2025-02-14T23:45:23.271000Z,who is president,,False,USER
+emily,518,126,F151251492081910SFTX,2025-02-14T23:45:24.271000Z,I need more context.  President of what?  A country? A company?  An organization?,SOURCED,False,CHATBOT
+emily,519,126,F15125149217690UBWCC,2025-02-14T23:45:39.959000Z,who is the president of bgsu?,,False,USER
+emily,520,126,F1512514921770KGCXOK,2025-02-14T23:45:40.959000Z,"Based on the provided text, Dr. Rodney Rogers is the president of Bowling Green State University (BGSU).  The text states he was appointed permanently to the position in February 2018.",SOURCED,False,CHATBOT
+emily,521,126,F1512514922680VGVGC1,2025-02-14T23:46:15.492000Z,Does the school have a study abroad program in India?,,False,USER
+emily,522,126,F1512514922681N053UG,2025-02-14T23:46:16.492000Z,"I'm sorry, but the provided text doesn't contain information about whether Bowling Green State University (BGSU) has a study abroad program in India.  The text only mentions programs in Austria, England, and the possibility of creating a custom program in other countries.",SOURCED,False,CHATBOT
+emily,523,126,F15125149304101CHQXD,2025-02-15T00:07:04.327000Z,what color is the sky?,,False,USER
+emily,524,126,F1512514930411YDVUAB,2025-02-15T00:07:05.327000Z,"The sky is typically blue, but it can appear other colors depending on the time of day and weather conditions.",OPEN_DOMAIN,False,CHATBOT
+emily,525,127,F1063207947411M2XGFD,2025-02-15T15:29:08.679000Z,does the school have a place to eat ice cream?,,False,USER
+emily,526,127,F1063207947412AR1GSO,2025-02-15T15:29:09.679000Z,"Based on the information I have, the Aronoff Center has a room called the ""Ice Cream Room"".  Whether this is the only place to eat ice cream at the school, I don't know.",SOURCED,False,CHATBOT
+emily,527,128,F1063207949568AZVNUT,2025-02-15T15:32:26Z,where can I find out more about the schools buildling and grounds,,False,USER
+emily,528,128,F1063207949569QDS0VL,2025-02-15T15:32:27Z,"To find out more about the school's building and grounds, you can search for information using the terms ""Building and Grounds"" or ""UC Building and Grounds"".  I do not have access to specific school information beyond what is in my current context.",SOURCED,False,CHATBOT
+emily,529,128,F10632079509720PBJWE,2025-02-15T15:34:57.197000Z,tell me more about the schools buildings,,False,USER
+emily,530,128,F1063207950973L2YCOI,2025-02-15T15:34:58.197000Z,"To answer your question accurately, I need to know which school you're asking about.  Please provide the name and location of the school.",OPEN_DOMAIN,False,CHATBOT
+emily,531,128,F10632079518781B504R,2025-02-15T15:35:22.726000Z,tell me more about bgsu's buildings,,False,USER
+emily,532,128,F1063207951879WH1GSA,2025-02-15T15:35:23.726000Z,"I do not have access to a comprehensive, constantly updated database of all BGSU's buildings.  For detailed information about BGSU's buildings, including their history, architecture, and current uses, I recommend checking the following resources:
+
+* **BGSU's Official Website:**  The university's website is the best place to start. Look for a section on campus maps, facilities, or a campus directory.  These often include building descriptions and photos.
+* **BGSU Campus Maps:**  An interactive campus map will allow you to click on buildings to learn more about them.
+* **BGSU Facilities Management:**  The university's facilities management department might have more detailed information available, possibly through a contact form or phone number listed on the website.
+* **BGSU Archives or Library:**  The university archives or library might hold historical information about the buildings on campus.
+
+
+Searching online for ""[Building Name] BGSU"" for specific buildings you are interested in may also yield results.",OPEN_DOMAIN,False,CHATBOT
+emily,533,128,F1063207953388JN3QDV,2025-02-15T15:37:10.096000Z,what is bgsu building?,,False,USER
+emily,534,128,F1063207953389OZUV1Y,2025-02-15T15:37:11.096000Z,"BGSU stands for Bowling Green State University.  A ""BGSU building"" refers to any building located on the Bowling Green State University campus.  There are many buildings on campus, serving various purposes such as classrooms, administrative offices, libraries, residence halls, recreational facilities, and more.",OPEN_DOMAIN,False,CHATBOT
+emily,535,128,F1063207954171JKVHMX,2025-02-15T15:37:41.987000Z,what building is being constructed at bgsu,,False,USER
+emily,536,128,F1063207954172I5T24B,2025-02-15T15:37:42.987000Z,"I do not have access to real-time information on construction projects at BGSU. To find out what buildings are currently under construction, I recommend checking the BGSU website, specifically looking for news, announcements, or a section on campus construction projects.  You could also try searching the BGSU website for ""construction projects"" or ""campus construction"".",OPEN_DOMAIN,False,CHATBOT
+emily,537,128,F1063207955054PQUHP2,2025-02-15T15:38:07.264000Z,who is bgsu collaborating with,,False,USER
+emily,538,128,F1063207955055Z2EXMZ,2025-02-15T15:38:08.264000Z,"I do not have access to a constantly updated, comprehensive list of all of BGSU's current collaborations.  To find this information, I recommend checking the following resources:
+
+* **BGSU's Official Website:** Look for news articles, press releases, or a section dedicated to research partnerships or collaborations.
+* **Individual College/Department Websites:** BGSU's various colleges and departments often have their own websites detailing their research and collaborations.
+* **BGSU Research Office:**  The university's research office would likely have information on major research collaborations.
+
+
+Searching the BGSU website for ""research partnerships,"" ""collaborations,"" or similar terms should also yield relevant results.",OPEN_DOMAIN,False,CHATBOT
+emily,539,128,F1063207956083CCZJF5,2025-02-15T15:39:02.292000Z,who is bgsu collaborating with,,False,USER
+emily,540,128,F1063207956084L0WRKD,2025-02-15T15:39:03.292000Z,"Bowling Green State University (BGSU) is collaborating with Vantage Healthcare of Ohio.  Vantage Healthcare includes Wood County Hospital, the Bellevue Hospital, Fulton County Health Center, and Community Health and Wellness Center of Bryan, Ohio.",SOURCED,False,CHATBOT
+emily,542,129,F1367733948031BDG0TL,2025-02-15T15:42:28.772000Z,backend call: zoom license,VERIFIED,False,CHATBOT
+emily,545,129,F1367733949752T2XJE3,2025-02-15T15:43:27.323000Z,where do I request a zoom license,,False,USER
+emily,552,129,F1367733952973SBKVHM,2025-02-15T15:47:07.618000Z,backend call: zoom license,VERIFIED,False,CHATBOT
+emily,554,129,F1367733953897LRACC3,2025-02-15T15:47:31.629000Z,"To request a special Zoom license account for your guest, use the 'Zoom License Request Form (Official)'.",SOURCED,False,CHATBOT
+emily,541,129,F13677339480304X4LZV,2025-02-15T15:42:27.772000Z,I need to request a zoom license,,False,USER
+emily,543,129,F1367733948897HFIQC5,2025-02-15T15:42:53.926000Z,where do i request a zoom license for my guest,,False,USER
+emily,546,129,F1367733949753IAAXZG,2025-02-15T15:43:28.323000Z,backend call: zoom license,VERIFIED,False,CHATBOT
+emily,547,129,F1367733950809EBDK4N,2025-02-15T15:45:05.909000Z,guest wifi access,,False,USER
+emily,550,129,F1367733951765JTYGIE,2025-02-15T15:45:25.477000Z,backend call: guest wifi access,VERIFIED,False,CHATBOT
+emily,544,129,F1367733948898ZY0D0G,2025-02-15T15:42:54.926000Z,"To request a special Zoom license account for your guest, use the 'Zoom License Request Form (Official)'.",SOURCED,False,CHATBOT
+emily,548,129,F1367733950810IAAS53,2025-02-15T15:45:06.909000Z,backend call: guest wifi access,VERIFIED,False,CHATBOT
+emily,549,129,F1367733951764JTVYKI,2025-02-15T15:45:24.477000Z,where do I request wifi access for my guest,,False,USER
+emily,551,129,F13677339529721OSSJM,2025-02-15T15:47:06.618000Z,where do i request a zoom license,,False,USER
+emily,553,129,F13677339538963FDAF2,2025-02-15T15:47:30.629000Z,where do I request ea zoom license request for my guest,,False,USER
+emily,555,130,F738727246038AG2G01,2025-02-17T20:59:37.486000Z,what is the vermont class schedule,,False,USER
+emily,556,130,F738727246039G2TFBZ,2025-02-17T20:59:38.486000Z,"I'm sorry, but I do not have access to a Vermont class schedule.  My knowledge about specific university or college schedules is limited.  To find this information, you will need to check the website of the Vermont institution you are interested in (e.g., University of Vermont, Vermont Technical College, etc.).  Their academic calendar or registrar's office pages will usually contain the class schedules.",SOURCED,False,CHATBOT
+emily,569,130,F7387272598101X3NFN,2025-02-17T21:25:00.256000Z,what is the vermont classroom schedule,,False,USER
+emily,570,130,F738727259811G0CMT1,2025-02-17T21:25:01.256000Z,"I do not have access to a Vermont classroom schedule.  My knowledge comes from the documents you provided, and those documents do not contain a Vermont classroom schedule.  To find this information, you will need to consult the relevant Vermont school district or institution's website.",SOURCED,False,CHATBOT
+emily,573,130,F7387272626805V5NMG,2025-02-17T21:27:35.671000Z,find rev2024,,False,USER
+emily,574,130,F738727262681YETXMZ,2025-02-17T21:27:36.671000Z,"I'm sorry, I don't have any information about ""rev2024"" in my current context.",SOURCED,False,CHATBOT
+emily,557,131,F738727251828Z4ZRA5,2025-02-17T21:14:58.876000Z,company logo,,False,USER
+emily,558,131,F7387272518291WJD0U,2025-02-17T21:14:59.876000Z,backend call: company logo,VERIFIED,False,CHATBOT
+emily,559,131,F7387272528912TKA0U,2025-02-17T21:15:36.362000Z,company logo,,False,USER
+emily,560,131,F738727252892PWVEID,2025-02-17T21:15:37.362000Z,backend call: company logo,VERIFIED,False,CHATBOT
+emily,561,132,F738727254337NTS3E4,2025-02-17T21:16:48.877000Z,does the company have a logo,,False,USER
+emily,562,132,F738727254338HCB0CB,2025-02-17T21:16:49.877000Z,"Based on the provided text, the answer is yes.  The text begins with ""[Company Logo. Image of the company logo]"".",SOURCED,False,CHATBOT
+emily,563,132,F738727255784JWTHMI,2025-02-17T21:19:43.859000Z,does the company have a logo,,False,USER
+emily,564,132,F738727255785RMKYUG,2025-02-17T21:19:44.859000Z,"The text starts with ""[Company Logo]"", indicating that the company does indeed have a logo.",SOURCED,False,CHATBOT
+emily,565,132,F738727256820SCASWH,2025-02-17T21:20:10.935000Z,what is the company logo,,False,USER
+emily,566,132,F738727256821DZVOUJ,2025-02-17T21:20:11.935000Z,"I do not see the actual image of the company logo in the provided text.  The text only indicates its presence with ""[Company Logo]"".",SOURCED,False,CHATBOT
+emily,567,132,F738727257894NVM1QF,2025-02-17T21:21:05.724000Z,does pathify have a logo,,False,USER
+emily,568,132,F738727257895HOEFXW,2025-02-17T21:21:06.724000Z,"The provided text only mentions ""[Pathify Logo]"", indicating the existence of a logo, but doesn't show the logo itself.  Therefore, I can confirm that Pathify has a logo, but I cannot describe it.",SOURCED,False,CHATBOT
+emily,571,132,F738727261185YGZMOV,2025-02-17T21:27:03.065000Z,vermont classroom schedule,,False,USER
+emily,572,132,F738727261186WWLE52,2025-02-17T21:27:04.065000Z,"I have access to a document titled ""REV 2024 Vermont Classroom Schedule.pdf"".  However, I cannot directly view or process PDF files.  To get you the information you need, I require you to provide the relevant details from that PDF.",SOURCED,False,CHATBOT
+emily,575,132,F738727263606R2C3FY,2025-02-17T21:27:48.893000Z,what is the vermon classroom schedule,,False,USER
+emily,576,132,F738727263607KN0EAI,2025-02-17T21:27:49.893000Z,"I do not have access to real-time information, including specific schedules for Vermont classrooms.  To find a Vermont classroom schedule, you will need to specify:
+
+* **The school or institution:**  Are you looking for an elementary school, middle school, high school, college, or university schedule?  Knowing the name of the specific school is crucial.
+* **The year and term:**  Schedules change yearly and often by term (fall, spring, summer).
+* **The grade level or course:**  If it's a K-12 school, specifying the grade level helps. For higher education, the course name or number is necessary.
+
+Once you provide this information, you may be able to find the schedule on the school's website, through a student portal, or by contacting the school's administrative office.",SOURCED,False,CHATBOT
+emily,577,132,F738727264884VYFLNK,2025-02-17T21:29:12.696000Z,what is the vermon classroom schedule,,False,USER
+emily,578,132,F738727264885NVQHXO,2025-02-17T21:29:13.696000Z,"I need more information to answer your question.  ""Vermont classroom schedule"" is too broad.  To help me find the schedule you're looking for, please tell me:
+
+* **Which school district or institution?** (e.g., Burlington School District, University of Vermont)
+* **Which school or building?** (e.g., Champlain Valley Union High School, Waterman Building)
+* **What year and semester/term?** (e.g., Fall 2024, Spring 2025)
+
+With more specifics, I might be able to help you find the schedule online.  Otherwise, you'll likely need to contact the school directly.",SOURCED,False,CHATBOT
+emily,579,132,F7387272660260ES0Y5,2025-02-17T21:30:03.646000Z,what is the vermont classroom schedule for June 26,,False,USER
+emily,580,132,F738727266027MSOWRH,2025-02-17T21:30:04.646000Z,"I do not have access to real-time information, including specific schedules for Vermont classrooms. To find this information, you will need to contact the specific school or institution in Vermont whose schedule you are interested in.  You will need to provide the name of the school.",SOURCED,False,CHATBOT
+emily,581,132,F738727267160V153RP,2025-02-17T21:30:58.790000Z,what is the vermont classroom schedule,,False,USER
+emily,582,132,F738727267161M5S3ZL,2025-02-17T21:30:59.790000Z,"There is no single ""Vermont classroom schedule.""  Vermont has many schools, colleges, and universities, each with its own individual schedule.  To find a specific schedule, you'll need to specify:
+
+* **The school or institution:** (e.g., Burlington High School, University of Vermont, a specific elementary school)
+* **The year:** (e.g., 2024-2025)
+* **The term or semester:** (e.g., Fall, Spring, Summer)
+
+Once you provide this information, you can likely find the schedule on the school's website.",SOURCED,False,CHATBOT
+emily,583,132,F7387272716775V44KM,2025-02-17T21:43:55.370000Z,zoom license,,False,USER
+emily,584,132,F738727271678QKRRZ0,2025-02-17T21:43:56.370000Z,backend call: Zoom license,VERIFIED,False,CHATBOT
+emily,589,132,F7387272755842ROBYT,2025-02-17T21:47:27.014000Z,where do I request a zoom license?,,False,USER
+emily,590,132,F738727275585BMOSBO,2025-02-17T21:47:28.014000Z,"The process for requesting a Zoom license depends on your organization and whether you're already a Zoom customer.  There isn't a single universal request form.  Here are some possibilities:
+
+* **If you're already a Zoom customer:**  Your existing Zoom account administrator or IT department will handle license requests and upgrades.  Contact them directly.
+
+* **If you're a new customer:**  Go to the official Zoom website (zoom.us).  Look for options like ""Pricing,"" ""Plans,"" or ""Buy.""  This will guide you through selecting a plan and purchasing licenses. You may need to contact Zoom sales directly for larger organizations or enterprise solutions.
+
+* **If you have a specific form:**  If your organization uses a specific internal form (like the one mentioned earlier), use that.
+
+In short, there's no single ""request a Zoom license"" page.  The process is tailored to the context of your organization and Zoom account status.",SOURCED,False,CHATBOT
+emily,585,133,F738727273563DMAYGS,2025-02-17T21:46:07.460000Z,where do I request a zoom license?,,False,USER
+emily,586,133,F73872727356413PFKB,2025-02-17T21:46:08.460000Z,"To request a Zoom license, you should use the 'Zoom License Request Form (Official)'.",SOURCED,False,CHATBOT
+emily,587,133,F7387272747174SWWAO,2025-02-17T21:47:00.480000Z,where do I request a zoom license?,,False,USER
+emily,588,133,F738727274718LKQMPV,2025-02-17T21:47:01.480000Z,"To request a Zoom license, use the ""Zoom License Request Form (Official)"".",SOURCED,False,CHATBOT
+emily,591,134,F16268777969135YHT5F,2025-02-26T17:33:29.923000Z,what is the email policy,,False,USER
+emily,592,134,F1626877796914BMZK3O,2025-02-26T17:33:30.923000Z,"The Washington College email policy requires that all all-campus or mass email messages adhere to specific guidelines.  College-managed email distribution lists are moderated to ensure appropriate use.  The policy aims to prevent resource consumption, inbox clutter, and the spread of disrespectful or discriminatory messages.
+
+Mass emails are defined as unsolicited messages sent to a group of unrelated campus email addresses (e.g., all faculty or all students).  Sending messages to pre-approved groups (clubs, committees) is acceptable if relevant to their work.
+
+Moderation is handled by designated list moderators (e.g., Provost's Office for faculty, President's Office/HR for staff).  Messages are reviewed within 24 hours (or by the next business day if sent on Friday).  Appeals are allowed within one business day of notification.  Exceptions to moderation include messages from Public Safety, WC Response, and the Office of Information Technology (OIT).
+
+Acceptable uses include messages relevant to College business, policy changes, time-sensitive issues, urgent announcements, and event promotions (though alternative communication methods are encouraged for non-urgent events).
+
+Inappropriate uses include personal messages, commercial solicitations (except those supporting College business), messages of limited interest, using ""Reply All"" inappropriately, and any messages violating College conduct policies (disrespect, harassment, discrimination).",SOURCED,False,CHATBOT
+emily,593,135,F1626877798535VZRCB4,2025-02-26T17:35:18.181000Z,what is the email policy,,False,USER
+emily,594,135,F1626877798536FT3JXA,2025-02-26T17:35:19.181000Z,"I do not have access to a specific email policy for your organization or institution.  To find this information, you should check your company's internal resources, such as an employee handbook, an intranet site, or by contacting your IT department or human resources.",OPEN_DOMAIN,False,CHATBOT
+emily,609,136,F224015734689NCTML4,2025-03-11T19:20:41.057000Z,what is my gpa?,,False,USER
+emily,611,136,F224015737037QC2V3Q,2025-03-11T19:20:51.931000Z,What is your name?,,False,USER
+emily,595,136,F224015723088SK1O1I,2025-03-11T19:16:48.471000Z,What is the school's website address?,,False,USER
+emily,596,136,F224015723089SKQKXB,2025-03-11T19:16:49.471000Z,"I do not have access to real-time information, including the website addresses of specific schools.  To find the website for a particular school, I recommend a web search using the school's name and location.",OPEN_DOMAIN,False,CHATBOT
+emily,597,136,F224015723178OQHAZG,2025-03-11T19:17:12.782000Z,What is the website?,,False,USER
+emily,598,136,F224015723179EBC2KJ,2025-03-11T19:17:13.782000Z,I need more information to answer your question.  What website are you looking for?  Please provide the name or a description of the website.,OPEN_DOMAIN,False,CHATBOT
+emily,599,136,F224015726964ADF2A5,2025-03-11T19:18:30.572000Z,Where is the cafe?,,False,USER
+emily,600,136,F224015726965XBXLSG,2025-03-11T19:18:31.572000Z,"The Corner Cafe is located on the San Jacinto College campus, but the provided text doesn't specify the exact building or location within the campus.  It mentions locations for the cafe's managers at Central, North, South, and Maritime campuses.",SOURCED,False,CHATBOT
+emily,601,136,F224015729016MBWO43,2025-03-11T19:18:56.348000Z,what is my gpa?,,False,USER
+emily,602,136,F224015729017J4TXHS,2025-03-11T19:18:57.348000Z,"I cannot access your personal information, including your GPA.  That information is private and confidential.  You would need to check your student portal or contact your school's registrar's office to obtain your GPA.",OPEN_DOMAIN,False,CHATBOT
+emily,603,136,F224015729100GVGJBH,2025-03-11T19:19:09.261000Z,st johns wort,,False,USER
+emily,604,136,F224015729101BSK4RM,2025-03-11T19:19:10.261000Z,"St. John's Wort ( *Hypericum perforatum*) is an herbal remedy that has been traditionally used to treat mild to moderate depression.  However, it's crucial to understand that:
+
+* **It's not a replacement for prescribed medication:**  St. John's Wort should not be used as a substitute for antidepressants prescribed by a doctor, especially for moderate to severe depression.  It's important to discuss any herbal remedies with your doctor or psychiatrist before using them, especially if you're already taking other medications.
+
+* **It can interact with other drugs:** St. John's Wort is known to interact with a wide range of medications, including birth control pills, blood thinners, and many antidepressants.  These interactions can significantly reduce the effectiveness of these medications or increase the risk of side effects.
+
+* **It has potential side effects:**  While generally considered safe for many people, St. John's Wort can cause side effects such as digestive upset, skin sensitivity to sunlight (photosensitivity), and fatigue.
+
+* **Quality and standardization vary:**  The quality and concentration of active compounds in St. John's Wort supplements can vary significantly between brands.  This makes it difficult to determine the effective dose.
+
+
+**In short:** While St. John's Wort has been used for centuries, it's essential to consult a healthcare professional before using it, particularly if you are taking other medications or have any underlying health conditions. They can help you determine if it's appropriate for you and assess potential risks and interactions.  They can also help you determine the appropriate dosage and quality of the supplement.",OPEN_DOMAIN,False,CHATBOT
+emily,605,136,F224015730336YIVOQZ,2025-03-11T19:19:37.218000Z,what is your name?,,False,USER
+emily,606,136,F224015730337DB53P4,2025-03-11T19:19:38.218000Z,"I don't have a name.  I am a large language model, an AI.",OPEN_DOMAIN,False,CHATBOT
+emily,607,136,F2240157345934MMCU1,2025-03-11T19:20:32.512000Z,What is the school’s website address?,,False,USER
+emily,608,136,F224015734594JHHA5S,2025-03-11T19:20:33.512000Z,I need to know which school you're asking about to provide you with its website address. Please specify the name and location of the school.,OPEN_DOMAIN,False,CHATBOT
+emily,610,136,F224015734690WXCZ0M,2025-03-11T19:20:42.057000Z,"I do not have access to your private information, including your GPA.  You will need to check your student portal or contact your school's registrar's office to find your GPA.",OPEN_DOMAIN,False,CHATBOT
+emily,612,136,F224015737038HXI2IB,2025-03-11T19:20:52.931000Z,I don't have a name.  I am a large language model.,OPEN_DOMAIN,False,CHATBOT
+emily,613,137,F224015745379LNGYHP,2025-03-11T19:22:26.326000Z,What is the website address?,,False,USER
+emily,614,137,F224015745380ARB3NC,2025-03-11T19:22:27.326000Z,"I do not have access to real-time information, including website addresses.  To find the website address you are looking for, please provide me with more context, such as the name of the company or organization whose website you are trying to find.",OPEN_DOMAIN,False,CHATBOT

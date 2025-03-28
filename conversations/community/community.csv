@@ -1,0 +1,320 @@
+short_name,id,conversation,flow_id,timestamp,content,answer_type,failed,author
+community,1,1,F7290337985975RFHOV,2024-10-16T04:59:04.072000Z,Do you like the taste of butter?,,False,USER
+community,2,1,F729033798598V1PIE2,2024-10-16T04:59:05.072000Z,Butter is a delicious dairy product that adds richness and flavor to many dishes.,OPEN_DOMAIN,False,CHATBOT
+community,3,1,F729033798643LIGOC3,2024-10-16T04:59:17.783000Z,Who is my advisor?,,False,USER
+community,4,1,F7290337986440QWL2V,2024-10-16T04:59:18.783000Z,backend call: Academic Advisor,VERIFIED,False,CHATBOT
+community,5,1,F729033800733VOUPYT,2024-10-16T04:59:38.507000Z,Is it spelt advisor or adviser? And is it spelt spelled or spelled spelt?,,False,USER
+community,6,1,F729033800734TXABMJ,2024-10-16T04:59:39.507000Z,"Both ""advisor"" and ""adviser"" are correct spellings.  ""Advisor"" is the more common spelling in American English, while ""adviser"" is more common in British English. 
+
+""Spelled"" is the correct spelling of the past tense and past participle of ""spell."" ""Spelt"" is a noun referring to a type of grain.",SOURCED,False,CHATBOT
+community,7,2,F729033803882VT0UGA,2024-10-16T05:02:40.043000Z,Is it spelt advisor or adviser? And is it spelt spelled or spelled spelt?,,False,USER
+community,8,2,F729033803883Q5F1BJ,2024-10-16T05:02:41.043000Z,The correct spelling is **advisor** and **spelled**.,SOURCED,False,CHATBOT
+community,9,3,F947072124675KL40CQ,2024-11-20T04:26:05.119000Z,What is a jsDataStreamCreator,,False,USER
+community,10,3,F947072124676Y4TKF2,2024-11-20T04:26:06.119000Z,"A `jsDataStreamCreator` is a type of Flow processor in Scala that allows you to define custom logic for generating data streams using JavaScript code. It's like a mini-program within your Flow that can manipulate data and return it as a stream.
+
+Here's a breakdown of what it does and how it works:
+
+**Purpose:**
+
+- **Custom Data Generation:**  `jsDataStreamCreators` are designed to create data streams from scratch, based on your own JavaScript logic. This is useful when you need to:
+    - Generate data dynamically based on conditions or external factors.
+    - Transform existing data into a new format.
+    - Create data from scratch based on calculations or algorithms.
+
+**Structure:**
+
+- **JavaScript Code:** You write JavaScript code inside the `jsFunc` property of the `jsDataStreamCreator`. This code defines how the data stream is generated.
+- **Return Value:**  The JavaScript code must return an array of `SimpleData` objects, `SimpleStringData` objects, or a combination of both. 
+
+**Example:**
+
+Let's say you want to create a data stream containing a list of user emails. You could use a `jsDataStreamCreator` with the following JavaScript code:
+
+```javascript
+var emails = [""julie@pathify.com"", ""john@pathify.com"", ""mary@pathify.com""];
+return emails.map(function(email) {
+    return new code_data_SimpleStringData(email);
+});
+```
+
+**Key Points:**
+
+- **Strongly Typed:**  Remember that Scala is strongly typed, so you need to be explicit about the data types you're returning.  `SimpleStringData` is used for strings, and `SimpleData` is used for objects.
+- **Data Stream:** The `jsDataStreamCreator` outputs a data stream, which can then be processed by other Flow processors.
+
+**In summary:** `jsDataStreamCreators` provide a flexible way to create data streams in Flow using JavaScript. They're powerful for generating custom data, transforming data, and injecting data into your Flow based on your own logic.",SOURCED,False,CHATBOT
+community,11,3,F947072125876RA24L1,2024-11-20T04:28:14.942000Z,jsdatastreamcreator,,False,USER
+community,12,3,F9470721258771LCMKA,2024-11-20T04:28:15.942000Z,"You're right to focus on `jsDataStreamCreator`! It's a powerful tool for generating data within Flow, and it's essential to understand how it works. Here's a more detailed explanation, building on what we discussed:
+
+**Understanding the Basics**
+
+- **JavaScript Flexibility:**  `jsDataStreamCreator` leverages the power of JavaScript to define your data generation logic. This means you can write code that's familiar to many developers and use a wide range of JavaScript functions and libraries.
+- **Data as a Stream:**  Flow processes data as a stream.  Think of it like a conveyor belt where data items are continuously processed and passed along.  `jsDataStreamCreator` is responsible for creating the initial items on this belt.
+- **Data Types:**  Flow uses specific data types for its stream. The most common ones you'll work with in `jsDataStreamCreator` are:
+    - **`SimpleStringData`:**  Used for strings (text).
+    - **`SimpleData`:**  Used for objects (JSON-like data).
+
+**How it Works**
+
+1. **Configuration:** You create a `jsDataStreamCreator` with a `config` object. This object typically includes:
+    - **`jsFunc`:** This is where you write your JavaScript code to generate the data stream.
+    - **`className`:** This is the name of the processor. It's a convention to use a descriptive name.
+    - **Other Optional Properties:**  You can add other properties to the `config` object, such as `parallelism` for controlling how many data items are processed concurrently.
+
+2. **JavaScript Code:**  Within the `jsFunc` property, you write your JavaScript code. This code must return an array of `SimpleStringData` or `SimpleData` objects, or a combination of both. 
+
+3. **Data Stream Generation:** When the `jsDataStreamCreator` is executed, it runs your JavaScript code. The code generates the data stream, and each item in the array is passed along the Flow pipeline.
+
+**Example: Generating User Data**
+
+```javascript
+let users = [
+    { name: ""Julie"", email: ""julie@pathify.com"" },
+    { name: ""John"", email: ""john@pathify.com"" },
+    { name: ""Mary"", email: ""mary@pathify.com"" }
+];
+
+return users.map(user => new code_data_SimpleData(user));
+```
+
+**Important Points:**
+
+- **Error Handling:**  Remember that JavaScript code can throw errors. It's good practice to include error handling within your `jsFunc` to prevent your Flow from failing.
+- **Data Consistency:** Ensure that your JavaScript code consistently returns the expected data types. Flow relies on this consistency for proper processing.
+- **Testing:**  Thoroughly test your `jsDataStreamCreator` to ensure it generates the data stream you need.
+
+**In Summary:**
+
+`jsDataStreamCreator` is a powerful tool for creating data streams in Flow. It gives you the flexibility of JavaScript, allowing you to generate custom data based on your specific requirements. Understanding how to use `jsDataStreamCreator` effectively is key to building dynamic and flexible Flows.",SOURCED,False,CHATBOT
+community,13,4,F3586642464161CIPUQ,2024-11-25T23:48:20.501000Z,hello,,False,USER
+community,14,4,F358664246417FF4YF5,2024-11-25T23:48:21.501000Z,Hello! 👋  How can I help you today in Collegium? 😊,SOURCED,False,CHATBOT
+community,15,5,F3586650241571OZAY2,2024-11-27T16:38:15.193000Z,when can i register?,,False,USER
+community,16,5,F358665024158UISO1P,2024-11-27T16:38:16.193000Z,"The document you provided does not contain information about when you can register for events.  It only provides information about how to create and manage events. 
+
+To find out when you can register for events, you would need to refer to the specific event you are interested in.",SOURCED,False,CHATBOT
+community,17,6,F3586650328391LADXU,2024-11-27T16:39:50.388000Z,What is my GPA?,,False,USER
+community,18,6,F35866503284045G5DP,2024-11-27T16:39:51.388000Z,backend call: GPA,VERIFIED,False,CHATBOT
+community,19,7,F358665034603QTIFFX,2024-11-27T16:40:21.911000Z,What’s the final exams date?,,False,USER
+community,20,7,F358665034604WH0MQY,2024-11-27T16:40:22.911000Z,I need more information to determine the final exam date. Can you tell me which course you're asking about?,OPEN_DOMAIN,False,CHATBOT
+community,21,8,F358665063244XLKL4U,2024-11-27T17:04:57.814000Z,What is my GPA?,,False,USER
+community,22,8,F358665063245OQVRTC,2024-11-27T17:04:58.814000Z,backend call: GPA,VERIFIED,False,CHATBOT
+community,23,9,F35866508463721ZXWN,2024-11-27T17:11:32.408000Z,What is my GPA?,,False,USER
+community,24,9,F358665084638VOHODB,2024-11-27T17:11:33.408000Z,backend call: GPA,VERIFIED,False,CHATBOT
+community,25,10,F7206744887971ZMTET,2024-12-16T23:25:01.970000Z,How can I access my Sftp server with flow,,False,USER
+community,26,10,F720674488798CJAB1K,2024-12-16T23:25:02.970000Z,"I can't provide instructions for accessing an SFTP server. My purpose is to help with information and tasks related to Collegium. 
+
+If you need help accessing an SFTP server, please contact your IT department or system administrator. They will be able to provide you with the necessary information and assistance.",OPEN_DOMAIN,False,CHATBOT
+community,27,10,F720674491683P41SF3,2024-12-16T23:26:07.576000Z,What are some Onboarding Tour Best Practices?,,False,USER
+community,29,11,F409277694030TUEIEP,2025-01-09T16:32:04.021000Z,Where is the cafeteria?,,False,USER
+community,30,11,F409277694031TNKWYS,2025-01-09T16:32:05.021000Z,"The provided text mentions using cafeteria table signs to advertise the portal launch, but it doesn't state the cafeteria's location.",SOURCED,False,CHATBOT
+community,28,10,F7206744916844E3WXQ,2024-12-16T23:26:08.576000Z,"Here are some Onboarding Tour Best Practices, as outlined in the Collegium context:
+
+**Content & Structure:**
+
+* **Limit to 5 Slides:** Keep it concise and focused. Users are more likely to complete a shorter tour.
+* **Create a User Journey Map:**  Outline the steps users will take within the portal to determine the order of your slides.
+* **Focus on Key Features:**  Don't try to cover everything. Prioritize the most important features for new users.
+* **Purposeful Text:** Use clear and concise titles and subtitles that guide users through the tour.
+* **Concise Slides:**  Keep the text on each slide brief and to the point.
+* **Role-Specific Tours:**  Consider creating separate onboarding tours for different user roles (e.g., faculty, students, staff).
+* **Mobile App Reminder:** Include a slide reminding users about the mobile app and how to download it.
+* **Call to Action:** End the tour with a clear call to action that directs users to a specific URL, such as:
+    * A task list
+    * A popular user group
+    * A portal user guide
+
+**Design & Accessibility:**
+
+* **Branding Consistency:**  Ensure the onboarding tour's design aligns with your institution's branding.
+* **Visual Appeal:**  Use images, videos, and clear formatting to make the tour engaging and easy to follow.
+* **Accessibility:**  Use color contrast and font sizes that are accessible to all users.
+
+**Additional Tips:**
+
+* **Review and Test:**  Thoroughly review the onboarding tour for accuracy and clarity. Test it with different user roles to ensure it is effective.
+* **Iterate and Improve:**  Gather feedback from users and make adjustments to the tour as needed.
+
+**Remember:** The goal of the onboarding tour is to help new users feel comfortable and confident using the portal. By following these best practices, you can create a tour that is effective, engaging, and accessible for all users.",SOURCED,False,CHATBOT
+community,37,13,F1356329007679MGQEMH,2025-02-07T16:21:24.244000Z,Who was George washington?,,False,USER
+community,40,13,F1356329008772FKJFEP,2025-02-07T16:22:41.211000Z,"I'm sorry, but information about Napoleon is not included in the provided text about Collegium's Onboarding Tour Best Practices.  My responses are limited to the context provided.",OPEN_DOMAIN,False,CHATBOT
+community,43,13,F13563290120944A5Q1M,2025-02-07T16:23:55.948000Z,How many dozens in a gross?,,False,USER
+community,44,13,F1356329012095LN4M5Y,2025-02-07T16:23:56.948000Z,There are 12 dozens in a gross.,OPEN_DOMAIN,False,CHATBOT
+community,46,13,F1356329012143MFMEMH,2025-02-07T16:24:14.243000Z,"I'm sorry, but information about Napoleon is not included in the provided text about Collegium's Onboarding Tour Best Practices.  My responses are limited to the context provided.",OPEN_DOMAIN,False,CHATBOT
+community,48,14,F1356329012189UE3DQ3,2025-02-07T16:24:23.071000Z,"Napoleon Bonaparte was a French military and political leader who rose to prominence during the French Revolution and led several successful military campaigns across Europe at the end of the 18th and beginning of the 19th centuries.  He crowned himself Emperor of the French in 1804.  His military achievements and ambition for conquest shaped European politics for decades, although his ultimate defeat at Waterloo marked the end of his reign.",OPEN_DOMAIN,False,CHATBOT
+community,49,14,F1356329013119IEOLI5,2025-02-07T16:24:52.353000Z,Who was George Washington?,,False,USER
+community,52,15,F1356329057664TLTEQO,2025-02-07T16:27:23.336000Z,"I'm sorry, but I cannot answer that question. My knowledge is limited to the provided context about Onboarding Tours, and I do not have access to information about historical figures like George Washington.",SOURCED,False,CHATBOT
+community,54,15,F13563290585505FYKFQ,2025-02-07T16:27:51.646000Z,"I'm sorry, but I cannot answer that question. My knowledge is limited to the provided context about Onboarding Tours, and I do not have access to information about historical figures like Ponce de Leon.",OPEN_DOMAIN,False,CHATBOT
+community,55,16,F1356329059656NYCYWC,2025-02-07T16:27:59.798000Z,Who was Ponce de Leon?,,False,USER
+community,60,17,F1356329104747YAKW05,2025-02-07T16:29:31.104000Z,George Washington (1732-1799) was the first President of the United States.  He also led the Continental Army to victory during the American Revolutionary War.,OPEN_DOMAIN,False,CHATBOT
+community,62,17,F1356329104793QVKSBN,2025-02-07T16:29:40.271000Z,"The provided text does not contain information about George Washington.  Therefore, I cannot answer your question using only the given context.",SOURCED,False,CHATBOT
+community,65,18,F1356329132314KDA5EV,2025-02-07T16:39:10.410000Z,Who is Albert Einstein?,,False,USER
+community,70,19,F1468206773931ZMX0S5,2025-02-08T00:48:39.777000Z,"The sky is blue due to a phenomenon called Rayleigh scattering.  Sunlight is made up of all the colors of the rainbow.  As sunlight enters the Earth's atmosphere, the shorter wavelengths of light, like blue and violet, are scattered more by the tiny air molecules than the longer wavelengths, like red and orange. This scattered blue light is what we see when we look at the sky.",OPEN_DOMAIN,False,CHATBOT
+community,71,20,F905387142781VAOVLS,2025-02-10T23:54:26.650000Z,When is the academic conference?,,False,USER
+community,74,20,F905387145579HOZK5G,2025-02-10T23:55:13.541000Z,"Based on the provided document, here are some best practices for engaging alumni in a portal:
+
+**Setting up the Alumni View:**
+
+* **Provisioning:**  Ensure alumni are properly provisioned into the platform with appropriate access. Provide an alternate login link if Single Sign-On (SSO) isn't feasible. Contact support@pathify.com for assistance.
+* **Permissions:** Carefully manage object permissions to control what alumni can see (Tools, Groups, Pages).  For example, limit access to sensitive student information while allowing access to job networking sites, university news, and alumni-specific groups.
+
+**Creating Engaging Content:**
+
+* **Relevant Content:**  Offer content alumni find valuable: campus event information (athletics, arts, etc.), alumni association news, graduate school application information, donation instructions.
+* **Interactive Elements:**  Use widgets for Twitter/Instagram feeds, events calendars, and quick links to frequently accessed resources (Alumni Association, library, transcript information).
+* **Community Building:**  Create groups for alumni networking (career services, mentors, special interests, volunteer opportunities, athletic boosters, social activities).
+* **Announcements:**  Use announcements to remind alumni of events, donation opportunities, and important information.  Guide them to specific pages or groups.
+* **Tasks:**  Provide tasks to encourage interaction, such as completing graduate school applications or submitting donations.
+
+
+**Promoting Engagement:**
+
+* **Job Postings:** Share job postings relevant to alumni's fields.
+* **Career Advice:** Offer resume tips and advice.
+* **Student Connections:** Connect current students with alumni in their fields of interest.
+* **Profile Building:** Encourage alumni to complete their profiles and connect with other alumni.
+* **Labels:** Create an ""Alumni"" label in the Admin Center to help identify and search for alumni within the portal.  Encourage alumni to add relevant labels to their profiles.
+
+
+Remember to regularly review and update content to keep it relevant and engaging for your alumni.",SOURCED,False,CHATBOT
+community,75,21,F1677546222943HPCID,2025-02-12T17:09:31.219000Z,Hi! I need information on the chat bot,,False,USER
+community,77,21,F1677546231994KIA15,2025-02-12T17:09:57.285000Z,Is there documentation on the chatbot available?,,False,USER
+community,81,21,F167754625407IBXL32,2025-02-12T17:11:34.717000Z,What's my GPA?,,False,USER
+community,82,21,F16775462540803TLNS,2025-02-12T17:11:35.717000Z,backend call: GPA,VERIFIED,False,CHATBOT
+community,85,23,F413917135096VVCJCG,2025-02-12T23:27:27.391000Z,How do I see events?,,False,USER
+community,31,12,F409277696787IBSBYT,2025-01-09T16:33:36.869000Z,When is the AICUO summit?,,False,USER
+community,32,12,F409277696788BMAGKG,2025-01-09T16:33:37.869000Z,I do not have access to that information.,OPEN_DOMAIN,False,CHATBOT
+community,33,12,F409277697109OJERW5,2025-01-09T16:34:05.566000Z,Are there any best practices around Roles and Permissions?,,False,USER
+community,35,12,F409277699902ZQAM3W,2025-01-09T16:37:26.599000Z,Tell me about the fall virtual summit.,,False,USER
+community,38,13,F1356329007680SPTEFO,2025-02-07T16:21:25.244000Z,"I'm sorry, but information about George Washington is not included in the provided text about Collegium's Onboarding Tour Best Practices.  My responses are limited to the context provided.",SOURCED,False,CHATBOT
+community,41,13,F1356329009652GWNCPM,2025-02-07T16:23:18.398000Z,How can I improve my grades?,,False,USER
+community,45,13,F1356329012142ROHBBF,2025-02-07T16:24:13.243000Z,Who was Napoleon?,,False,USER
+community,47,14,F13563290121880ZK05G,2025-02-07T16:24:22.071000Z,Who was Napoleon?,,False,USER
+community,50,14,F1356329013120UJJ0RE,2025-02-07T16:24:53.353000Z,This question is outside the scope of the provided text about Collegium's onboarding tour best practices.,SOURCED,False,CHATBOT
+community,53,15,F1356329058549SWWNK0,2025-02-07T16:27:50.646000Z,Who was Ponce de Leon?,,False,USER
+community,56,16,F1356329059657YI0H2J,2025-02-07T16:28:00.798000Z,"Juan Ponce de León was a Spanish explorer and conquistador. He is best known for his expedition to Florida in 1513, where he searched for the mythical Fountain of Youth.",OPEN_DOMAIN,False,CHATBOT
+community,58,16,F1356329103165U1EYMK,2025-02-07T16:29:16.017000Z,"George Washington was the first President of the United States.  He was a key figure in the American Revolution, serving as commander of the Continental Army.",OPEN_DOMAIN,False,CHATBOT
+community,59,17,F1356329104746NAHU4J,2025-02-07T16:29:30.104000Z,Who was George Washinton?,,False,USER
+community,61,17,F1356329104792DUDZDU,2025-02-07T16:29:39.271000Z,Who was George Washington?,,False,USER
+community,63,17,F1356329128103DX5FIS,2025-02-07T16:31:46.607000Z,Who was George Washington?,,False,USER
+community,67,18,F1356329132361F4GPTW,2025-02-07T16:39:20.999000Z,Did he win any awards?,,False,USER
+community,68,18,F1356329132362CWZC2A,2025-02-07T16:39:21.999000Z,"Yes, Albert Einstein received the 1921 Nobel Prize in Physics.",OPEN_DOMAIN,False,CHATBOT
+community,72,20,F905387142782FMPQWM,2025-02-10T23:54:27.650000Z,"That information is not available to me, but you can check your calendar.  To see your calendar, say ""What's happening on my calendar?"".",OPEN_DOMAIN,False,CHATBOT
+community,76,21,F167754622295UML05N,2025-02-12T17:09:32.219000Z,"I am Psy-staggerous, a chatbot designed to assist you with various tasks and information.  I can access your academic information through backend services, and answer general knowledge questions.  Ask me anything!",OPEN_DOMAIN,False,CHATBOT
+community,79,21,F167754624152GZAQ0H,2025-02-12T17:10:37.325000Z,Chatbot information and guides,,False,USER
+community,83,22,F364786467127FT2PYJ,2025-02-12T22:43:15.787000Z,What is the customer advisory board?,,False,USER
+community,86,23,F413917135097OJ1GY5,2025-02-12T23:27:28.391000Z,"As Psy-staggerous, I need more information to accurately answer your question.  The method for viewing events depends on several factors:
+
+* **Type of Event:** Is it a Group Event or an Event tied to a general Calendar?
+* **Your Role:** Are you a Group member, a Group Admin, a Portal Admin, or a regular user?
+* **Group Privacy:** Is the Group associated with the event public or private?  Do you have Object Permissions to access the Group?
+
+To help me answer your question, please clarify these details.",SOURCED,False,CHATBOT
+community,88,23,F41391713657002PUBN,2025-02-12T23:29:40.403000Z,backend call: GPA,VERIFIED,False,CHATBOT
+community,91,23,F413917138611RS3DRK,2025-02-12T23:30:22.845000Z,Where are the Pathify Release notes?,,False,USER
+community,94,24,F588472622288QYG4TC,2025-02-13T17:42:48.233000Z,Hello! How can I help you today?,OPEN_DOMAIN,False,CHATBOT
+community,96,25,F560035929868TQ4F22,2025-02-13T21:34:08.798000Z,"The provided text does not contain contact information for Pathify support.  To get support, you will need to consult your Pathify contract or documentation for the appropriate contact information, such as an Account Manager or Support Desk.",SOURCED,False,CHATBOT
+community,97,25,F560035931958KUA3WI,2025-02-13T21:35:10.184000Z,I need Flow resources,,False,USER
+community,99,25,F560035932879VSRPH2,2025-02-13T21:35:44.033000Z,I need resources about Pathify's flow environment,,False,USER
+community,101,25,F560035934603LLZQFH,2025-02-13T21:38:18.357000Z,What groups can I join?,,False,USER
+community,102,25,F56003593460410XKP1,2025-02-13T21:38:19.357000Z,"That depends on your role and permissions within the Pathify portal, and whether the groups are public or private.  
+
+* **Public Groups:**  You can search for and join public groups related to extracurricular activities, athletics, academic majors, student resources, or portal feature updates.
+
+* **Private Groups:** You can only join private groups (such as those for portal administrators, HR, instructors, or residence halls) if you are specifically invited or added as a member.  Your ability to *see* private groups in a search depends on your assigned permissions.",SOURCED,False,CHATBOT
+community,104,25,F560035942604GPEEZA,2025-02-13T21:57:18.707000Z,"There are several ways to tie your shoes, but the most common is the ""bunny ears"" method:
+
+1. **Cross the laces:** Hold one lace in each hand and cross the right lace over the left lace.
+2. **Make a knot:** Make a knot by pulling the right lace under and through the loop formed by the crossed laces.  Pull tight.
+3. **Make loops (bunny ears):** Make a loop with each lace.
+4. **Cross the loops:** Cross the right loop over the left loop.
+5. **Tuck and tighten:** Tuck the right loop under and through the hole formed by the crossed loops. Pull tight.
+
+There are also many videos online demonstrating this and other methods if you'd prefer a visual guide.  Just search ""how to tie your shoes"" on YouTube or your preferred video platform.",OPEN_DOMAIN,False,CHATBOT
+community,105,26,F560035957885K40M2W,2025-02-13T22:32:19.860000Z,What best practice guides do you have?,,False,USER
+community,107,26,F560035958895BTTPR0,2025-02-13T22:32:59.396000Z,Great! What events are being held in February?,,False,USER
+community,108,26,F5600359588960KKCAU,2025-02-13T22:33:00.396000Z,backend call: Calendar,VERIFIED,False,CHATBOT
+community,109,26,F560035960090XDLCQD,2025-02-13T22:34:01.774000Z,Are there other events scheduled for February I can attend?,,False,USER
+community,34,12,F409277697110YVJAFQ,2025-01-09T16:34:06.566000Z,"Yes, there are several best practices for managing Roles and Permissions in Collegium:
+
+* **Plan Ahead:** Organize your Roles and Permissions in your institution's Portal Planning Document.  Start with basic Roles (student, faculty, staff) and add more as needed, considering content and data analysis needs.
+
+* **Start Simple:** Begin with the essential Roles and Permissions. Gradually add more as you become comfortable with the system.  If assigning permissions to Non-portal Admins, start with minimal permissions and expand as needed.
+
+* **Train Users:** Educate users on their assigned permissions and expectations.
+
+* **Governance Sheet:** Create a document that tracks Roles, permissions, and associated responsibilities.
+
+* **Consider Data Analysis:** When planning Roles, think about how they will be useful for filtering data for reports and analysis.",SOURCED,False,CHATBOT
+community,36,12,F409277699903VKUXL0,2025-01-09T16:37:27.599000Z,The Fall Virtual Summit took place in October 2024.  Further details about the specific content and presentations are not available in this context.,SOURCED,False,CHATBOT
+community,39,13,F1356329008771KGTN1Q,2025-02-07T16:22:40.211000Z,Who was Napoleon?,,False,USER
+community,42,13,F135632900965342HJTB,2025-02-07T16:23:19.398000Z,"To improve your grades, I suggest you first check your upcoming assessments using the Collegium system (""backend call: Upcoming Assessment"").  Prioritize those assignments and focus on understanding the material, not just memorizing it.  Consider scheduling a meeting with your academic advisor (""backend call: Academic Advisor"") to discuss strategies for improvement and to get personalized feedback on your academic progress.  Consistent effort and effective study habits are key.",OPEN_DOMAIN,False,CHATBOT
+community,51,15,F13563290576631I1P5U,2025-02-07T16:27:22.336000Z,Who was George Washington?,,False,USER
+community,57,16,F1356329103164XLXX4K,2025-02-07T16:29:15.017000Z,Who was George Washinton?,,False,USER
+community,64,17,F1356329128104HOHTDT,2025-02-07T16:31:47.607000Z,"I apologize, but the provided text focuses solely on onboarding tours and best practices for a specific portal.  It does not contain any biographical information about George Washington.  To learn about George Washington, you should consult a history book, encyclopedia, or online resource such as Wikipedia.",SOURCED,False,CHATBOT
+community,66,18,F1356329132315YXQVMV,2025-02-07T16:39:11.410000Z,"Albert Einstein (1879-1955) was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics.  His work is also known for its influence on the philosophy of science. He is best known in popular culture for his mass–energy equivalence formula E = mc², which has been dubbed ""the world's most famous equation"".  He received the 1921 Nobel Prize in Physics ""for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect"".",OPEN_DOMAIN,False,CHATBOT
+community,69,19,F1468206773930VLEZ5Q,2025-02-08T00:48:38.777000Z,Why is the sky blue?,,False,USER
+community,73,20,F905387145578XAFBQO,2025-02-10T23:55:12.541000Z,What are some best practices for alumni?,,False,USER
+community,78,21,F167754623200EBG1TA,2025-02-12T17:09:58.285000Z,"I don't have access to specific documentation about myself.  My functionality is constantly evolving.  If you have a specific question about what I can or cannot do, please ask.",OPEN_DOMAIN,False,CHATBOT
+community,80,21,F167754624153P0XZKU,2025-02-12T17:10:38.325000Z,"Based on my current knowledge, the chatbot's administration and management involves several key areas:
+
+**1. Chatbot Settings:**  This allows administrators to customize the chatbot's appearance (name, profile picture, branding colors), and default responses (opening message, generic response for when no relevant answer is found).  Access is typically through a designated admin panel.
+
+**2. Chatbot Permissions:**  Administrators can control which user roles have access to the chatbot.  Changes to these permissions may take a few minutes to fully take effect.
+
+**3. User Conversations:**  Administrators can review all user interactions with the chatbot, including ratings and feedback.  This section provides tools for sorting, searching, filtering, and downloading conversation data for analysis.
+
+**4. Content:** This is where administrators manage how the chatbot sources and prioritizes information.  This includes:
+
+    * **Content Sources:** Enabling or disabling various portal sources (FAQs, Pages, Directory, etc.) that the chatbot uses to answer queries.  External search integration may require separate setup.
+    * **Relevance & Weights:**  Administrators can fine-tune the chatbot's responses by adjusting relevance thresholds (how closely content must match a user's query) and weights (prioritizing certain content categories like FAQs over Pages).  A real-time preview area allows testing adjustments before applying them live.
+
+**5. Analytics:**  Administrators can track key metrics like total conversations, average messages per conversation, peak usage times, and user feedback.  Data can be filtered by role and date range, and exported for further analysis.
+
+
+The exact navigation paths within the admin panel may vary, but generally involve navigating to a ""User Options,"" then ""Admin Center,"" then ""AI Chatbot"" section.  Specific sub-sections (Settings, User Conversations, Content, Analytics) will be found there.",SOURCED,False,CHATBOT
+community,84,22,F364786467128JCOEKN,2025-02-12T22:43:16.787000Z,"Based on the provided document, the customer advisory board is not explicitly named, but a similar concept is described.  The document refers to a **Pathify Strategic Advisory Team**. This team's role is to review Pathify platform usage statistics, gather user stories, and suggest improvements for adoption and use of the platform.  One example shows a customer using a ""Private Advisory Council group"" within their Pathify platform for communication and updates, functioning similarly to a customer advisory board.",SOURCED,False,CHATBOT
+community,87,23,F413917136569ASJX45,2025-02-12T23:29:39.403000Z,How do I see my GPA?,,False,USER
+community,89,23,F413917137652N1IVD1,2025-02-12T23:29:53.567000Z,Where do I see my GPA?,,False,USER
+community,90,23,F4139171376534WYGPN,2025-02-12T23:29:54.567000Z,backend call: GPA,VERIFIED,False,CHATBOT
+community,92,23,F413917138612ZESYIA,2025-02-12T23:30:23.845000Z,"Based on the provided text, there's mention of ""Product Release notes"" within the Pathify Portal Adoption Self-Assessment, suggesting they are accessible through the **Collegium customer portal**.  However, the exact location within Collegium isn't specified.  You may need to explore the Collegium portal to locate them.",SOURCED,False,CHATBOT
+community,93,24,F58847262228705HSBF,2025-02-13T17:42:47.233000Z,Hey!,,False,USER
+community,95,25,F560035929867ETZVSI,2025-02-13T21:34:07.798000Z,How do I contact support?,,False,USER
+community,98,25,F560035931959TPCBZS,2025-02-13T21:35:11.184000Z,"I'm sorry, but I don't have access to specific resources on ""Flows.""  The provided text focuses on resources within the Pathify platform, and doesn't mention anything about ""Flows.""  To find information on ""Flows,"" you'll need to specify what kind of flows you're looking for and search online or consult relevant documentation.",SOURCED,False,CHATBOT
+community,100,25,F560035932880KMCGJU,2025-02-13T21:35:45.033000Z,"I do not have access to specific internal Pathify documentation or resources about their ""flow environment.""  To find this information, I recommend checking the Pathify website's help section, contacting Pathify support directly (if you have their contact information), or searching for Pathify flow environment documentation online.",OPEN_DOMAIN,False,CHATBOT
+community,103,25,F560035942603ICE3F0,2025-02-13T21:57:17.707000Z,How do I tie my shoes,,False,USER
+community,106,26,F560035957886O1HMLF,2025-02-13T22:32:20.860000Z,"Greetings!  Psy-staggerous here, reporting for duty on 2025-02-13.  I have access to best practice guides for the following Pathify features:
+
+* **Admin Center:** Summary/functionality, Impact, Permissions, Additional Features, and Tips
+* **Analytics:** Summary/functionality, Impact, Permissions, Additional Features, Tips, and Example Uses
+* **Announcements:** Summary/functionality, Impact, Permissions, Additional Features, Tips, Example Uses, and Related Case Studies
+* **Branding:** Summary/functionality, Impact, Additional Features, Tips, and Example Uses
+* **Connections:** Summary/functionality, Impact, Data Information, Additional Features, and Tips
+* **Dashboard:** Summary/functionality, Impact, Permissions, Additional Features, Tips, Example Uses, and Related Case Studies
+* **Delegate Hub:** Summary/functionality, Impact, Permissions, Tips, and Example Uses
+* **Digital Wallet:** Summary/functionality, Impact, Additional Features, Tips, and Example Uses
+* **Directory:** Summary/functionality, Impact, Additional Features, and Tips
+* **Discover:** Summary/functionality, Impact, Data Information, and Tips
+* **Events & Calendars:** Summary/functionality, Impact, Permissions, Additional Features, Tips, and Example Uses
+* **FAQs:** Summary/functionality, Impact, Permissions, Additional Features, Tips, and Example Uses
+* **Forms:** Summary/functionality, Impact, Permissions, Additional Features, Tips, and Example Uses
+* **Groups:** Summary/functionality, Impact, Permissions, Additional Features, Tips, Example Uses, and Related Case Studies
+* **Keywords:** Summary/functionality, Impact, Permissions, Tips, and Example Uses
+* **Labels:** Summary/functionality, Impact, Permissions, Tips, and Example Uses
+* **Messaging:** Summary/functionality, Impact, and Tips
+* **Onboarding:** Summary/functionality, Impact, Additional Features, Tips, and Example Uses
+* **Pages:** Summary/functionality, Impact, Permissions, Additional Features, Tips, Example Uses, and Related Case Studies
+* **Posts & Comments:** Summary/functionality, Impact, Permissions, Additional Features, and Tips
+* **Recipe Library:** Summary/functionality, Impact, Additional Features, Tips, and Example Uses
+* **Resources:** Summary/functionality, Impact, Permissions, Additional Features, Tips, and Example Uses
+* **Roles:** Summary/functionality, Impact, Permissions, Additional Features, Tips, and Example Uses
+* **Search:** Summary/functionality, Impact, Additional Features, Tips, and Example Uses
+* **Staff and Governance Team Example:** Staff and Governance Team Example
+* **Tasks:** Summary/functionality, Impact, Permissions, Additional Features, Tips, and Example Uses
+* **Tools:** Summary/functionality, Impact, Permissions, Tips, and Example Uses
+* **User Accounts:** Summary/functionality, Impact, Permissions, Additional Features, Data Information, and Tips
+* **User Impersonation:** Summary/functionality, Impact, Permissions, Additional Features, and Tips
+* **Widgets:** Summary/functionality, Impact, Permissions, Additional Features, Tips, Example Uses, and Related Case Studies
+
+
+  I also have access to more specific best practice articles covering many of these features in greater detail.  Let me know if you'd like information on a specific feature.",SOURCED,False,CHATBOT
+community,110,26,F560035960091PQZ11N,2025-02-13T22:34:02.774000Z,backend call: Calendar,VERIFIED,False,CHATBOT

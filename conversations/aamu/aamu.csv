@@ -1,0 +1,3 @@
+short_name,id,conversation,flow_id,timestamp,content,answer_type,failed,author
+aamu,1,1,F126035362337QARY0Y,2025-03-27T21:46:10.290000Z,what is my gpa?,,False,USER
+aamu,2,1,F126035362338P2IKS2,2025-03-27T21:46:11.290000Z,backend call: GPA,VERIFIED,False,CHATBOT
