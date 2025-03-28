@@ -5,7 +5,6 @@ from csv import DictReader, DictWriter
 from typing import Dict, Union
 from pathlib import Path
 
-
 def get_offset(file_name: str) -> int:
     with open(file_name, "r") as file:
         reader = DictReader(file)
@@ -57,8 +56,10 @@ def get_portal_credentials(flow_url: str, flow_central_token: str) -> dict:
     def find_config(ref_id, body):
         return [x for x in body if x["referenceId"] == ref_id][0]["config"]
 
+    url =f"{flow_url}/repository/sharedConfig?encrypted=true"
+    print("FLOW URL", url, flow_central_token)
     resp = get(
-        f"{flow_url}/repository/sharedConfig?encrypted=true",
+        url,
         headers={"flow-central-token": flow_central_token},
     )
     body = resp.json()
@@ -88,17 +89,38 @@ def get_portal_token(portal_url: str, creds: dict):
     )
     return resp.json()["access_token"]
 
+def load_servers(file_name) -> Dict[str, str]:
+    result = {}
+    with open(file_name, "r") as file:
+        reader = DictReader(file)
+        for row in reader:
+            result[row["Env"]] = row["Portal Url"]
+    return result
+
+def export_conversations(short_name, portal_url, flow_url, flow_central_token):
+    creds = get_portal_credentials(
+        flow_url, flow_central_token
+    )
+    token = get_portal_token(portal_url, creds)
+    export_data(short_name, portal_url, token, f"{short_name}.csv")
+
 
 def main():
     flow_central_token = os.environ.get("FLOW_CENTRAL_TOKEN")
     if not flow_central_token:
         print("environment variable: FLOW_CENTRAL_TOKEN is not set")
         return
-    creds = get_portal_credentials(
-        "https://flow.connect.stjohns.edu", flow_central_token
-    )
-    token = get_portal_token("https://connect.stjohns.edu", creds)
-    export_data("stjohns", "https://connect.stjohns.edu", token, "stjohns.csv")
+
+    servers = load_servers("filtered_envs.csv")
+    for short_name, url in servers.items():
+        flow_url = url.replace("https://", "https://flow.")
+        print("Exporting conversations for", short_name)
+        export_conversations(short_name, url, flow_url, flow_central_token)
+    # creds = get_portal_credentials(
+    #     "https://flow.connect.stjohns.edu", flow_central_token
+    # )
+    # token = get_portal_token("https://connect.stjohns.edu", creds)
+    # export_data("stjohns", "https://connect.stjohns.edu", token, "stjohns.csv")
 
 
 if __name__ == "__main__":
