@@ -1,1 +1,1 @@
-short_name,id,conversation,flow_id,timestamp,content,answer_type,failed,author
+short_name,id,conversation,flow_id,timestamp,content,answer_type,failed,author,embeddings

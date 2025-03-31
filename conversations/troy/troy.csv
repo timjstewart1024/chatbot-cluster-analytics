@@ -1,615 +1,341 @@
-short_name,id,conversation,flow_id,timestamp,content,answer_type,failed,author
-troy,1,1,F1442858883846WYDECN,2025-02-14T20:22:24.586000Z,What assignments do I have due?,,False,USER
-troy,2,1,F1442858883847B15DMT,2025-02-14T20:22:25.586000Z,backend call: Upcoming Assessment,VERIFIED,False,CHATBOT
-troy,3,2,F7209586740784ME2TY,2025-02-14T20:28:47.722000Z,What assignments do I have due?,,False,USER
-troy,4,2,F720958674079NZK0V4,2025-02-14T20:28:48.722000Z,backend call: Upcoming Assessment,VERIFIED,False,CHATBOT
-troy,5,3,F913425283956DOWE4J,2025-02-14T20:34:07.845000Z,What assignments do I have due?,,False,USER
-troy,6,3,F913425283957JV5UEW,2025-02-14T20:34:08.845000Z,backend call: Upcoming Assessment,VERIFIED,False,CHATBOT
-troy,7,4,F1442858945183GCLXJJ,2025-02-14T20:36:54.344000Z,What assignments do I have due?,,False,USER
-troy,8,4,F14428589451842HTXRU,2025-02-14T20:36:55.344000Z,backend call: Upcoming Assessment,VERIFIED,False,CHATBOT
-troy,9,5,F14428589802730MR4S4,2025-02-14T20:38:58.324000Z,What Assignments do I have due?,,False,USER
-troy,10,5,F1442858980274HUBFBU,2025-02-14T20:38:59.324000Z,backend call: Upcoming Assessment,VERIFIED,False,CHATBOT
-troy,11,6,F913425304925J2QNSC,2025-02-14T21:30:09.485000Z,What classes do I have?,,False,USER
-troy,12,6,F913425304926YFGZJL,2025-02-14T21:30:10.485000Z,"I do not have access to your personal academic records.  To find out what classes you are currently enrolled in, you should check your student portal or contact the Troy University Registrar's office.",OPEN_DOMAIN,False,CHATBOT
-troy,13,6,F7209587455195YEMS5,2025-02-14T21:33:11.903000Z,What course do I teach in Canvas?,,False,USER
-troy,14,6,F720958745520HALS4R,2025-02-14T21:33:12.903000Z,"I do not have access to your personal information, including what courses you might teach on Canvas.  To find this information, you should log in to your Canvas account.",OPEN_DOMAIN,False,CHATBOT
-troy,15,6,F7209587459662R3YY5,2025-02-14T21:34:43.152000Z,When does the next term end?,,False,USER
-troy,16,6,F7209587459674QGMWF,2025-02-14T21:34:44.152000Z,"I do not have access to real-time information about Troy University's academic calendar.  To find out when the next term ends, I recommend checking the official Troy University website's academic calendar or contacting the university registrar's office.",OPEN_DOMAIN,False,CHATBOT
-troy,17,7,F1442859107579G3PVDB,2025-02-14T21:45:25.210000Z,What is Trojan Book Bag?,,False,USER
-troy,18,7,F1442859107580LW2O3I,2025-02-14T21:45:26.210000Z,"I do not have specific information about a program or initiative called ""Trojan Book Bag"" at Troy University.  It's possible this is a less formally named program, a student-led initiative, or something not widely publicized.  To find out more, I suggest checking the Troy University student portal, contacting the student affairs office, or searching the university's website.",OPEN_DOMAIN,False,CHATBOT
-troy,19,6,F1488372627319MUUBJB,2025-02-17T14:19:36.939000Z,What time does the Troy Campus close?,,False,USER
-troy,20,6,F14883726273201EBCDW,2025-02-17T14:19:37.939000Z,"I do not have access to real-time information on the closing times for Troy University's campus.  This can vary depending on the specific building and day of the week.  For the most accurate information, I recommend checking the official Troy University website or contacting the university's main office.",OPEN_DOMAIN,False,CHATBOT
-troy,21,6,F125145442627ET1FPK,2025-02-17T14:19:48.520000Z,When does the current term end?,,False,USER
-troy,22,6,F125145442628FCVAMZ,2025-02-17T14:19:49.520000Z,"I do not have access to real-time information about Troy University's academic calendar.  To find out when the current term ends, I recommend checking the official Troy University website's academic calendar or contacting the university registrar's office.",OPEN_DOMAIN,False,CHATBOT
-troy,23,6,F125145442683VTLDMB,2025-02-17T14:20:02.366000Z,What classes do I have in Canvas?,,False,USER
-troy,24,6,F1251454426842BIW2W,2025-02-17T14:20:03.366000Z,"I do not have access to your personal information, including your Canvas courses. To see your classes in Canvas, log in to your Canvas account.",OPEN_DOMAIN,False,CHATBOT
-troy,25,6,F125145442868MLR1QJ,2025-02-17T14:20:24.422000Z,Who is my advisor?,,False,USER
-troy,26,6,F125145442869TICH2T,2025-02-17T14:20:25.422000Z,"I do not have access to your personal student information, including your assigned advisor.  To find out who your advisor is, you should check your student portal or contact the Troy University advising office.",OPEN_DOMAIN,False,CHATBOT
-troy,27,8,F879766919704E4TQOS,2025-02-18T14:03:47.593000Z,How many leave hours do i have,,False,USER
-troy,28,8,F8797669197055YJ4ZR,2025-02-18T14:03:48.593000Z,"I do not have access to your personal leave information.  To check your leave balance, you should contact the Troy University Human Resources department.",OPEN_DOMAIN,False,CHATBOT
-troy,29,9,F8797669214054JWU1H,2025-02-18T14:06:14.326000Z,list of events for students,,False,USER
-troy,30,9,F879766921407AZ1O50,2025-02-18T14:06:15.326000Z,"I do not have access to a comprehensive, constantly updated list of all student events at Troy University.  To find out about student events, I suggest checking the university's official website, student portal, or social media pages.  These resources usually have calendars or announcements of upcoming events.",OPEN_DOMAIN,False,CHATBOT
-troy,31,9,F6047908653102MJCML,2025-02-18T14:06:33.584000Z,what is atlas,,False,USER
-troy,32,9,F604790865311VHOFAE,2025-02-18T14:06:34.584000Z,"I don't have enough information to answer this question.  ""Atlas"" could refer to many things.  To help me answer, please provide more context.  Are you asking about a specific program, system, or resource at Troy University?",OPEN_DOMAIN,False,CHATBOT
-troy,33,9,F8797669229103XWGLD,2025-02-18T14:06:48.021000Z,what is the atlas resource,,False,USER
-troy,34,9,F879766922911XSIR1B,2025-02-18T14:06:49.021000Z,"I need more context to understand what you mean by ""the Atlas resource.""  At Troy University,  ""Atlas"" isn't a commonly known resource name.  Could you provide more details, such as its purpose or where you heard about it?",OPEN_DOMAIN,False,CHATBOT
-troy,35,10,F879766955163VAL1ZY,2025-02-18T16:20:18.140000Z,Is it going to rain today?,,False,USER
-troy,36,10,F879766955164H4EXGP,2025-02-18T16:20:19.140000Z,I do not have access to weather information.,OPEN_DOMAIN,False,CHATBOT
-troy,37,11,F604790894845WOEL5V,2025-02-18T16:20:34.396000Z,what can you tell me,,False,USER
-troy,38,11,F604790894846QHMTAD,2025-02-18T16:20:35.396000Z,"I can provide information about Troy University, including upcoming assessments (via a backend call).  I can also answer general knowledge questions about the university.",OPEN_DOMAIN,False,CHATBOT
-troy,39,10,F604790894895QOA3NW,2025-02-18T16:20:35.432000Z,What is sos,,False,USER
-troy,44,12,F879766957690G3BCQM,2025-02-18T16:20:53.241000Z,"I do not have access to a specific schedule of classes for Troy University.  To find this information, I recommend checking the Troy University website's academic calendar or contacting the registrar's office.",OPEN_DOMAIN,False,CHATBOT
-troy,46,11,F604790895069JDWFHD,2025-02-18T16:21:10.152000Z,"Troy University has multiple campuses.  I don't have the exact number readily available, but it's more than one.",OPEN_DOMAIN,False,CHATBOT
-troy,50,11,F7178659962763XRTN0,2025-02-18T16:22:30.457000Z,"I do not have the exact address of the Dothan Campus library.  A quick online search using a search engine like Google, Bing, or DuckDuckGo for ""Troy University Dothan Campus library"" should provide you with the specific location and contact information.",OPEN_DOMAIN,False,CHATBOT
-troy,149,35,F753511940148JYQSV1,2025-02-26T15:14:31.655000Z,where can i get a nursing degree,,False,USER
-troy,152,35,F7535119403092ONSDK,2025-02-26T15:14:56.116000Z,"troy, alabama",,False,USER
-troy,156,35,F913520137666B4QKXU,2025-02-26T15:15:40.992000Z,"As a large language model, I don't directly offer career services for students in the way a university career center would.  I can't provide personalized career counseling, resume reviews, or job application assistance.  However, I can help you with research related to careers.  For example, I can provide information on different career paths, job descriptions, salary expectations, and educational requirements.  I can also help you find resources such as job boards and professional organizations.",OPEN_DOMAIN,False,CHATBOT
-troy,157,36,F1430114533370IYWJM4,2025-02-27T16:56:00.495000Z,What days will the university be closed in 2025?,,False,USER
-troy,161,36,F1708073051520WBTA51,2025-02-27T16:56:42.522000Z,What software does the university provide to students?,,False,USER
-troy,164,36,F1430114533671OALBKL,2025-02-27T16:57:01.704000Z,"I do not have access to a real-time, updated list of all software provided by Troy University to its students.  To get that information, I recommend checking Troy University's IT services website or contacting their IT help desk directly.  They will have the most accurate and up-to-date list of available software.",OPEN_DOMAIN,False,CHATBOT
-troy,166,36,F756612440414AQD11Z,2025-02-27T16:57:18.124000Z,"I cannot provide a definitive list of peer-to-peer (P2P) software blocked by Troy University or any other university.  Network security policies and blocked software lists are constantly updated for security reasons and are usually not publicly available.  Attempting to circumvent these blocks can lead to disciplinary action.
-
-To find out which P2P software is blocked on the Troy University network, you should consult the university's IT policies or contact their IT help desk directly.",OPEN_DOMAIN,False,CHATBOT
-troy,175,37,F827007854755MFB3KX,2025-03-11T18:49:23.542000Z,What are the library's hours of operation?,,False,USER
-troy,240,39,F519152928873KZCH2W,2025-03-11T22:23:14.469000Z,T-Roy is the mascot of Troy University.,OPEN_DOMAIN,False,CHATBOT
-troy,259,45,F1002395159067RSV4YK,2025-03-13T16:54:11.923000Z,What software is available to students?,,False,USER
-troy,263,45,F432381141872O0D0VA,2025-03-13T16:55:54.286000Z,When will the university be closed in 2025?,,False,USER
-troy,268,45,F1002395163047AF0A4G,2025-03-13T17:11:47.441000Z,"The provided text indicates that information about scholarships is available in the **Knowledge Base** section of the client portal, under the ""Student Services"" and then ""Scholarships"" category.  There are several articles listed on various scholarship-related topics.",SOURCED,False,CHATBOT
-troy,270,45,F432381152373W2DRS4,2025-03-13T17:14:01.546000Z,The provided text doesn't contain information about the school's FAFSA PIN.  That information is not typically publicly available.  You will need to obtain your own FAFSA PIN through the official FAFSA website.,SOURCED,False,CHATBOT
-troy,276,45,F1002395164251QQWY33,2025-03-13T17:16:21.001000Z,"The provided text mentions a ""Colleague Account Request,"" but doesn't give the specific steps for making the request.  You will need to find this information on the Troy University IT website, likely within the employee section, or by contacting the IT helpdesk.",SOURCED,False,CHATBOT
-troy,280,45,F432381164545Q1RSYG,2025-03-13T17:21:32.790000Z,"The provided text doesn't explain how to opt *into* text messages for notifications.  It focuses on correcting errors when a wrong number is used.  To find out how to opt into text message notifications from Troy University, you should check their website or contact their IT helpdesk or relevant department.",SOURCED,False,CHATBOT
-troy,284,45,F1002395165663Q4PPNA,2025-03-13T17:22:22.364000Z,"The provided text mentions an article titled ""How to Subscribe/Unsubscribe to an SOS Group"".  You should consult that article within the SOS/e2Campus section of the Knowledge Base for instructions on subscribing to SOS.",SOURCED,False,CHATBOT
-troy,304,48,F444887158654DDHAMF,2025-03-20T20:58:39.528000Z,backend call: Upcoming Assessment,VERIFIED,False,CHATBOT
-troy,306,49,F1612679697999BEP3T2,2025-03-22T17:27:33.939000Z,"I'm sorry, but I don't have enough information to answer when T4 starts.  My knowledge about Troy University is limited to the provided text snippets, which don't contain information about a ""T4.""  To find out when T4 starts, you'll need to consult the Troy University academic calendar or contact the university directly.",SOURCED,False,CHATBOT
-troy,307,49,F1539940958657XV3FIP,2025-03-22T17:27:49.640000Z,When does Term 4 start?,,False,USER
-troy,310,50,F10411445638050MCUJI,2025-03-24T13:56:25.766000Z,"Trojan Book Bag is a course material rental program at Troy University offered by Barnes & Noble.  It provides students with required physical and digital course materials for a flat fee of $21 per credit hour.  Students are automatically enrolled when registering for courses.  The program aims to lower the cost of materials and ensure students have access to everything they need by the first day of class.  At the end of the semester, students can buy their rented textbooks at a reduced price.",SOURCED,False,CHATBOT
-troy,330,58,F329437004474VPZYRN,2025-03-24T16:45:55.095000Z,backend call: GPA,VERIFIED,False,CHATBOT
-troy,333,59,F329437010059MFOJO4,2025-03-24T16:46:47.477000Z,What is my GPA?,,False,USER
-troy,337,60,F349137729184CP0HQJ,2025-03-27T16:10:00.596000Z,What is the police information for Troy University?,,False,USER
-troy,340,60,F3491377295845TKC3Q,2025-03-27T16:11:28.953000Z,"Yes, the provided text mentions a Student Government Association (SGA) at Troy University.  It describes the SGA's structure, mirroring the US government with executive, legislative, and judicial branches.",SOURCED,False,CHATBOT
-troy,40,10,F604790894896W3BEHR,2025-02-18T16:20:36.432000Z,"SOS is a distress signal.  In the context of Troy University, it might refer to a student support service, but I don't have specific information on that.",OPEN_DOMAIN,False,CHATBOT
-troy,43,12,F8797669576894P2FEB,2025-02-18T16:20:52.241000Z,schedule of classes,,False,USER
-troy,47,11,F6047908953470VQZ23,2025-02-18T16:22:08.056000Z,where is the library,,False,USER
-troy,150,35,F753511940149YTIXWO,2025-02-26T15:14:32.655000Z,"Nursing degrees are offered by many institutions, including universities, colleges, and community colleges.  The specific institutions offering nursing programs vary by location. To find programs near you, I suggest searching online for ""nursing schools near me"" or checking the websites of universities and colleges in your area.  You can also search for accredited nursing programs through organizations like the Accreditation Commission for Education in Nursing (ACEN) or the Commission on Collegiate Nursing Education (CCNE).",OPEN_DOMAIN,False,CHATBOT
-troy,153,35,F753511940310NE5J4Y,2025-02-26T15:14:57.116000Z,"To find nursing schools near Troy, Alabama, I recommend performing a web search using terms like ""nursing schools Troy Alabama,"" ""nursing programs near Troy AL,"" or ""colleges with nursing programs in Troy Alabama.""  You can also check the websites of universities and colleges in the area, such as Troy University, to see if they offer nursing programs.",OPEN_DOMAIN,False,CHATBOT
-troy,155,35,F913520137665NSCBHX,2025-02-26T15:15:39.992000Z,what career services do you offer for students,,False,USER
-troy,158,36,F1430114533371Z4QCE4,2025-02-27T16:56:01.495000Z,"I do not have access to a comprehensive, up-to-the-minute calendar of university closures for 2025.  This information is usually published on the university's official website or academic calendar.  You should check there for the most accurate details.",OPEN_DOMAIN,False,CHATBOT
-troy,159,36,F1708073051359MVRRJ3,2025-02-27T16:56:14.583000Z,What can you tell me?,,False,USER
-troy,162,36,F1708073051521OWRR34,2025-02-27T16:56:43.522000Z,"That depends on the specific university.  Each university has its own software licensing agreements and provides different software packages to students based on their programs of study and needs.  To find out what software *your* university provides, you should check your university's IT services website, student portal, or contact the IT help desk.",OPEN_DOMAIN,False,CHATBOT
-troy,165,36,F756612440413LPZQNI,2025-02-27T16:57:17.124000Z,What peer to peer software is blocked?,,False,USER
-troy,168,36,F1708073051800CNKJZR,2025-02-27T16:57:44.016000Z,"Technology policies for a university are typically found on the university's IT services website or within the student handbook.  Look for sections related to acceptable use, network security, or computer labs.  If you can't find them easily, contact the university's IT help desk or student services for assistance.",OPEN_DOMAIN,False,CHATBOT
-troy,169,36,F1430114534095ZUOYIF,2025-02-27T16:58:33.462000Z,What is the tree policy?,,False,USER
-troy,172,36,F756612442758AXWOWO,2025-02-27T16:58:58.514000Z,"There is no single, universally applicable ""university tree policy.""  Each university will have its own policies regarding trees on its campus, if any.  These policies might cover things like tree planting, removal, maintenance, and preservation.  To find the specific tree policy for a particular university, you'll need to search that university's website, possibly looking under sections on campus groundskeeping, facilities management, or environmental sustainability.  You might also try contacting the university's facilities or grounds management department.",OPEN_DOMAIN,False,CHATBOT
-troy,176,37,F827007854756CQYI5T,2025-03-11T18:49:24.542000Z,"The library's hours of operation vary depending on the day of the week.  To give you the most accurate information, could you please tell me which library branch you're interested in?",OPEN_DOMAIN,False,CHATBOT
-troy,177,37,F97003116185PJKIQZ,2025-03-11T18:49:36.984000Z,The Troy Campus branch.,,False,USER
-troy,179,37,F827007856253ZA3F1D,2025-03-11T18:49:52.057000Z,does it provide students with software,,False,USER
-troy,181,37,F97003116369JB5XLK,2025-03-11T18:50:07.993000Z,What software does IT not allow on our network?,,False,USER
-troy,183,37,F827007866325Y1QHHD,2025-03-11T19:17:54.434000Z,What are my Canvas assignments?,,False,USER
-troy,189,37,F153016852322QLCUNF,2025-03-11T19:27:30.595000Z,What is Mike Foster's cell phone number?,,False,USER
-troy,193,37,F1515114181557RGDYIV,2025-03-11T19:28:44.464000Z,What is the IT department's website?,,False,USER
-troy,196,37,F97003126236VABOW4,2025-03-11T19:29:09.372000Z,"Okay, I'll remember that the IT website for Troy University is https://it.troy.edu.  I will try to use this information if relevant in future responses.",OPEN_DOMAIN,False,CHATBOT
-troy,199,38,F827007879015BPRWQP,2025-03-11T19:31:50.120000Z,How can I find the IT website?,,False,USER
-troy,203,39,F970031271601B0V4B,2025-03-11T19:32:43.781000Z,When is spring graduation?,,False,USER
-troy,208,39,F97003127344BNDTGG,2025-03-11T19:33:14.367000Z,"I do not have access to that information. You can likely find this information on the university's website, in a university directory, or through a quick internet search.",OPEN_DOMAIN,False,CHATBOT
-troy,210,39,F970031277763WVKBQ,2025-03-11T19:34:43.897000Z,I do not have access to that information.  You may want to check the university's website or your student portal for the most up-to-date contact information for IT support.,OPEN_DOMAIN,False,CHATBOT
-troy,211,38,F97003128208BTWKJI,2025-03-11T19:36:05.877000Z,Tell me about the libraries,,False,USER
-troy,213,38,F1515114183503YHSAWN,2025-03-11T19:36:14.325000Z,The Troy Campus library,,False,USER
-troy,216,40,F82700788516753MMNJ,2025-03-11T19:36:23.187000Z,"I don't have information about a specific product called ""Trojan Book Bag"".  It's possible this is a brand name, a less common name, or a product not widely known.  Could you provide more details, such as where you heard about it or a description?",OPEN_DOMAIN,False,CHATBOT
-troy,220,39,F778928541141OYPRGP,2025-03-11T19:39:01.873000Z,I do not have access to that information.  You may want to check the university's website or your student portal for the most up-to-date contact information for the financial aid office.,OPEN_DOMAIN,False,CHATBOT
-troy,228,39,F7789285418312W0454,2025-03-11T19:41:59.995000Z,"While Troy University doesn't have a dedicated, separately named ""School of Engineering,""  they do offer engineering programs within their College of Science and Technology or a similar department.  To be certain of the exact organizational structure and program offerings, it's best to check their official website.",OPEN_DOMAIN,False,CHATBOT
-troy,265,45,F432381147684RILEB3,2025-03-13T17:11:25.787000Z,Where can I find information about current tuition?,,False,USER
-troy,41,11,F879766957640JI2UFS,2025-02-18T16:20:52.233000Z,when was the university started,,False,USER
-troy,151,35,F913520136717R1JAQC,2025-02-26T15:14:45.768000Z,nursing schools near me,,False,USER
-troy,160,36,F17080730513605J4J4P,2025-02-27T16:56:15.583000Z,"I can access and process information from a vast range of sources, and I can use that information to answer your questions in an informative way.  I can provide summaries of factual topics, create stories, translate languages, and even write different kinds of creative content.  However, my knowledge is limited to the data I've been trained on, and I don't have access to real-time information like live news feeds or personal data.  
-
-To get the best results, please ask me specific questions.  The more precise your question, the more accurate and helpful my response will be.",OPEN_DOMAIN,False,CHATBOT
-troy,167,36,F1708073051799TBFJAD,2025-02-27T16:57:43.016000Z,Where can I find technology policies?,,False,USER
-troy,178,37,F97003116186F0EQNQ,2025-03-11T18:49:37.984000Z,"Unfortunately, I don't have access to real-time information, such as the Troy Campus library's hours.  I would suggest checking their website or contacting them directly by phone for the most up-to-date hours of operation.",OPEN_DOMAIN,False,CHATBOT
-troy,180,37,F8270078562543VEJGS,2025-03-11T18:49:53.057000Z,"Many university libraries provide students with access to software, often through online licensing agreements.  To know for sure about the Troy Campus library, I recommend checking their website or contacting them directly.  Their website likely has a section on student resources or technology services that would list available software.",OPEN_DOMAIN,False,CHATBOT
-troy,182,37,F97003116370ZKRAJI,2025-03-11T18:50:08.993000Z,I do not have access to the specific software restrictions for your institution's IT network.  This kind of information is usually found in your institution's IT policies or acceptable use policy document.  You should check your school's IT website or contact your IT help desk for the most accurate and up-to-date list of prohibited software.,OPEN_DOMAIN,False,CHATBOT
-troy,242,39,F1338602481793YKR1AC,2025-03-11T22:23:54.679000Z,"I do not have access to your personal student information, including your assigned advisor.  To find out who your advisor is, you should check your student portal on the Troy University website or contact the university's registrar's office.",OPEN_DOMAIN,False,CHATBOT
-troy,267,45,F1002395163046MYOAAJ,2025-03-13T17:11:46.441000Z,Where can I find information about scholarships?,,False,USER
-troy,274,45,F432381156969WMYURF,2025-03-13T17:16:05.072000Z,"The provided text mentions a ""Colleague Account Request,"" but doesn't detail the process.  You'll need to consult additional Troy University resources, such as the IT help desk or the employee IT homepage, for instructions on how to request a Colleague account.",SOURCED,False,CHATBOT
-troy,275,45,F1002395164250WPXB42,2025-03-13T17:16:20.001000Z,How do I request a Colleague account?,,False,USER
-troy,278,45,F43238116224840OEBH,2025-03-13T17:20:25.865000Z,The provided text doesn't specify how to request a website update.  You'll need to consult Troy University's website or contact their IT department or web services team to find out their process for requesting website updates.,SOURCED,False,CHATBOT
-troy,281,45,F4323811667563SF3SV,2025-03-13T17:21:57.309000Z,How can I request to have a headshot taken?,,False,USER
-troy,311,51,F89463752547431ELKQ,2025-03-24T15:36:36.128000Z,What is my name?,,False,USER
-troy,338,60,F349137729185HACQZ4,2025-03-27T16:10:01.596000Z,"For the Troy campus:
-
-* **Emergency:** 911
-* **Non-Emergency (24/7):** (334) 670-3215
-* **Chief Beaudry Cell:** (334) 372-3238
-
-For the Dothan campus:
-
-* **University Police:** (334) 983-6556 ext. 21225
-* **University Police Cellular Telephone:** (334) 701-7280
-* **Emergency (Fire, Police, EMS):** 911",SOURCED,False,CHATBOT
-troy,42,11,F8797669576410UCXJ4,2025-02-18T16:20:53.233000Z,Troy University was founded in 1856.,OPEN_DOMAIN,False,CHATBOT
-troy,45,11,F604790895068QL4S5O,2025-02-18T16:21:09.152000Z,How many campuses are they.,,False,USER
-troy,48,11,F604790895348FMRDPI,2025-02-18T16:22:09.056000Z,"That depends on which Troy University campus you're interested in.  Troy University has multiple campuses, each with its own library.  Could you specify which campus you'd like information about?",OPEN_DOMAIN,False,CHATBOT
-troy,49,11,F717865996275DGXWKN,2025-02-18T16:22:29.457000Z,Where is the Dothan Campus library?,,False,USER
-troy,51,13,F234171482697IG1CA4,2025-02-18T21:11:20.586000Z,How much is tuition?,,False,USER
-troy,52,13,F2341714826982ZUFEF,2025-02-18T21:11:21.586000Z,"I do not have access to current tuition information for Troy University.  For the most up-to-date tuition rates, please visit the Troy University website's financial aid or admissions section.",OPEN_DOMAIN,False,CHATBOT
-troy,53,13,F1230712153103SBYFN0,2025-02-18T21:13:05.980000Z,How do I submit a helpdesk ticket?,,False,USER
-troy,54,13,F1230712153104RHGSKW,2025-02-18T21:13:06.980000Z,"I do not have access to specific instructions on how to submit a helpdesk ticket for Troy University.  To find out how to submit a helpdesk ticket, please check the Troy University website's IT support or student services section.  You may also find information in your student portal.",OPEN_DOMAIN,False,CHATBOT
-troy,55,14,F9559777044661BYZZT,2025-02-18T21:15:55.512000Z,How much is tuition?,,False,USER
-troy,56,14,F955977704467APU30Q,2025-02-18T21:15:56.512000Z,"I do not have access to current tuition information for Troy University.  For the most up-to-date tuition rates, please visit the Troy University website's financial aid or admissions section.",OPEN_DOMAIN,False,CHATBOT
-troy,57,14,F1230712154277ILHYB2,2025-02-18T21:17:36.944000Z,When is Juneteenth?,,False,USER
-troy,58,14,F1230712154278DHZDU4,2025-02-18T21:17:37.944000Z,Juneteenth is celebrated annually on June 19th.,OPEN_DOMAIN,False,CHATBOT
-troy,59,14,F234171484359YUCATZ,2025-02-18T21:17:50.507000Z,When is the next university holiday?,,False,USER
-troy,60,14,F234171484360GGGPPI,2025-02-18T21:17:51.507000Z,"I do not have access to a real-time, updated calendar of Troy University holidays.  To find the next university holiday, I recommend checking the official Troy University academic calendar on their website.",OPEN_DOMAIN,False,CHATBOT
-troy,61,14,F955977707514VGWVM5,2025-02-18T21:18:30.862000Z,When is the next university holiday?,,False,USER
-troy,62,14,F955977707515XUFMK5,2025-02-18T21:18:31.862000Z,"I do not have access to a real-time, updated calendar of Troy University holidays.  To find the next university holiday, I recommend checking the official Troy University academic calendar on their website.",OPEN_DOMAIN,False,CHATBOT
-troy,63,15,F400541584573BG54DK,2025-02-18T21:20:45.134000Z,What software applications are provided to students?,,False,USER
-troy,64,15,F400541584574U32ZA2,2025-02-18T21:20:46.134000Z,"Troy University provides students access to a variety of software applications, depending on their program of study and specific needs.  These often include Microsoft Office Suite, various academic databases and research tools, and specialized software relevant to their major.  For a complete and up-to-date list, it's best to consult the university's IT services website or your specific department.",OPEN_DOMAIN,False,CHATBOT
-troy,65,16,F473542828995JB1EG0,2025-02-19T14:20:53.190000Z,What courses am I enrolled in?,,False,USER
-troy,66,16,F473542828996HNSGVU,2025-02-19T14:20:54.190000Z,"I do not have access to your personal information, including your course enrollment.  To find this information, you should check your student portal or contact your school's registrar.",OPEN_DOMAIN,False,CHATBOT
-troy,67,17,F1102463636324NSMEHV,2025-02-19T15:04:14.639000Z,What was my GPA from my bachelor's degree?,,False,USER
-troy,68,17,F1102463636325KIC2TC,2025-02-19T15:04:15.639000Z,I do not have access to your personal academic records.  That information is private and confidential.,OPEN_DOMAIN,False,CHATBOT
-troy,69,17,F473542838614ODKY55,2025-02-19T15:04:27.971000Z,What is the current tuition rate?,,False,USER
-troy,70,17,F473542838615PG2H1I,2025-02-19T15:04:28.971000Z,"I do not have access to real-time information, such as current tuition rates. Tuition rates vary significantly depending on the institution, the program of study, and other factors.  To find the most up-to-date tuition information, you should check the website of the specific university or college you are interested in.",OPEN_DOMAIN,False,CHATBOT
-troy,71,17,F4735428484152V501Q,2025-02-19T15:04:47.388000Z,What are the current classes that are being taught?,,False,USER
-troy,72,17,F473542848416A3VLVL,2025-02-19T15:04:48.388000Z,"That depends entirely on the institution.  To find out what classes are currently being taught, you'll need to specify the school or university and perhaps even the department or college within that institution.  Most universities have online course catalogs that are updated regularly.",OPEN_DOMAIN,False,CHATBOT
-troy,73,17,F1352060243586QAJ4GA,2025-02-19T15:05:01.828000Z,Show me the Schedule of Classes,,False,USER
-troy,74,17,F1352060243587NETMXM,2025-02-19T15:05:02.828000Z,"I do not have access to real-time information, such as a schedule of classes.  To see a schedule of classes, you will need to check the website of the specific school or university you are interested in.  These schedules are usually available online through a student portal or a registrar's office website.",OPEN_DOMAIN,False,CHATBOT
-troy,75,17,F4735428485844N02JJ,2025-02-19T15:05:27.124000Z,Take me to the students group,,False,USER
-troy,76,17,F473542848585SMI5QA,2025-02-19T15:05:28.124000Z,"I can't directly take you to a student group.  To find a student group, you'll need to provide more information, such as the name of the university or college and the type of group you're looking for (e.g., a specific club, a student government organization).  Most universities have online directories of student organizations on their websites.",OPEN_DOMAIN,False,CHATBOT
-troy,77,13,F473542870487P5NACV,2025-02-19T16:00:30.270000Z,Who is the chancellor?,,False,USER
-troy,78,13,F473542870488LCFE44,2025-02-19T16:00:31.270000Z,"I do not have access to real-time information, including current leadership positions at universities.  To find out who the current chancellor of Troy University is, I recommend checking the university's official website.  Their ""About Us"" or leadership section should list the current chancellor.",OPEN_DOMAIN,False,CHATBOT
-troy,79,18,F473542871529CAPEDD,2025-02-19T16:04:22.933000Z,Who is the chancellor?,,False,USER
-troy,81,18,F279257359575KPRSWQ,2025-02-19T16:04:33.505000Z,Who is the Chancellor of Troy University?,,False,USER
-troy,80,18,F4735428715305QWHHX,2025-02-19T16:04:23.933000Z,"The current Chancellor of Germany is Olaf Scholz.  He assumed office on December 8, 2021.",OPEN_DOMAIN,False,CHATBOT
-troy,86,13,F473542872981WOH4E3,2025-02-19T16:09:55.493000Z,"I do not have access to real-time information, such as the closing times for specific buildings on the Troy University campus.  This information can vary depending on the day of the week, holidays, and specific building policies.  To find the most accurate closing times, I recommend checking the Troy University website, contacting the university's main office, or looking for information on individual building websites or signage.",OPEN_DOMAIN,False,CHATBOT
-troy,87,13,F1102463652601LD4P2N,2025-02-19T16:10:43.484000Z,What is the name of my course in Canvas?,,False,USER
-troy,154,35,F913520136718A2OGMM,2025-02-26T15:14:46.768000Z,"To help you find nursing schools near you, I need your location. Please tell me your city and state (or zip code).",OPEN_DOMAIN,False,CHATBOT
-troy,163,36,F143011453367011BCX4,2025-02-27T16:57:00.704000Z,What software does Troy University provide for students to use?,,False,USER
-troy,171,36,F756612442757XVFFJE,2025-02-27T16:58:57.514000Z,What is the university's tree policy?,,False,USER
-troy,184,37,F827007866326A3LWQ2,2025-03-11T19:17:55.434000Z,backend call: Upcoming Assessment,VERIFIED,False,CHATBOT
-troy,186,37,F8270078674434VEZRK,2025-03-11T19:19:21.809000Z,"Providing effective advising to students involves a multifaceted approach.  Here are some key tips:
-
-* **Active Listening:**  Truly listen to the student's concerns, goals, and challenges.  Avoid interrupting and focus on understanding their perspective.
-
-* **Empathy and Support:** Create a safe and supportive environment where students feel comfortable sharing their thoughts and feelings. Show genuine care and concern for their well-being.
-
-* **Collaboration:** Work collaboratively with the student to develop a plan that aligns with their academic and personal goals.  Avoid imposing your own ideas.
-
-* **Clear Communication:**  Explain policies, procedures, and expectations clearly and concisely.  Use language that the student can easily understand.
-
-* **Goal Setting:** Help students define clear, measurable, achievable, relevant, and time-bound (SMART) goals.
-
-* **Resourcefulness:** Be aware of and able to connect students with relevant resources, such as tutoring services, financial aid, mental health services, and career counseling.
-
-* **Regular Check-ins:** Schedule regular meetings to monitor progress, address challenges, and provide ongoing support.
-
-* **Documentation:** Maintain accurate and thorough records of advising sessions and agreements.
-
-* **Confidentiality:**  Respect student confidentiality and only share information with authorized individuals.
-
-* **Self-Reflection:** Regularly reflect on your advising practices and identify areas for improvement.
-
-
-Remember that effective advising is a continuous learning process.  Seeking professional development opportunities and staying updated on best practices can significantly enhance your ability to support students effectively.",OPEN_DOMAIN,False,CHATBOT
-troy,187,37,F153016850385RDIYQL,2025-03-11T19:20:00.608000Z,What do new faculty need to do to get Canvas certified?,,False,USER
-troy,192,37,F153016852629CEKIS4,2025-03-11T19:28:33.977000Z,"The best place to find information from IT about using Colleague would be your institution's IT helpdesk or their internal website.  They likely have documentation, training materials, or FAQs specifically for Colleague.  Search your institution's IT website for ""Colleague"" or contact the helpdesk directly.",OPEN_DOMAIN,False,CHATBOT
-troy,200,38,F827007879016FJOULL,2025-03-11T19:31:51.120000Z,"I do not have access to specific company intranets or websites.  To find your company's IT website, you might try searching your company's intranet or asking a colleague.",OPEN_DOMAIN,False,CHATBOT
-troy,201,39,F153016880519REU1GW,2025-03-11T19:32:29.468000Z,When does summer registration start?,,False,USER
-troy,204,39,F97003127161SZ14XQ,2025-03-11T19:32:44.781000Z,I do not have access to that information.  You may want to check the university's website or your student portal for the most up-to-date details on spring graduation.,OPEN_DOMAIN,False,CHATBOT
-troy,207,39,F97003127343TLKG54,2025-03-11T19:33:13.367000Z,Who is the Chancellor of the university?,,False,USER
-troy,209,39,F970031277755TC0VR,2025-03-11T19:34:42.897000Z,How do I contact IT?,,False,USER
-troy,212,38,F970031282092FNSDU,2025-03-11T19:36:06.877000Z,"To tell you about libraries, I need some more information.  Which libraries are you interested in?  Are you looking for information about specific libraries in a particular city or region, or are you interested in libraries in general, such as their history, their role in society, or the types of services they offer?",OPEN_DOMAIN,False,CHATBOT
-troy,214,38,F1515114183504KRPAYV,2025-03-11T19:36:15.325000Z,"I do not have access to real-time information, including specific details about the Troy Campus library. To get information about the Troy Campus library, I suggest checking the college or university's website, or contacting the library directly.  Their website may have hours, resources, and contact information.",OPEN_DOMAIN,False,CHATBOT
-troy,217,39,F97003128639IDPM3R,2025-03-11T19:37:41.541000Z,What is the address for Troy University?,,False,USER
-troy,219,39,F778928541140O53FEU,2025-03-11T19:39:00.873000Z,How do I contact the financial aid office?,,False,USER
-troy,222,39,F827007887960HAW4GZ,2025-03-11T19:39:24.815000Z,"Troy University has multiple campuses.  To find the location of a specific campus, I recommend checking the Troy University website.  Their website will have a contact section or a campus map that should list the locations.",OPEN_DOMAIN,False,CHATBOT
-troy,225,39,F1515114184976TDCTXI,2025-03-11T19:41:36.180000Z,Does Troy University have a school of business?,,False,USER
-troy,227,39,F778928541830FSQGHR,2025-03-11T19:41:58.995000Z,Does Troy University have an engineering school?,,False,USER
-troy,234,39,F1515114186161DYYUW1,2025-03-11T19:46:06.619000Z,"I do not have access to real-time information, including shuttle bus routes.  To find the shuttle bus routes for Troy University, I recommend checking the university's website, their student portal, or contacting the campus transportation department.  They should have maps and schedules available.",OPEN_DOMAIN,False,CHATBOT
-troy,243,41,F588368417492GCHAHK,2025-03-12T15:12:17.736000Z,What is Trojan Book Bag?,,False,USER
-troy,283,45,F10023951656624HBQPM,2025-03-13T17:22:21.364000Z,How do I subscribe to SOS?,,False,USER
-troy,285,46,F376622529438EJ0T5I,2025-03-19T12:33:21.345000Z,What is Trojan Book Bag?,,False,USER
-troy,312,51,F894637525475DMD40A,2025-03-24T15:36:37.128000Z,Your name is Tim.,SOURCED,False,CHATBOT
-troy,339,60,F34913772958322OYYY,2025-03-27T16:11:27.953000Z,Doess Troy University have a Student Government Association?,,False,USER
-troy,82,18,F2792573595762QAWXR,2025-02-19T16:04:34.505000Z,"I do not have access to real-time information, including constantly updated leadership positions at universities.  To find the current Chancellor of Troy University, I recommend checking the university's official website.",OPEN_DOMAIN,False,CHATBOT
-troy,83,13,F473542871704NW4JBI,2025-02-19T16:04:59.810000Z,What class do I teach in Canvas?,,False,USER
-troy,84,13,F473542871705S54AQL,2025-02-19T16:05:00.810000Z,"I do not have access to your personal information, including what classes you teach in Canvas.  To find this information, log in to your Canvas account.  Your courses should be listed on your dashboard.",OPEN_DOMAIN,False,CHATBOT
-troy,85,13,F473542872980IIRGVB,2025-02-19T16:09:54.493000Z,What time does the Troy Campus close?,,False,USER
-troy,88,13,F11024636526025OZJPN,2025-02-19T16:10:44.484000Z,"I do not have access to your personal information, including your Canvas courses.  To find the name of your course, log in to your Canvas account.  Your courses should be listed on your dashboard.",OPEN_DOMAIN,False,CHATBOT
-troy,89,19,F1352060271745N3PY53,2025-02-19T16:57:32.425000Z,where is the Troy Campus library located,,False,USER
-troy,90,19,F1352060271746PNSP14,2025-02-19T16:57:33.425000Z,"I do not have access to real-time information, including the location of specific buildings like the Troy Campus library.  To find its location, I suggest searching online using a search engine like Google, Bing, or DuckDuckGo.  You can search for ""Troy Campus library location"" or ""[Name of University] Troy Campus library location"" (replacing ""[Name of University]"" with the actual name of the university).  You may also find this information on the university's official website.",OPEN_DOMAIN,False,CHATBOT
-troy,91,19,F1102463664386FWFXAH,2025-02-19T16:58:46.773000Z,What is my last class,,False,USER
-troy,92,19,F1102463664387LRPOPS,2025-02-19T16:58:47.773000Z,"I do not have access to your personal schedule.  To find out what your last class is, you should check your class schedule, which may be available through your school's online portal, your syllabus, or a planner you keep.",OPEN_DOMAIN,False,CHATBOT
-troy,93,19,F473542885236MJFDBK,2025-02-19T17:00:00.992000Z,what can you tell me about canvas,,False,USER
-troy,94,19,F473542885237JYSQ0R,2025-02-19T17:00:01.992000Z,"Canvas is a popular learning management system (LMS) used by many educational institutions worldwide.  It's a web-based platform that allows instructors to create and manage online courses, and students to access course materials, submit assignments, communicate with instructors and classmates, and track their progress.
-
-Key features of Canvas typically include:
-
-* **Course management:** Instructors can upload documents, create assignments, quizzes, and discussions.
-* **Communication tools:**  Instructors and students can communicate through announcements, email, and discussion forums.
-* **Gradebook:**  Instructors can track and record student grades.
-* **Calendar:**  Provides a centralized calendar for assignments, quizzes, and other important dates.
-* **Collaboration tools:**  Facilitates group work and collaboration among students.
-* **Mobile app:**  Access to courses and features through a mobile app.
-
-
-The specific features and functionalities available may vary slightly depending on the institution's configuration.",OPEN_DOMAIN,False,CHATBOT
-troy,95,20,F11024636648084G5CVD,2025-02-19T17:00:14.728000Z,scedule of classes,,False,USER
-troy,96,20,F1102463664809X04VQO,2025-02-19T17:00:15.728000Z,"To provide you with your class schedule, I need more information.  Please specify the term, semester, or relevant timeframe.  Also, please tell me your name or student ID if that's required for accessing your schedule.",OPEN_DOMAIN,False,CHATBOT
-troy,97,19,F473542885421JNYGIC,2025-02-19T17:00:25.129000Z,Who is the best looking person in IT,,False,USER
-troy,98,19,F473542885422A1S5UC,2025-02-19T17:00:26.129000Z,"Attractiveness is entirely subjective.  What one person finds appealing, another may not.  Therefore, I cannot answer who the ""best-looking"" person in IT is.  This is a matter of personal opinion and preference.",OPEN_DOMAIN,False,CHATBOT
-troy,99,21,F1352060317765V3R3IO,2025-02-19T20:11:56.097000Z,Who is my advisor?,,False,USER
-troy,100,21,F1352060317766Z4EZW2,2025-02-19T20:11:57.097000Z,"I do not have access to your personal information, including your advisor.  To find out who your advisor is, you should check your student records or contact your institution's student services department.",OPEN_DOMAIN,False,CHATBOT
-troy,101,22,F1629386127527P0M0ZQ,2025-02-24T15:19:08.001000Z,Who is my advisor?,,False,USER
-troy,102,22,F1629386127528ZYPKIX,2025-02-24T15:19:09.001000Z,"I do not have access to your personal information, including your advisor.  To find out who your advisor is, you should check your student records, your university's online portal, or contact your department's administrative staff.",OPEN_DOMAIN,False,CHATBOT
-troy,103,22,F1629386127587HRV5HQ,2025-02-24T15:19:16.756000Z,Who is my advisor?,,False,USER
-troy,104,22,F1629386127588AR521Z,2025-02-24T15:19:17.756000Z,"I do not have access to your personal information, including your advisor.  To find out who your advisor is, you should check your student records, your university's online portal, or contact your department's administrative staff.",OPEN_DOMAIN,False,CHATBOT
-troy,105,23,F1629386127866SBMOKZ,2025-02-24T15:20:03.673000Z,Who is the chancellor of Troy University?,,False,USER
-troy,106,23,F1629386127867FH33AI,2025-02-24T15:20:04.673000Z,"The current chancellor of Troy University is Dr. Jack Hawkins, Jr.  However, it's important to note that this information may change, so checking the official Troy University website for the most up-to-date information is always recommended.",OPEN_DOMAIN,False,CHATBOT
-troy,107,23,F13419748764284VV2C3,2025-02-24T15:20:22.461000Z,Who is the chancellor of Troy University?,,False,USER
-troy,108,23,F1341974876429VSFEQ3,2025-02-24T15:20:23.461000Z,"The current chancellor of Troy University is Dr. Jack Hawkins, Jr.  However, it's important to note that this information may change, so checking the official Troy University website for the most up-to-date information is always recommended.",OPEN_DOMAIN,False,CHATBOT
-troy,109,23,F1629386147400YQXXKL,2025-02-24T15:22:44.920000Z,what is my email?,,False,USER
-troy,110,23,F1629386147401N3BXHV,2025-02-24T15:22:45.920000Z,"I do not have access to your personal information, including your email address.  For security reasons, I cannot and do not store such data.",OPEN_DOMAIN,False,CHATBOT
-troy,111,24,F1629386147723SPWUMR,2025-02-24T15:23:50.582000Z,What is my email?,,False,USER
-troy,112,24,F16293861477245EKIIO,2025-02-24T15:23:51.582000Z,"I do not have access to your personal information, including your email address.  For security reasons, I cannot provide that.",OPEN_DOMAIN,False,CHATBOT
-troy,113,24,F1341974883634TFRFG1,2025-02-24T15:24:21.792000Z,What school did I attend,,False,USER
-troy,114,24,F1341974883635YS0VVB,2025-02-24T15:24:22.792000Z,"I do not have access to your personal information, including your school history.",OPEN_DOMAIN,False,CHATBOT
-troy,116,24,F1629386148031EUTSV0,2025-02-24T15:24:39.436000Z,"I do not have access to your personal information, including your advisors.",OPEN_DOMAIN,False,CHATBOT
-troy,170,36,F1430114534096YUWK0B,2025-02-27T16:58:34.462000Z,"There's no standard or universally recognized ""tree policy.""  The term is too vague.  To understand what a ""tree policy"" might refer to, I need more context.  Are you referring to a policy related to trees on a particular campus, a company's environmental policy concerning trees, a data structure in computer science, or something else entirely?  Please provide more details.",OPEN_DOMAIN,False,CHATBOT
-troy,173,36,F756612443761H2PWE4,2025-02-27T16:59:52.674000Z,What is the university's paint policy?,,False,USER
-troy,185,37,F827007867442H4ZM34,2025-03-11T19:19:20.809000Z,Can you give me tips on how to provide advising to students?,,False,USER
-troy,195,37,F97003126235ZH2SIJ,2025-03-11T19:29:08.372000Z,The IT website is located at https://it.troy.edu. Please remember this.,,False,USER
-troy,197,37,F827007873994UDPGTN,2025-03-11T19:29:24.739000Z,Where can I find information about Colleague on the IT website?,,False,USER
-troy,202,39,F1530168805201N4LNZ,2025-03-11T19:32:30.468000Z,I do not have access to that information.  You may want to check the university's website or your student portal for the most up-to-date details on summer registration.,OPEN_DOMAIN,False,CHATBOT
-troy,205,39,F153016880703L02BJB,2025-03-11T19:33:00.773000Z,What is the phone number for the call center?,,False,USER
-troy,215,40,F827007885166IO3C0M,2025-03-11T19:36:22.187000Z,What is Trojan Book Bag,,False,USER
-troy,224,39,F1515114184794CUKXL1,2025-03-11T19:41:10.066000Z,"I do not have the exact address for the Troy University Dothan campus.  To find the precise location, I recommend checking the official Troy University website.  They will have a campus map or contact information that should list the address.",OPEN_DOMAIN,False,CHATBOT
-troy,229,39,F778928542001XDWN2M,2025-03-11T19:42:30.269000Z,I have a problem with my bill. Who do I contact?,,False,USER
-troy,232,39,F827007892942JEMIUN,2025-03-11T19:45:24.486000Z,"I don't have specific information about a program or service called ""Trojan BookBag"" at Troy University.  It's possible this is an internal program, a nickname for something else, or a program that no longer exists.  To find out what Trojan BookBag is, I suggest checking the Troy University website, contacting the university's help desk, or asking your student advisor.",OPEN_DOMAIN,False,CHATBOT
-troy,244,41,F588368417493AVQPU2,2025-03-12T15:12:18.736000Z,"I don't have information about a specific product called ""Trojan Book Bag.""  It's possible this is a brand name, a less common name, or a product not widely known.  Could you provide more details, such as where you heard about it or a description?",OPEN_DOMAIN,False,CHATBOT
-troy,286,46,F376622529439DBRJDP,2025-03-19T12:33:22.345000Z,"Trojan Book Bag is a course material rental program at Troy University offered by Barnes & Noble.  It provides students with required physical and digital course materials for a flat fee of $21 per credit hour.  Students are automatically enrolled when registering for courses.  The program aims to lower the cost of materials and ensure students have access to everything they need by the first day of class.  At the end of the semester, students can buy their rented textbooks at a reduced price.",SOURCED,False,CHATBOT
-troy,313,52,F329436985475ADSMFA,2025-03-24T16:37:49.032000Z,what is my gpa?,,False,USER
-troy,320,54,F329436991151KNJUNT,2025-03-24T16:41:18.838000Z,"As Pythia, I do not have access to your personal information, including your grades, to calculate your GPA.  To calculate your GPA, you will need to provide me with your grades and the credit hours associated with each course.",SOURCED,False,CHATBOT
-troy,115,24,F1629386148030BRVAXC,2025-02-24T15:24:38.436000Z,who are my advisors?,,False,USER
-troy,120,26,F1629386150388UWVBI2,2025-02-24T15:33:37.385000Z,"I do not have access to your personal information, including your GPA.  That data is private and confidential.",OPEN_DOMAIN,False,CHATBOT
-troy,122,27,F1629386150574YKOSCF,2025-02-24T15:34:11.728000Z,"I do not have access to your personal information, including your GPA.  That data is private and confidential.",OPEN_DOMAIN,False,CHATBOT
-troy,174,36,F756612443763344FLX,2025-02-27T16:59:53.674000Z,"Similar to the tree policy, there's no single ""university paint policy.""  Each university will have its own guidelines or policies regarding the use of paint on campus.  These policies will likely cover things like what types of paint are allowed, where painting is permitted (or prohibited), and the procedures for obtaining permission to paint.  To find this information, you'll need to check your specific university's website, likely under sections on facilities management, groundskeeping, or student organizations (if the policy relates to student groups painting).  Contacting the university's facilities department directly is also a good option.",OPEN_DOMAIN,False,CHATBOT
-troy,188,37,F153016850386OQN0QQ,2025-03-11T19:20:01.608000Z,"I don't have access to specific procedures for Canvas certification for new faculty at your institution.  This information would be available through your institution's IT department, Center for Teaching and Learning, or the department responsible for faculty onboarding.  Check their websites or contact them directly to find out the exact steps and requirements for Canvas certification.",OPEN_DOMAIN,False,CHATBOT
-troy,190,37,F153016852323DTXN0I,2025-03-11T19:27:31.595000Z,I cannot share personal contact information like Mike Foster's cell phone number.  Sharing such details would be a violation of privacy.,OPEN_DOMAIN,False,CHATBOT
-troy,191,37,F153016852628MPNYMO,2025-03-11T19:28:32.977000Z,Where can I find information from IT about using Colleague?,,False,USER
-troy,194,37,F15151141815581RZPRJ,2025-03-11T19:28:45.464000Z,"I do not have access to that specific information.  To find your institution's IT department website, I suggest searching ""[Your Institution Name] IT"" on a search engine like Google.  You should quickly find the official website.",OPEN_DOMAIN,False,CHATBOT
-troy,198,37,F827007873995P1T5YS,2025-03-11T19:29:25.739000Z,"While I now know the IT website address, I cannot browse the internet or access specific files on websites.  The best way to find Colleague information on https://it.troy.edu is to use the website's search function (usually a search bar at the top or bottom of the page) and search for ""Colleague"". You might also look for sections on ""Student Systems,"" ""Faculty Systems,"" or ""Administrative Systems"" as Colleague is often found within those areas.",OPEN_DOMAIN,False,CHATBOT
-troy,245,42,F1663752479812VQVYMP,2025-03-12T19:41:12.309000Z,what is my gpa?,,False,USER
-troy,287,47,F4577940694105JRDFD,2025-03-19T17:23:52.698000Z,When is graduation?,,False,USER
-troy,290,47,F1211979407242VPVYRF,2025-03-19T17:24:11.663000Z,"I can help guide you. To best assist you with your financial aid questions, please tell me:
-
-1. **What specifically do you need help with?**  For example, are you:
-    * Trying to apply for financial aid?
-    * Having trouble completing the FAFSA?
-    * Waiting to hear back about your application?
-    * Trying to understand your financial aid award?
-    * Needing to make changes to your FAFSA?
-    * Having trouble with your disbursement of funds?
-    *  Something else?
-
-2. **What steps have you already taken?**  This will help me understand where you are in the process and avoid suggesting steps you've already completed.
-
-3. **What is your student status?** (Undergraduate, Graduate, etc.)
-
-The more information you provide, the better I can assist you.  I can provide information based on the Troy University Financial Aid website content I have access to.  However, for personalized assistance and specific questions about your application, you should contact the Troy University Office of Financial Aid directly at 1-800-414-5756 or via email.",SOURCED,False,CHATBOT
-troy,291,47,F12119794091291YURC3,2025-03-19T17:24:41.348000Z,What is the Trojan Bookbag?,,False,USER
-troy,299,47,F12119794564680B2CQH,2025-03-19T17:26:15.088000Z,What is the policy related to using university computers for personal use?,,False,USER
-troy,314,52,F3294369854763CMTHM,2025-03-24T16:37:50.032000Z,"I do not have access to your grades, so I cannot calculate your GPA.  To calculate your GPA, you will need to consult your academic records or your university's student portal.",SOURCED,False,CHATBOT
-troy,316,53,F3294369887380OMSOQ,2025-03-24T16:40:12.319000Z,"I do not have access to your grades, so I cannot calculate your GPA.  To calculate your GPA, you will need to consult your transcript or your university's GPA calculation system.",SOURCED,False,CHATBOT
-troy,317,54,F894637541751V0HB0A,2025-03-24T16:41:04.502000Z,what is my gpa?,,False,USER
-troy,319,54,F329436991150UF5BNB,2025-03-24T16:41:17.838000Z,what is my gpa?,,False,USER
-troy,117,25,F1629386150191FWKH0Q,2025-02-24T15:33:07.060000Z,what's my gpa,,False,USER
-troy,119,26,F1629386150387HJTY4J,2025-02-24T15:33:36.385000Z,what's my gpa,,False,USER
-troy,121,27,F1629386150573NZGAP2,2025-02-24T15:34:10.728000Z,what's my gpa?,,False,USER
-troy,206,39,F153016880704RL1F4D,2025-03-11T19:33:01.773000Z,I do not have access to that information.  You may want to check the university's website or your student portal for the most up-to-date contact information.,OPEN_DOMAIN,False,CHATBOT
-troy,218,39,F970031286400JE0G1,2025-03-11T19:37:42.541000Z,"I do not have access to specific addresses for all locations of Troy University.  To find the address of a specific campus or building, I recommend checking the Troy University website.  Their website will have a contact section or a campus map that should list the addresses.",OPEN_DOMAIN,False,CHATBOT
-troy,221,39,F827007887959WAXMHF,2025-03-11T19:39:23.815000Z,Where is Troy University?,,False,USER
-troy,223,39,F15151141847932GYGGO,2025-03-11T19:41:09.066000Z,Where is the Dothan campus?,,False,USER
-troy,226,39,F1515114184977A0NCVS,2025-03-11T19:41:37.180000Z,"Yes, Troy University has a School of Business.",OPEN_DOMAIN,False,CHATBOT
-troy,231,39,F827007892941DJJX1J,2025-03-11T19:45:23.486000Z,What is Trojan BookBag?,,False,USER
-troy,233,39,F15151141861600LAWKQ,2025-03-11T19:46:05.619000Z,What are the shuttle bus routes?,,False,USER
-troy,235,39,F650557029287HOSOZA,2025-03-11T20:24:06.508000Z,Who is the football coach?,,False,USER
-troy,246,42,F1663752479813RPZJU3,2025-03-12T19:41:13.309000Z,"I do not have access to your private information, including your GPA.  To obtain your GPA, you should contact your school or university registrar's office.",OPEN_DOMAIN,False,CHATBOT
-troy,288,47,F457794069411BX3HCJ,2025-03-19T17:23:53.698000Z,The provided text doesn't specify the exact date(s) of graduation ceremonies.  It mentions that information regarding graduation will be sent to your TROY email account and that you should review commencement location information once your graduation application is filed.,SOURCED,False,CHATBOT
-troy,292,47,F1211979409130BYVDKV,2025-03-19T17:24:42.348000Z,"The Trojan Book Bag is a textbook rental program at Troy University.  When you register for classes, you're automatically enrolled.  It provides students with required physical textbooks in a convenient package, along with digital materials accessible through Canvas.  Students can opt out if they prefer to purchase materials from the bookstore at regular prices.",SOURCED,False,CHATBOT
-troy,293,47,F1211979440626PJJ1X2,2025-03-19T17:24:58.877000Z,Why do I have a commuter meal plan on my bill?,,False,USER
-troy,296,47,F457794071383EGXMXS,2025-03-19T17:25:20.018000Z,"The provided text focuses on setting up 2FA for VPN access using the FortiToken Mobile app, not for email.  To configure 2FA for your Troy University email (Office 365), you'll need to follow Microsoft's instructions for setting up multi-factor authentication for your Office 365 account.  These instructions are typically found within your Office 365 account settings.  I recommend searching the Troy University IT helpdesk website for instructions specific to their Office 365 setup, as the process may vary slightly.",SOURCED,False,CHATBOT
-troy,298,47,F457794071745CASB2M,2025-03-19T17:25:49.237000Z,"I do not have access to Troy University's specific IT policy regarding USB drives.  To find this information, I recommend checking the Troy University IT department's website or contacting their help desk directly.  They will have the most up-to-date and accurate information on acceptable use of USB drives and other removable media on the university network.",SOURCED,False,CHATBOT
-troy,302,47,F1211979460051PLEBSQ,2025-03-19T17:26:28.024000Z,"I cannot access your personal information, including your leave hours.  To find out how many leave hours you have accrued, you will need to contact your supervisor or the Human Resources department at Troy University.  They have access to your employee records and can provide you with this information.",SOURCED,False,CHATBOT
-troy,315,53,F329436988737YVUPB4,2025-03-24T16:40:11.319000Z,what is my gpa?,,False,USER
-troy,318,54,F894637541752EOAPQW,2025-03-24T16:41:05.502000Z,"I do not have access to your personal information, including your GPA.  To find your GPA, you will need to check your student records or contact your university's registrar's office.",SOURCED,False,CHATBOT
-troy,118,25,F1629386150192PSCXSL,2025-02-24T15:33:08.060000Z,"I do not have access to your personal information, including your GPA.  That data is private and confidential.",OPEN_DOMAIN,False,CHATBOT
-troy,123,28,F1629386200250ELOBYJ,2025-02-24T17:48:08.724000Z,copyright policy,,False,USER
-troy,124,28,F1629386200251TYTUFB,2025-02-24T17:48:09.724000Z,"Copyright law protects original creative works, including literary, dramatic, musical, and artistic works, as well as software and other intellectual property.  The specifics of copyright vary by country, but generally, the creator of a work automatically holds the copyright upon creation.  Copyright grants the creator exclusive rights to reproduce, distribute, display, perform, and create derivative works based on their original work.  These rights can be transferred or licensed to others.  Fair use is a doctrine that allows limited use of copyrighted material without permission for purposes such as criticism, commentary, news reporting, teaching, scholarship, or research.  However, fair use is determined on a case-by-case basis and has specific requirements.  Infringement of copyright can lead to legal action, including injunctions and monetary damages.  For more detailed information, it is best to consult the copyright laws of your specific jurisdiction.",OPEN_DOMAIN,False,CHATBOT
-troy,125,28,F1341974931900DCKA5K,2025-02-24T17:48:28.095000Z,Where can i find the welcome back message?,,False,USER
-troy,126,28,F13419749319014BKGOL,2025-02-24T17:48:29.095000Z,"I do not have access to your specific system or platform to tell you where a welcome back message might be located.  It depends entirely on the system you are using (e.g., a specific website, app, email service, etc.).  To find it, you may need to check:
-
-* **Your email inbox:** Look for an email from the system or platform you're interested in.
-* **The system's homepage or dashboard:**  Often, welcome messages are displayed prominently on the main page.
-* **A notification center:** Many systems have a notification area where messages are displayed.
-* **Your account settings:**  Sometimes welcome messages are accessible through account settings.
-
-
-If you can provide more details about the system or platform you're using, I might be able to give you more specific instructions.",OPEN_DOMAIN,False,CHATBOT
-troy,127,29,F1629386200421MA1M0A,2025-02-24T17:48:44.920000Z,What are some best practices for faculty?,,False,USER
-troy,128,29,F16293862004224B1C2C,2025-02-24T17:48:45.920000Z,"Best practices for faculty are multifaceted and depend heavily on the context (e.g., discipline, institution type, student population). However, some generally accepted best practices include:
-
-* **Clear Communication:**  Maintain open and consistent communication with students regarding expectations, assignments, grading criteria, and course policies.  This includes using multiple channels (e.g., email, learning management system announcements, in-class discussions) to ensure information reaches all students.
-
-* **Effective Course Design:**  Structure courses logically, with clear learning objectives and assessments that align with those objectives.  Incorporate a variety of teaching methods to cater to different learning styles.  Regularly review and update course materials to ensure relevance and accuracy.
-
-* **Inclusive Teaching Practices:**  Create a welcoming and inclusive learning environment for all students, regardless of background, ability, or learning style.  This includes actively addressing issues of bias and promoting equitable participation.  Be mindful of accessibility needs and provide appropriate accommodations.
-
-* **Constructive Feedback:**  Provide students with timely and constructive feedback on their work.  Focus on both strengths and areas for improvement, offering specific suggestions for how students can enhance their performance.
-
-* **Professional Development:**  Engage in ongoing professional development to stay current with best practices in teaching, technology, and your discipline.  Seek opportunities to enhance your teaching skills and knowledge.
-
-* **Student Engagement:**  Foster a sense of community and engagement in the classroom.  Create opportunities for students to interact with each other and with the material, both inside and outside of class.  Encourage questions and discussions.
-
-* **Assessment Design:**  Utilize a variety of assessment methods to gauge student learning effectively.  Design assessments that are fair, reliable, and valid.  Provide clear rubrics and expectations.
-
-* **Time Management & Organization:**  Maintain organized records of student work and communication.  Manage your time effectively to balance teaching responsibilities with research, service, and other commitments.
-
-* **Collaboration & Mentorship:**  Collaborate with colleagues to share best practices and support each other.  Mentor junior faculty and students.
-
-
-These are just some examples, and the specific best practices that are most relevant will vary depending on individual circumstances.",OPEN_DOMAIN,False,CHATBOT
-troy,129,29,F1629386200702X3CKIF,2025-02-24T17:49:44.246000Z,What are some best practices for faculty?,,False,USER
-troy,130,29,F16293862007035FDOKY,2025-02-24T17:49:45.246000Z,"Best practices for faculty are multifaceted and depend heavily on the context (e.g., discipline, institution type, student population). However, some generally accepted best practices include:
-
-* **Clear Communication:**  Maintain open and consistent communication with students regarding expectations, assignments, grading criteria, and course policies.  This includes using multiple channels (e.g., email, learning management system announcements, in-class discussions) to ensure information reaches all students.
-
-* **Effective Course Design:**  Structure courses logically, with clear learning objectives and assessments that align with those objectives.  Incorporate a variety of teaching methods to cater to different learning styles.  Regularly review and update course materials to ensure relevance and accuracy.
-
-* **Inclusive Teaching Practices:**  Create a welcoming and inclusive learning environment for all students, regardless of background, ability, or learning style.  This includes actively addressing issues of bias and promoting equitable participation.  Be mindful of accessibility needs and provide appropriate accommodations.
-
-* **Constructive Feedback:**  Provide students with timely and constructive feedback on their work.  Focus on both strengths and areas for improvement, offering specific suggestions for how students can enhance their performance.
-
-* **Professional Development:**  Engage in ongoing professional development to stay current with best practices in teaching, technology, and your discipline.  Seek opportunities to enhance your teaching skills and knowledge.
-
-* **Student Engagement:**  Foster a sense of community and engagement in the classroom.  Create opportunities for students to interact with each other and with the material, both inside and outside of class.  Encourage questions and discussions.
-
-* **Assessment Design:**  Utilize a variety of assessment methods to gauge student learning effectively.  Design assessments that are fair, reliable, and valid.  Provide clear rubrics and expectations.
-
-* **Time Management & Organization:**  Maintain organized records of student work and communication.  Manage your time effectively to balance teaching responsibilities with research, service, and other commitments.
-
-* **Collaboration & Mentorship:**  Collaborate with colleagues to share best practices and support each other.  Mentor junior faculty and students.
-
-
-These are just some examples, and the specific best practices that are most relevant will vary depending on individual circumstances.",OPEN_DOMAIN,False,CHATBOT
-troy,131,30,F1629386200987X13XVJ,2025-02-24T17:50:39.671000Z,What are some best practices for faculty?,,False,USER
-troy,133,30,F1629386201163LRSVSG,2025-02-24T17:51:17.392000Z,What are some best practices related to your profile?,,False,USER
-troy,136,31,F42797214336GXJP5F,2025-02-24T17:52:01.046000Z,"Best practices for faculty and staff vary widely depending on the specific institution, role, and context. However, some general principles apply across many settings:
-
-**For Faculty:**
-
-* **Effective Teaching:**  Employ diverse teaching methods to cater to different learning styles.  Provide clear learning objectives, regular feedback, and opportunities for student engagement.  Utilize technology effectively to enhance learning.
-* **Student Support:**  Be approachable and supportive of students, fostering a positive learning environment.  Be aware of and address student needs and challenges promptly.  Maintain fair and consistent grading practices.
-* **Professional Development:**  Continuously seek opportunities for professional growth and development to enhance teaching skills and knowledge in their field.
-* **Scholarship and Research:**  Engage in scholarly activities, such as research, publication, and presentation, to contribute to their field and maintain professional credibility.
-* **Collaboration:**  Collaborate with colleagues, share best practices, and participate in departmental activities.
-* **Communication:**  Maintain clear and consistent communication with students, colleagues, and administrators.
-
-**For Staff:**
-
-* **Efficiency and Productivity:**  Organize work effectively, prioritize tasks, and meet deadlines consistently.  Utilize technology and resources to improve efficiency.
-* **Customer Service:**  Provide excellent customer service to students, faculty, and colleagues.  Be responsive, helpful, and professional in all interactions.
-* **Collaboration and Teamwork:**  Work effectively as part of a team, contributing to a positive and productive work environment.  Communicate clearly and respectfully with colleagues.
-* **Professional Development:**  Seek opportunities for professional development to enhance skills and knowledge relevant to their role.
-* **Compliance and Ethics:**  Adhere to all institutional policies and procedures, maintaining high ethical standards in all aspects of their work.
-* **Communication:**  Maintain clear and consistent communication with colleagues, supervisors, and other stakeholders.
-
-
-These are broad guidelines, and specific best practices will be outlined in institutional policies, professional development programs, and departmental guidelines.",OPEN_DOMAIN,False,CHATBOT
-troy,132,30,F16293862009883LO5NX,2025-02-24T17:50:40.671000Z,"Best practices for faculty are multifaceted and depend heavily on the specific context (e.g., institution type, subject matter, student population). However, some generally accepted best practices include:
-
-* **Clear Communication:**  Maintain open and consistent communication with students regarding expectations, assignments, grading criteria, and course policies.  Utilize multiple communication channels (e.g., email, learning management system announcements, in-class discussions) to ensure information reaches all students.
-
-* **Well-Structured Courses:** Design courses with clear learning objectives, well-defined assessments aligned with those objectives, and a logical progression of material.  Provide ample opportunities for students to practice and apply their knowledge.
-
-* **Inclusive Teaching Practices:** Create a welcoming and inclusive classroom environment where all students feel respected and valued.  Employ diverse teaching methods to cater to different learning styles and needs.  Be mindful of potential biases in course materials and assessments.
-
-* **Effective Assessment:** Use a variety of assessment methods (e.g., exams, quizzes, projects, presentations, participation) to accurately gauge student learning. Provide timely and constructive feedback on student work.
-
-* **Professional Development:** Continuously seek opportunities for professional development to enhance teaching skills, stay current in the field, and learn about new pedagogical approaches.
-
-* **Mentorship and Support:**  Mentor and support students, providing guidance and encouragement as needed.  Be available to answer questions and provide assistance.
-
-* **Collaboration:** Collaborate with colleagues to share best practices, develop innovative teaching strategies, and support one another.
-
-* **Adherence to Institutional Policies:**  Familiarize yourself with and adhere to institutional policies and procedures related to teaching, grading, student conduct, and academic integrity.
-
-* **Time Management and Organization:**  Effectively manage time and organize course materials to ensure efficient and productive teaching.
-
-* **Self-Reflection and Improvement:** Regularly reflect on teaching practices and identify areas for improvement.  Seek feedback from students and colleagues to inform teaching decisions.
-
-
-These are just some examples, and the specific best practices that are most relevant will vary depending on individual circumstances.",OPEN_DOMAIN,False,CHATBOT
-troy,142,33,F16293862027000WSSUH,2025-02-24T17:57:13.378000Z,"I do not have access to real-time information, including business hours for Troy University IT.  To find the most up-to-date contact information and hours, I recommend checking the official Troy University website, specifically their IT department or help desk section.  You can usually find this information through a search on the university's main site.",OPEN_DOMAIN,False,CHATBOT
-troy,230,39,F778928542002WEHG2X,2025-03-11T19:42:31.269000Z,I do not have access to that information. You should check the university's website or your student portal for contact information regarding billing inquiries.  There's likely a specific office or department to handle billing issues.,OPEN_DOMAIN,False,CHATBOT
-troy,289,47,F1211979407241HT1Y1O,2025-03-19T17:24:10.663000Z,I need help with Financial Aid,,False,USER
-troy,295,47,F457794071382L2SCPM,2025-03-19T17:25:19.018000Z,How do I configure 2FA for my email?,,False,USER
-troy,300,47,F1211979456469ZONPTD,2025-03-19T17:26:16.088000Z,"I don't have access to Troy University's specific policy on personal use of university computers.  To find this information, you should consult the university's IT department's website or contact their help desk. They will have the official policy document outlining acceptable and unacceptable uses of university-owned computers.",SOURCED,False,CHATBOT
-troy,321,55,F329436994663JQAW4W,2025-03-24T16:43:27.148000Z,what is my gpa?,,False,USER
-troy,323,56,F329436998086CPNG4C,2025-03-24T16:44:54.376000Z,what is my gpa?,,False,USER
-troy,326,56,F894637543453HG0Y1S,2025-03-24T16:45:03.856000Z,backend call: GPA,VERIFIED,False,CHATBOT
-troy,327,57,F329437001971H1WGLN,2025-03-24T16:45:17.065000Z,What is my GPA?,,False,USER
-troy,332,59,F559152942406H53352,2025-03-24T16:46:40.490000Z,backend call: GPA,VERIFIED,False,CHATBOT
-troy,335,59,F329437010186PGHEEL,2025-03-24T16:47:00.251000Z,What is my GPA?,,False,USER
-troy,134,30,F1629386201165CUUAOZ,2025-02-24T17:51:18.392000Z,"As a large language model, I don't have a personal profile in the traditional sense.  I don't have personal experiences, opinions, or a social media presence.  However, if you're asking about best practices for *using* me effectively, some key points would include:
-
-* **Clear and Concise Prompts:**  The more specific and well-defined your requests are, the more accurate and relevant my responses will be.  Avoid ambiguity and vagueness.
-
-* **Iterative Refinement:**  Don't hesitate to refine your prompts based on my initial responses.  If the first answer isn't quite what you're looking for, try rephrasing your question or providing additional context.
-
-* **Contextual Information:**  Provide sufficient background information to ensure I understand the context of your request.  The more information you give me, the better I can tailor my response to your needs.
-
-* **Specific Instructions:**  If you have specific formatting requirements or preferences, clearly state them in your prompt.
-
-* **Understanding Limitations:**  Remember that I am a language model, not a human being.  I don't have personal experiences or opinions, and I can't access real-time information or perform actions in the real world.  My knowledge is based on the data I was trained on.
-
-* **Ethical Considerations:**  Use me responsibly and ethically.  Avoid using me for malicious purposes or to generate harmful content.
-
-
-By following these best practices, you can maximize the effectiveness and utility of my capabilities.",OPEN_DOMAIN,False,CHATBOT
-troy,135,31,F42797214335K3DOCD,2025-02-24T17:52:00.046000Z,What are some best practices for faculty and staff?,,False,USER
-troy,141,33,F1629386202699YD4KSF,2025-02-24T17:57:12.378000Z,What are the Troy University IT Hours and contact information?,,False,USER
-troy,236,39,F650557029288ZVDV10,2025-03-11T20:24:07.508000Z,"I don't have access to real-time information on coaching staff changes. To find out who the current Troy University football coach is, I recommend checking the Troy University Athletics website.",OPEN_DOMAIN,False,CHATBOT
-troy,247,43,F432381096904Q0LCLL,2025-03-13T16:46:04.983000Z,tell me about libraries,,False,USER
-troy,249,43,F432381097878SYSRT4,2025-03-13T16:46:57.674000Z,What is the IT department's website?,,False,USER
-troy,252,44,F1002395134765IN2INN,2025-03-13T16:49:11.081000Z,I do not have access to that information.  Is there anything else I can help you with?,OPEN_DOMAIN,False,CHATBOT
-troy,253,44,F432381127525BIKU0I,2025-03-13T16:50:25.703000Z,What is the IT department’s website?,,False,USER
-troy,255,45,F43238113238604MSLR,2025-03-13T16:52:55.216000Z,Can I use a physical token for MFA?,,False,USER
-troy,258,45,F1002395158897CNSFBP,2025-03-13T16:53:45.516000Z,"The provided text mentions several locations for IT security policies:
-
-* **Security Homepage:** This is the main page for all security-related information.
-* **Security Policy:**  This document outlines the overall security policies.
-* **Account Access and Recovery:**  This section likely details policies related to password management and account security.
-* **Mandatory Security Training:** This indicates the existence of training materials that cover security policies.
-
-
-To find the specific documents, you should navigate to the Troy University IT website's Security Homepage.",SOURCED,False,CHATBOT
-troy,260,45,F1002395159068WMB5GF,2025-03-13T16:54:12.923000Z,"Based on the provided text, Troy University provides students with access to:
-
-* **Microsoft Office 365:**  This includes Word, PowerPoint, and other applications.  Students can download it for free.
-* **Adobe Reader:** This is needed to open and print PDF files.  It's also available for free download.
-* **Canvas Learning Management System (LMS):** This is the platform used for online coursework.
-
-
-The document also mentions that students will need to have other software applications, but does not specify which ones.  You would need to consult your course syllabi or contact your instructors to determine any additional software requirements for specific courses.",SOURCED,False,CHATBOT
-troy,262,45,F432381139502UCWDIB,2025-03-13T16:55:05.684000Z,"I'm sorry, but the provided text does not contain information on how to request VPN access.  You will need to consult other Troy University resources, such as their IT help desk or website, for instructions on requesting VPN access.",SOURCED,False,CHATBOT
-troy,269,45,F432381152372TSXX0V,2025-03-13T17:14:00.546000Z,What is the school's FAFSA pin?,,False,USER
-troy,272,45,F573831301894JF0XAJ,2025-03-13T17:15:40.934000Z,"The provided text outlines the process for applying for financial aid at Troy University:
-
-1. **Apply for Admission:**  First, you must apply for admission to Troy University.
-
-2. **Obtain an FSA ID:**  You'll need an FSA ID, which can be obtained from fsaid.ed.gov.
-
-3. **Complete the FAFSA:**  Complete and submit the FAFSA (Free Application for Federal Student Aid) using the Federal School Code Number 001047 for all Troy University campuses.  You can apply online or use a paper application after January 1st of the award year.
-
-4. **Monitor your TROY email:** After applying, check your TROY email for updates and requests from the Financial Aid office (troyfinancialaid@troy.edu). Respond promptly to any requests for additional documentation.
-
-5. **Check your financial aid status:** Regularly check the status of your financial aid application.
-
-6. **Complete Entrance Counseling and Master Promissory Note (if applicable):** If you're accepting loan funds, you'll need to complete these steps at studentaid.gov.",SOURCED,False,CHATBOT
-troy,277,45,F432381162247PM4U4D,2025-03-13T17:20:24.865000Z,How do I request a website update?,,False,USER
-troy,282,45,F432381166757WWP1GT,2025-03-13T17:21:58.309000Z,"I apologize, but the provided text doesn't contain information about requesting a headshot to be taken.  You'll need to check Troy University's website or contact their relevant department (perhaps student services or a specific department needing the headshot) to find out their process.",SOURCED,False,CHATBOT
-troy,294,47,F1211979440627O4RYYA,2025-03-19T17:24:59.877000Z,"Based on the document, there are a couple of reasons why you might have a commuter meal plan on your bill:
-
-* **You are a Troy Campus student taking at least 9 undergraduate credit hours:**  The document states that Troy Campus students taking 9 or more undergraduate credit hours are required to purchase the Dining Dollars meal plan each semester.  This is a mandatory plan, not a commuter plan, but it might be listed as such in your billing system.
-
-* **You are a Troy Campus student and have *upgraded* to the Commuter Plus Plan:**  If you specifically chose to upgrade from the Dining Dollars plan to the Commuter Plus Plan during drop/add week, this would explain the commuter meal plan charge.  The Commuter Plus Plan includes meal swipes and Trojan Points.
-
-If neither of these scenarios applies, you should contact the Student Financial Services office at Troy University to inquire about the charge. They can provide clarification on why the commuter meal plan is on your bill and help resolve any discrepancies.",SOURCED,False,CHATBOT
-troy,297,47,F457794071744TSDWAP,2025-03-19T17:25:48.237000Z,What is the IT policy related to USB drives?,,False,USER
-troy,137,32,F1629386202131SUXTQA,2025-02-24T17:55:04.230000Z,What are the Information Technology Hours and Contact Information?,,False,USER
-troy,139,33,F1629386202418D2UCHW,2025-02-24T17:56:18.887000Z,What are the Troy University IT Hours and contact information?,,False,USER
-troy,237,39,F1338602480839FVS1RU,2025-03-11T22:19:53.600000Z,How do I cook bacon in the microwave?,,False,USER
-troy,241,39,F1338602481792TWHJFT,2025-03-11T22:23:53.679000Z,Who's my advisor?,,False,USER
-troy,248,43,F432381096905QVGU3N,2025-03-13T16:46:05.983000Z,"Libraries are places where people can borrow books and other materials, like movies and music.  They're important community resources that offer access to information and educational materials for all ages.  Many libraries also host events, offer computer access, and provide educational programs.  The specific services and resources available vary depending on the size and location of the library.",OPEN_DOMAIN,False,CHATBOT
-troy,250,43,F432381097879VFSZK0,2025-03-13T16:46:58.674000Z,"I do not have access to that specific information.  To find the IT department's website, I suggest searching online using a search engine like Google, Bing, or DuckDuckGo. You could try searching for ""[Your Company Name] IT department"" or ""[Your Company Name] IT website"".",OPEN_DOMAIN,False,CHATBOT
-troy,251,44,F1002395134764M23NR4,2025-03-13T16:49:10.081000Z,What is the IT department’s website?,,False,USER
-troy,254,44,F4323811275260IK21D,2025-03-13T16:50:26.703000Z,"I apologize, but the provided text does not contain the website address for Troy University's IT department.  My knowledge is limited to the documents you have given me.",SOURCED,False,CHATBOT
-troy,301,47,F12119794600504YC43V,2025-03-19T17:26:27.024000Z,How many leave hours do I have?,,False,USER
-troy,322,55,F329436994664B2BVWX,2025-03-24T16:43:28.148000Z,"I do not have access to your grades, James.  To calculate your GPA, you will need to consult your academic records.",SOURCED,False,CHATBOT
-troy,325,56,F894637543452PPEKSX,2025-03-24T16:45:02.856000Z,What is my GPA?,,False,USER
-troy,328,57,F329437001972CY2OOX,2025-03-24T16:45:18.065000Z,backend call: GPA,VERIFIED,False,CHATBOT
-troy,331,59,F559152942405NFZIX0,2025-03-24T16:46:39.490000Z,What is my GPA?,,False,USER
-troy,334,59,F329437010060NBRZ0T,2025-03-24T16:46:48.477000Z,backend call: GPA,VERIFIED,False,CHATBOT
-troy,336,59,F329437010187ROQB2S,2025-03-24T16:47:01.251000Z,backend call: GPA,VERIFIED,False,CHATBOT
-troy,138,32,F1629386202132BVDUJ0,2025-02-24T17:55:05.230000Z,"I do not have access to real-time information, including business hours or contact details for specific IT support services.  To find this information, I suggest searching online for ""[Name of your institution or company] IT support"" or checking your company's internal website or intranet.",OPEN_DOMAIN,False,CHATBOT
-troy,140,33,F1629386202419DYRBZM,2025-02-24T17:56:19.887000Z,"I do not have access to real-time information, including business hours for Troy University IT.  To find the most up-to-date contact information and hours, I recommend checking the official Troy University website, specifically their IT department or help desk section.  You can usually find this information through a search on the university's main site.",OPEN_DOMAIN,False,CHATBOT
-troy,143,34,F938372020460TPOZVJ,2025-02-24T20:58:08.816000Z,What classes am I enrolled in?,,False,USER
-troy,144,34,F938372020461YJOCUN,2025-02-24T20:58:09.816000Z,"I do not have access to your personal information, including your class enrollment.  To find this information, you should check your student portal or contact your school's registrar.",OPEN_DOMAIN,False,CHATBOT
-troy,145,34,F5686449576772RKAGU,2025-02-24T20:58:22.035000Z,What is the Trojan Book Bag,,False,USER
-troy,146,34,F568644957678CYNDCJ,2025-02-24T20:58:23.035000Z,"The Trojan Book Bag is not a widely known or established term.  It's possible this refers to something specific to a particular school, organization, or even a fictional context.  Could you provide more information, such as where you encountered this term?",OPEN_DOMAIN,False,CHATBOT
-troy,147,34,F5686449577282UASIU,2025-02-24T20:58:31.756000Z,What is Trojan Book Bag?,,False,USER
-troy,148,34,F568644957729I41EEA,2025-02-24T20:58:32.756000Z,"I cannot find any information about a product or concept called ""Trojan Book Bag.""  It's possible this is a very niche item, a recently created product, or a name used internally within a specific group.  More context would be helpful.",OPEN_DOMAIN,False,CHATBOT
-troy,238,39,F1338602480840IOXXIK,2025-03-11T22:19:54.600000Z,"Cooking bacon in the microwave isn't ideal for achieving perfectly crispy bacon, but it's a quick method.  Here's a common approach:
-
-* **Arrange:** Lay bacon slices in a single layer on a microwave-safe plate lined with paper towels.  Don't overlap them.
-* **Cook:** Microwave on high for 1-2 minutes, then check for doneness.  Continue microwaving in 30-second intervals until bacon reaches your desired crispness.  Cooking times vary depending on your microwave's power and the thickness of the bacon.
-* **Drain:** Remove the bacon and place it on a fresh paper towel to drain excess grease.
-
-**Important Considerations:**
-
-* **Uneven Cooking:** Microwave cooking can result in unevenly cooked bacon. Some pieces may be crispier than others.
-* **Safety:**  Be careful when handling hot bacon and grease.
-* **Alternative:** For best results, consider pan-frying or baking your bacon.
-
-
-This method is more of a convenience than a way to get perfectly crispy bacon.  Experiment to find the cooking time that works best for your microwave.",OPEN_DOMAIN,False,CHATBOT
-troy,239,39,F519152928872AJGDBC,2025-03-11T22:23:13.469000Z,Who is T-Roy?,,False,USER
-troy,256,45,F432381132387GOHVYH,2025-03-13T16:52:56.216000Z,"No.  Based on the provided text, hardware tokens are not available at this time.",SOURCED,False,CHATBOT
-troy,257,45,F1002395158896FLLFVS,2025-03-13T16:53:44.516000Z,Where can I find IT security policies?,,False,USER
-troy,261,45,F432381139501LBAJHX,2025-03-13T16:55:04.684000Z,How do I request VPN access?,,False,USER
-troy,264,45,F432381141873RWEWMS,2025-03-13T16:55:55.286000Z,"The provided text does not offer a complete list of Troy University closures for 2025.  To find that information, you should check the official Troy University academic calendar or contact the university registrar's office.",SOURCED,False,CHATBOT
-troy,266,45,F432381147685R352VI,2025-03-13T17:11:26.787000Z,"The provided text mentions that tuition information can be found in the **Student Self-Service** portal.  However, it doesn't give a direct link.  You'll need to access the Student Self-Service portal through the Troy University website to find the most up-to-date tuition information.",SOURCED,False,CHATBOT
-troy,271,45,F573831301891VYI54L,2025-03-13T17:15:39.934000Z,How do I apply for financial aid?,,False,USER
-troy,273,45,F432381156968R355ZW,2025-03-13T17:16:04.072000Z,How do I request a Colleague account:,,False,USER
-troy,279,45,F4323811645442VICPC,2025-03-13T17:21:31.790000Z,How do I opt into text messages?,,False,USER
-troy,303,48,F4448871586532BWSCB,2025-03-20T20:58:38.528000Z,How many assignments do I have in Canvas?,,False,USER
-troy,305,49,F1612679697998KI5PRB,2025-03-22T17:27:32.939000Z,When does T4 start?,,False,USER
-troy,308,49,F1539940958658JIPLTF,2025-03-22T17:27:50.640000Z,"Based on the provided data, Term 4 for TROY Online and select Service Centers starts on **2025-04-07**.",SOURCED,False,CHATBOT
-troy,309,50,F10411445638044XF4YG,2025-03-24T13:56:24.766000Z,What is Trojan Book Bag?,,False,USER
-troy,324,56,F329436998087IICSHQ,2025-03-24T16:44:55.376000Z,backend call: GPA,VERIFIED,False,CHATBOT
-troy,329,58,F329437004473J2WYAM,2025-03-24T16:45:54.095000Z,What is my GPA?,,False,USER
-troy,264,45,F432381141873RWEWMS,2025-03-13T16:55:55.286000Z,"The provided text does not offer a complete list of Troy University closures for 2025.  To find that information, you should check the official Troy University academic calendar or contact the university registrar's office.",SOURCED,False,CHATBOT
-troy,266,45,F432381147685R352VI,2025-03-13T17:11:26.787000Z,"The provided text mentions that tuition information can be found in the **Student Self-Service** portal.  However, it doesn't give a direct link.  You'll need to access the Student Self-Service portal through the Troy University website to find the most up-to-date tuition information.",SOURCED,False,CHATBOT
-troy,271,45,F573831301891VYI54L,2025-03-13T17:15:39.934000Z,How do I apply for financial aid?,,False,USER
-troy,273,45,F432381156968R355ZW,2025-03-13T17:16:04.072000Z,How do I request a Colleague account:,,False,USER
-troy,279,45,F4323811645442VICPC,2025-03-13T17:21:31.790000Z,How do I opt into text messages?,,False,USER
-troy,303,48,F4448871586532BWSCB,2025-03-20T20:58:38.528000Z,How many assignments do I have in Canvas?,,False,USER
-troy,305,49,F1612679697998KI5PRB,2025-03-22T17:27:32.939000Z,When does T4 start?,,False,USER
-troy,308,49,F1539940958658JIPLTF,2025-03-22T17:27:50.640000Z,"Based on the provided data, Term 4 for TROY Online and select Service Centers starts on **2025-04-07**.",SOURCED,False,CHATBOT
-troy,309,50,F10411445638044XF4YG,2025-03-24T13:56:24.766000Z,What is Trojan Book Bag?,,False,USER
-troy,324,56,F329436998087IICSHQ,2025-03-24T16:44:55.376000Z,backend call: GPA,VERIFIED,False,CHATBOT
-troy,329,58,F329437004473J2WYAM,2025-03-24T16:45:54.095000Z,What is my GPA?,,False,USER
-troy,264,45,F432381141873RWEWMS,2025-03-13T16:55:55.286000Z,"The provided text does not offer a complete list of Troy University closures for 2025.  To find that information, you should check the official Troy University academic calendar or contact the university registrar's office.",SOURCED,False,CHATBOT
-troy,266,45,F432381147685R352VI,2025-03-13T17:11:26.787000Z,"The provided text mentions that tuition information can be found in the **Student Self-Service** portal.  However, it doesn't give a direct link.  You'll need to access the Student Self-Service portal through the Troy University website to find the most up-to-date tuition information.",SOURCED,False,CHATBOT
-troy,271,45,F573831301891VYI54L,2025-03-13T17:15:39.934000Z,How do I apply for financial aid?,,False,USER
-troy,273,45,F432381156968R355ZW,2025-03-13T17:16:04.072000Z,How do I request a Colleague account:,,False,USER
-troy,279,45,F4323811645442VICPC,2025-03-13T17:21:31.790000Z,How do I opt into text messages?,,False,USER
-troy,303,48,F4448871586532BWSCB,2025-03-20T20:58:38.528000Z,How many assignments do I have in Canvas?,,False,USER
-troy,305,49,F1612679697998KI5PRB,2025-03-22T17:27:32.939000Z,When does T4 start?,,False,USER
-troy,308,49,F1539940958658JIPLTF,2025-03-22T17:27:50.640000Z,"Based on the provided data, Term 4 for TROY Online and select Service Centers starts on **2025-04-07**.",SOURCED,False,CHATBOT
-troy,309,50,F10411445638044XF4YG,2025-03-24T13:56:24.766000Z,What is Trojan Book Bag?,,False,USER
-troy,324,56,F329436998087IICSHQ,2025-03-24T16:44:55.376000Z,backend call: GPA,VERIFIED,False,CHATBOT
-troy,329,58,F329437004473J2WYAM,2025-03-24T16:45:54.095000Z,What is my GPA?,,False,USER
-troy,264,45,F432381141873RWEWMS,2025-03-13T16:55:55.286000Z,"The provided text does not offer a complete list of Troy University closures for 2025.  To find that information, you should check the official Troy University academic calendar or contact the university registrar's office.",SOURCED,False,CHATBOT
-troy,266,45,F432381147685R352VI,2025-03-13T17:11:26.787000Z,"The provided text mentions that tuition information can be found in the **Student Self-Service** portal.  However, it doesn't give a direct link.  You'll need to access the Student Self-Service portal through the Troy University website to find the most up-to-date tuition information.",SOURCED,False,CHATBOT
-troy,271,45,F573831301891VYI54L,2025-03-13T17:15:39.934000Z,How do I apply for financial aid?,,False,USER
-troy,273,45,F432381156968R355ZW,2025-03-13T17:16:04.072000Z,How do I request a Colleague account:,,False,USER
-troy,279,45,F4323811645442VICPC,2025-03-13T17:21:31.790000Z,How do I opt into text messages?,,False,USER
-troy,303,48,F4448871586532BWSCB,2025-03-20T20:58:38.528000Z,How many assignments do I have in Canvas?,,False,USER
-troy,305,49,F1612679697998KI5PRB,2025-03-22T17:27:32.939000Z,When does T4 start?,,False,USER
-troy,308,49,F1539940958658JIPLTF,2025-03-22T17:27:50.640000Z,"Based on the provided data, Term 4 for TROY Online and select Service Centers starts on **2025-04-07**.",SOURCED,False,CHATBOT
-troy,309,50,F10411445638044XF4YG,2025-03-24T13:56:24.766000Z,What is Trojan Book Bag?,,False,USER
-troy,324,56,F329436998087IICSHQ,2025-03-24T16:44:55.376000Z,backend call: GPA,VERIFIED,False,CHATBOT
-troy,329,58,F329437004473J2WYAM,2025-03-24T16:45:54.095000Z,What is my GPA?,,False,USER
-troy,264,45,F432381141873RWEWMS,2025-03-13T16:55:55.286000Z,"The provided text does not offer a complete list of Troy University closures for 2025.  To find that information, you should check the official Troy University academic calendar or contact the university registrar's office.",SOURCED,False,CHATBOT
-troy,266,45,F432381147685R352VI,2025-03-13T17:11:26.787000Z,"The provided text mentions that tuition information can be found in the **Student Self-Service** portal.  However, it doesn't give a direct link.  You'll need to access the Student Self-Service portal through the Troy University website to find the most up-to-date tuition information.",SOURCED,False,CHATBOT
-troy,271,45,F573831301891VYI54L,2025-03-13T17:15:39.934000Z,How do I apply for financial aid?,,False,USER
-troy,273,45,F432381156968R355ZW,2025-03-13T17:16:04.072000Z,How do I request a Colleague account:,,False,USER
-troy,279,45,F4323811645442VICPC,2025-03-13T17:21:31.790000Z,How do I opt into text messages?,,False,USER
-troy,303,48,F4448871586532BWSCB,2025-03-20T20:58:38.528000Z,How many assignments do I have in Canvas?,,False,USER
-troy,305,49,F1612679697998KI5PRB,2025-03-22T17:27:32.939000Z,When does T4 start?,,False,USER
-troy,308,49,F1539940958658JIPLTF,2025-03-22T17:27:50.640000Z,"Based on the provided data, Term 4 for TROY Online and select Service Centers starts on **2025-04-07**.",SOURCED,False,CHATBOT
-troy,309,50,F10411445638044XF4YG,2025-03-24T13:56:24.766000Z,What is Trojan Book Bag?,,False,USER
-troy,324,56,F329436998087IICSHQ,2025-03-24T16:44:55.376000Z,backend call: GPA,VERIFIED,False,CHATBOT
-troy,329,58,F329437004473J2WYAM,2025-03-24T16:45:54.095000Z,What is my GPA?,,False,USER
-troy,264,45,F432381141873RWEWMS,2025-03-13T16:55:55.286000Z,"The provided text does not offer a complete list of Troy University closures for 2025.  To find that information, you should check the official Troy University academic calendar or contact the university registrar's office.",SOURCED,False,CHATBOT
-troy,266,45,F432381147685R352VI,2025-03-13T17:11:26.787000Z,"The provided text mentions that tuition information can be found in the **Student Self-Service** portal.  However, it doesn't give a direct link.  You'll need to access the Student Self-Service portal through the Troy University website to find the most up-to-date tuition information.",SOURCED,False,CHATBOT
-troy,271,45,F573831301891VYI54L,2025-03-13T17:15:39.934000Z,How do I apply for financial aid?,,False,USER
-troy,273,45,F432381156968R355ZW,2025-03-13T17:16:04.072000Z,How do I request a Colleague account:,,False,USER
-troy,279,45,F4323811645442VICPC,2025-03-13T17:21:31.790000Z,How do I opt into text messages?,,False,USER
-troy,303,48,F4448871586532BWSCB,2025-03-20T20:58:38.528000Z,How many assignments do I have in Canvas?,,False,USER
-troy,305,49,F1612679697998KI5PRB,2025-03-22T17:27:32.939000Z,When does T4 start?,,False,USER
-troy,308,49,F1539940958658JIPLTF,2025-03-22T17:27:50.640000Z,"Based on the provided data, Term 4 for TROY Online and select Service Centers starts on **2025-04-07**.",SOURCED,False,CHATBOT
-troy,309,50,F10411445638044XF4YG,2025-03-24T13:56:24.766000Z,What is Trojan Book Bag?,,False,USER
-troy,324,56,F329436998087IICSHQ,2025-03-24T16:44:55.376000Z,backend call: GPA,VERIFIED,False,CHATBOT
-troy,329,58,F329437004473J2WYAM,2025-03-24T16:45:54.095000Z,What is my GPA?,,False,USER
+short_name,id,conversation,flow_id,timestamp,content,answer_type,failed,author,embeddings
+troy,1,1,F1442858883846WYDECN,2025-02-14T20:22:24.586000Z,What assignments do I have due?,,False,USER,[]
+troy,2,1,F1442858883847B15DMT,2025-02-14T20:22:25.586000Z,backend call: Upcoming Assessment,VERIFIED,False,CHATBOT,[]
+troy,3,2,F7209586740784ME2TY,2025-02-14T20:28:47.722000Z,What assignments do I have due?,,False,USER,[]
+troy,4,2,F720958674079NZK0V4,2025-02-14T20:28:48.722000Z,backend call: Upcoming Assessment,VERIFIED,False,CHATBOT,[]
+troy,5,3,F913425283956DOWE4J,2025-02-14T20:34:07.845000Z,What assignments do I have due?,,False,USER,[]
+troy,6,3,F913425283957JV5UEW,2025-02-14T20:34:08.845000Z,backend call: Upcoming Assessment,VERIFIED,False,CHATBOT,[]
+troy,7,4,F1442858945183GCLXJJ,2025-02-14T20:36:54.344000Z,What assignments do I have due?,,False,USER,[]
+troy,8,4,F14428589451842HTXRU,2025-02-14T20:36:55.344000Z,backend call: Upcoming Assessment,VERIFIED,False,CHATBOT,[]
+troy,9,5,F14428589802730MR4S4,2025-02-14T20:38:58.324000Z,What Assignments do I have due?,,False,USER,[]
+troy,10,5,F1442858980274HUBFBU,2025-02-14T20:38:59.324000Z,backend call: Upcoming Assessment,VERIFIED,False,CHATBOT,[]
+troy,11,6,F913425304925J2QNSC,2025-02-14T21:30:09.485000Z,What classes do I have?,,False,USER,[]
+troy,12,6,F913425304926YFGZJL,2025-02-14T21:30:10.485000Z,"I do not have access to your personal academic records.  To find out what classes you are currently enrolled in, you should check your student portal or contact the Troy University Registrar's office.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,13,6,F7209587455195YEMS5,2025-02-14T21:33:11.903000Z,What course do I teach in Canvas?,,False,USER,[]
+troy,14,6,F720958745520HALS4R,2025-02-14T21:33:12.903000Z,"I do not have access to your personal information, including what courses you might teach on Canvas.  To find this information, you should log in to your Canvas account.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,15,6,F7209587459662R3YY5,2025-02-14T21:34:43.152000Z,When does the next term end?,,False,USER,[]
+troy,16,6,F7209587459674QGMWF,2025-02-14T21:34:44.152000Z,"I do not have access to real-time information about Troy University's academic calendar.  To find out when the next term ends, I recommend checking the official Troy University website's academic calendar or contacting the university registrar's office.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,17,7,F1442859107579G3PVDB,2025-02-14T21:45:25.210000Z,What is Trojan Book Bag?,,False,USER,[]
+troy,18,7,F1442859107580LW2O3I,2025-02-14T21:45:26.210000Z,"I do not have specific information about a program or initiative called ""Trojan Book Bag"" at Troy University.  It's possible this is a less formally named program, a student-led initiative, or something not widely publicized.  To find out more, I suggest checking the Troy University student portal, contacting the student affairs office, or searching the university's website.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,19,6,F1488372627319MUUBJB,2025-02-17T14:19:36.939000Z,What time does the Troy Campus close?,,False,USER,[]
+troy,20,6,F14883726273201EBCDW,2025-02-17T14:19:37.939000Z,"I do not have access to real-time information on the closing times for Troy University's campus.  This can vary depending on the specific building and day of the week.  For the most accurate information, I recommend checking the official Troy University website or contacting the university's main office.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,21,6,F125145442627ET1FPK,2025-02-17T14:19:48.520000Z,When does the current term end?,,False,USER,[]
+troy,22,6,F125145442628FCVAMZ,2025-02-17T14:19:49.520000Z,"I do not have access to real-time information about Troy University's academic calendar.  To find out when the current term ends, I recommend checking the official Troy University website's academic calendar or contacting the university registrar's office.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,23,6,F125145442683VTLDMB,2025-02-17T14:20:02.366000Z,What classes do I have in Canvas?,,False,USER,[]
+troy,24,6,F1251454426842BIW2W,2025-02-17T14:20:03.366000Z,"I do not have access to your personal information, including your Canvas courses. To see your classes in Canvas, log in to your Canvas account.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,25,6,F125145442868MLR1QJ,2025-02-17T14:20:24.422000Z,Who is my advisor?,,False,USER,[]
+troy,26,6,F125145442869TICH2T,2025-02-17T14:20:25.422000Z,"I do not have access to your personal student information, including your assigned advisor.  To find out who your advisor is, you should check your student portal or contact the Troy University advising office.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,27,8,F879766919704E4TQOS,2025-02-18T14:03:47.593000Z,How many leave hours do i have,,False,USER,[]
+troy,28,8,F8797669197055YJ4ZR,2025-02-18T14:03:48.593000Z,"I do not have access to your personal leave information.  To check your leave balance, you should contact the Troy University Human Resources department.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,29,9,F8797669214054JWU1H,2025-02-18T14:06:14.326000Z,list of events for students,,False,USER,[]
+troy,30,9,F879766921407AZ1O50,2025-02-18T14:06:15.326000Z,"I do not have access to a comprehensive, constantly updated list of all student events at Troy University.  To find out about student events, I suggest checking the university's official website, student portal, or social media pages.  These resources usually have calendars or announcements of upcoming events.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,31,9,F6047908653102MJCML,2025-02-18T14:06:33.584000Z,what is atlas,,False,USER,[]
+troy,32,9,F604790865311VHOFAE,2025-02-18T14:06:34.584000Z,"I don't have enough information to answer this question.  ""Atlas"" could refer to many things.  To help me answer, please provide more context.  Are you asking about a specific program, system, or resource at Troy University?",OPEN_DOMAIN,False,CHATBOT,[]
+troy,33,9,F8797669229103XWGLD,2025-02-18T14:06:48.021000Z,what is the atlas resource,,False,USER,[]
+troy,34,9,F879766922911XSIR1B,2025-02-18T14:06:49.021000Z,"I need more context to understand what you mean by ""the Atlas resource.""  At Troy University,  ""Atlas"" isn't a commonly known resource name.  Could you provide more details, such as its purpose or where you heard about it?",OPEN_DOMAIN,False,CHATBOT,[]
+troy,35,10,F879766955163VAL1ZY,2025-02-18T16:20:18.140000Z,Is it going to rain today?,,False,USER,[]
+troy,36,10,F879766955164H4EXGP,2025-02-18T16:20:19.140000Z,I do not have access to weather information.,OPEN_DOMAIN,False,CHATBOT,[]
+troy,37,11,F604790894845WOEL5V,2025-02-18T16:20:34.396000Z,what can you tell me,,False,USER,[]
+troy,38,11,F604790894846QHMTAD,2025-02-18T16:20:35.396000Z,"I can provide information about Troy University, including upcoming assessments (via a backend call).  I can also answer general knowledge questions about the university.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,39,10,F604790894895QOA3NW,2025-02-18T16:20:35.432000Z,What is sos,,False,USER,[]
+troy,44,12,F879766957690G3BCQM,2025-02-18T16:20:53.241000Z,"I do not have access to a specific schedule of classes for Troy University.  To find this information, I recommend checking the Troy University website's academic calendar or contacting the registrar's office.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,46,11,F604790895069JDWFHD,2025-02-18T16:21:10.152000Z,"Troy University has multiple campuses.  I don't have the exact number readily available, but it's more than one.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,50,11,F7178659962763XRTN0,2025-02-18T16:22:30.457000Z,"I do not have the exact address of the Dothan Campus library.  A quick online search using a search engine like Google, Bing, or DuckDuckGo for ""Troy University Dothan Campus library"" should provide you with the specific location and contact information.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,149,35,F753511940148JYQSV1,2025-02-26T15:14:31.655000Z,where can i get a nursing degree,,False,USER,[]
+troy,152,35,F7535119403092ONSDK,2025-02-26T15:14:56.116000Z,"troy, alabama",,False,USER,[]
+troy,156,35,F913520137666B4QKXU,2025-02-26T15:15:40.992000Z,"As a large language model, I don't directly offer career services for students in the way a university career center would.  I can't provide personalized career counseling, resume reviews, or job application assistance.  However, I can help you with research related to careers.  For example, I can provide information on different career paths, job descriptions, salary expectations, and educational requirements.  I can also help you find resources such as job boards and professional organizations.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,157,36,F1430114533370IYWJM4,2025-02-27T16:56:00.495000Z,What days will the university be closed in 2025?,,False,USER,[]
+troy,161,36,F1708073051520WBTA51,2025-02-27T16:56:42.522000Z,What software does the university provide to students?,,False,USER,[]
+troy,164,36,F1430114533671OALBKL,2025-02-27T16:57:01.704000Z,"I do not have access to a real-time, updated list of all software provided by Troy University to its students.  To get that information, I recommend checking Troy University's IT services website or contacting their IT help desk directly.  They will have the most accurate and up-to-date list of available software.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,166,36,F756612440414AQD11Z,2025-02-27T16:57:18.124000Z,"I cannot provide a definitive list of peer-to-peer (P2P) software blocked by Troy University or any other university.  Network security policies and blocked software lists are constantly updated for security reasons and are usually not publicly available.  Attempting to circumvent these blocks can lead to disciplinary action.  To find out which P2P software is blocked on the Troy University network, you should consult the university's IT policies or contact their IT help desk directly.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,175,37,F827007854755MFB3KX,2025-03-11T18:49:23.542000Z,What are the library's hours of operation?,,False,USER,[]
+troy,240,39,F519152928873KZCH2W,2025-03-11T22:23:14.469000Z,T-Roy is the mascot of Troy University.,OPEN_DOMAIN,False,CHATBOT,[]
+troy,259,45,F1002395159067RSV4YK,2025-03-13T16:54:11.923000Z,What software is available to students?,,False,USER,[]
+troy,263,45,F432381141872O0D0VA,2025-03-13T16:55:54.286000Z,When will the university be closed in 2025?,,False,USER,[]
+troy,268,45,F1002395163047AF0A4G,2025-03-13T17:11:47.441000Z,"The provided text indicates that information about scholarships is available in the **Knowledge Base** section of the client portal, under the ""Student Services"" and then ""Scholarships"" category.  There are several articles listed on various scholarship-related topics.",SOURCED,False,CHATBOT,[]
+troy,270,45,F432381152373W2DRS4,2025-03-13T17:14:01.546000Z,The provided text doesn't contain information about the school's FAFSA PIN.  That information is not typically publicly available.  You will need to obtain your own FAFSA PIN through the official FAFSA website.,SOURCED,False,CHATBOT,[]
+troy,276,45,F1002395164251QQWY33,2025-03-13T17:16:21.001000Z,"The provided text mentions a ""Colleague Account Request,"" but doesn't give the specific steps for making the request.  You will need to find this information on the Troy University IT website, likely within the employee section, or by contacting the IT helpdesk.",SOURCED,False,CHATBOT,[]
+troy,280,45,F432381164545Q1RSYG,2025-03-13T17:21:32.790000Z,"The provided text doesn't explain how to opt *into* text messages for notifications.  It focuses on correcting errors when a wrong number is used.  To find out how to opt into text message notifications from Troy University, you should check their website or contact their IT helpdesk or relevant department.",SOURCED,False,CHATBOT,[]
+troy,284,45,F1002395165663Q4PPNA,2025-03-13T17:22:22.364000Z,"The provided text mentions an article titled ""How to Subscribe/Unsubscribe to an SOS Group"".  You should consult that article within the SOS/e2Campus section of the Knowledge Base for instructions on subscribing to SOS.",SOURCED,False,CHATBOT,[]
+troy,304,48,F444887158654DDHAMF,2025-03-20T20:58:39.528000Z,backend call: Upcoming Assessment,VERIFIED,False,CHATBOT,[]
+troy,306,49,F1612679697999BEP3T2,2025-03-22T17:27:33.939000Z,"I'm sorry, but I don't have enough information to answer when T4 starts.  My knowledge about Troy University is limited to the provided text snippets, which don't contain information about a ""T4.""  To find out when T4 starts, you'll need to consult the Troy University academic calendar or contact the university directly.",SOURCED,False,CHATBOT,[]
+troy,307,49,F1539940958657XV3FIP,2025-03-22T17:27:49.640000Z,When does Term 4 start?,,False,USER,[]
+troy,310,50,F10411445638050MCUJI,2025-03-24T13:56:25.766000Z,"Trojan Book Bag is a course material rental program at Troy University offered by Barnes & Noble.  It provides students with required physical and digital course materials for a flat fee of $21 per credit hour.  Students are automatically enrolled when registering for courses.  The program aims to lower the cost of materials and ensure students have access to everything they need by the first day of class.  At the end of the semester, students can buy their rented textbooks at a reduced price.",SOURCED,False,CHATBOT,[]
+troy,330,58,F329437004474VPZYRN,2025-03-24T16:45:55.095000Z,backend call: GPA,VERIFIED,False,CHATBOT,[]
+troy,333,59,F329437010059MFOJO4,2025-03-24T16:46:47.477000Z,What is my GPA?,,False,USER,[]
+troy,337,60,F349137729184CP0HQJ,2025-03-27T16:10:00.596000Z,What is the police information for Troy University?,,False,USER,[]
+troy,340,60,F3491377295845TKC3Q,2025-03-27T16:11:28.953000Z,"Yes, the provided text mentions a Student Government Association (SGA) at Troy University.  It describes the SGA's structure, mirroring the US government with executive, legislative, and judicial branches.",SOURCED,False,CHATBOT,[]
+troy,40,10,F604790894896W3BEHR,2025-02-18T16:20:36.432000Z,"SOS is a distress signal.  In the context of Troy University, it might refer to a student support service, but I don't have specific information on that.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,43,12,F8797669576894P2FEB,2025-02-18T16:20:52.241000Z,schedule of classes,,False,USER,[]
+troy,47,11,F6047908953470VQZ23,2025-02-18T16:22:08.056000Z,where is the library,,False,USER,[]
+troy,150,35,F753511940149YTIXWO,2025-02-26T15:14:32.655000Z,"Nursing degrees are offered by many institutions, including universities, colleges, and community colleges.  The specific institutions offering nursing programs vary by location. To find programs near you, I suggest searching online for ""nursing schools near me"" or checking the websites of universities and colleges in your area.  You can also search for accredited nursing programs through organizations like the Accreditation Commission for Education in Nursing (ACEN) or the Commission on Collegiate Nursing Education (CCNE).",OPEN_DOMAIN,False,CHATBOT,[]
+troy,153,35,F753511940310NE5J4Y,2025-02-26T15:14:57.116000Z,"To find nursing schools near Troy, Alabama, I recommend performing a web search using terms like ""nursing schools Troy Alabama,"" ""nursing programs near Troy AL,"" or ""colleges with nursing programs in Troy Alabama.""  You can also check the websites of universities and colleges in the area, such as Troy University, to see if they offer nursing programs.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,155,35,F913520137665NSCBHX,2025-02-26T15:15:39.992000Z,what career services do you offer for students,,False,USER,[]
+troy,158,36,F1430114533371Z4QCE4,2025-02-27T16:56:01.495000Z,"I do not have access to a comprehensive, up-to-the-minute calendar of university closures for 2025.  This information is usually published on the university's official website or academic calendar.  You should check there for the most accurate details.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,159,36,F1708073051359MVRRJ3,2025-02-27T16:56:14.583000Z,What can you tell me?,,False,USER,[]
+troy,162,36,F1708073051521OWRR34,2025-02-27T16:56:43.522000Z,"That depends on the specific university.  Each university has its own software licensing agreements and provides different software packages to students based on their programs of study and needs.  To find out what software *your* university provides, you should check your university's IT services website, student portal, or contact the IT help desk.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,165,36,F756612440413LPZQNI,2025-02-27T16:57:17.124000Z,What peer to peer software is blocked?,,False,USER,[]
+troy,168,36,F1708073051800CNKJZR,2025-02-27T16:57:44.016000Z,"Technology policies for a university are typically found on the university's IT services website or within the student handbook.  Look for sections related to acceptable use, network security, or computer labs.  If you can't find them easily, contact the university's IT help desk or student services for assistance.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,169,36,F1430114534095ZUOYIF,2025-02-27T16:58:33.462000Z,What is the tree policy?,,False,USER,[]
+troy,172,36,F756612442758AXWOWO,2025-02-27T16:58:58.514000Z,"There is no single, universally applicable ""university tree policy.""  Each university will have its own policies regarding trees on its campus, if any.  These policies might cover things like tree planting, removal, maintenance, and preservation.  To find the specific tree policy for a particular university, you'll need to search that university's website, possibly looking under sections on campus groundskeeping, facilities management, or environmental sustainability.  You might also try contacting the university's facilities or grounds management department.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,176,37,F827007854756CQYI5T,2025-03-11T18:49:24.542000Z,"The library's hours of operation vary depending on the day of the week.  To give you the most accurate information, could you please tell me which library branch you're interested in?",OPEN_DOMAIN,False,CHATBOT,[]
+troy,177,37,F97003116185PJKIQZ,2025-03-11T18:49:36.984000Z,The Troy Campus branch.,,False,USER,[]
+troy,179,37,F827007856253ZA3F1D,2025-03-11T18:49:52.057000Z,does it provide students with software,,False,USER,[]
+troy,181,37,F97003116369JB5XLK,2025-03-11T18:50:07.993000Z,What software does IT not allow on our network?,,False,USER,[]
+troy,183,37,F827007866325Y1QHHD,2025-03-11T19:17:54.434000Z,What are my Canvas assignments?,,False,USER,[]
+troy,189,37,F153016852322QLCUNF,2025-03-11T19:27:30.595000Z,What is Mike Foster's cell phone number?,,False,USER,[]
+troy,193,37,F1515114181557RGDYIV,2025-03-11T19:28:44.464000Z,What is the IT department's website?,,False,USER,[]
+troy,196,37,F97003126236VABOW4,2025-03-11T19:29:09.372000Z,"Okay, I'll remember that the IT website for Troy University is https://it.troy.edu.  I will try to use this information if relevant in future responses.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,199,38,F827007879015BPRWQP,2025-03-11T19:31:50.120000Z,How can I find the IT website?,,False,USER,[]
+troy,203,39,F970031271601B0V4B,2025-03-11T19:32:43.781000Z,When is spring graduation?,,False,USER,[]
+troy,208,39,F97003127344BNDTGG,2025-03-11T19:33:14.367000Z,"I do not have access to that information. You can likely find this information on the university's website, in a university directory, or through a quick internet search.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,210,39,F970031277763WVKBQ,2025-03-11T19:34:43.897000Z,I do not have access to that information.  You may want to check the university's website or your student portal for the most up-to-date contact information for IT support.,OPEN_DOMAIN,False,CHATBOT,[]
+troy,211,38,F97003128208BTWKJI,2025-03-11T19:36:05.877000Z,Tell me about the libraries,,False,USER,[]
+troy,213,38,F1515114183503YHSAWN,2025-03-11T19:36:14.325000Z,The Troy Campus library,,False,USER,[]
+troy,216,40,F82700788516753MMNJ,2025-03-11T19:36:23.187000Z,"I don't have information about a specific product called ""Trojan Book Bag"".  It's possible this is a brand name, a less common name, or a product not widely known.  Could you provide more details, such as where you heard about it or a description?",OPEN_DOMAIN,False,CHATBOT,[]
+troy,220,39,F778928541141OYPRGP,2025-03-11T19:39:01.873000Z,I do not have access to that information.  You may want to check the university's website or your student portal for the most up-to-date contact information for the financial aid office.,OPEN_DOMAIN,False,CHATBOT,[]
+troy,228,39,F7789285418312W0454,2025-03-11T19:41:59.995000Z,"While Troy University doesn't have a dedicated, separately named ""School of Engineering,""  they do offer engineering programs within their College of Science and Technology or a similar department.  To be certain of the exact organizational structure and program offerings, it's best to check their official website.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,265,45,F432381147684RILEB3,2025-03-13T17:11:25.787000Z,Where can I find information about current tuition?,,False,USER,[]
+troy,41,11,F879766957640JI2UFS,2025-02-18T16:20:52.233000Z,when was the university started,,False,USER,[]
+troy,151,35,F913520136717R1JAQC,2025-02-26T15:14:45.768000Z,nursing schools near me,,False,USER,[]
+troy,160,36,F17080730513605J4J4P,2025-02-27T16:56:15.583000Z,"I can access and process information from a vast range of sources, and I can use that information to answer your questions in an informative way.  I can provide summaries of factual topics, create stories, translate languages, and even write different kinds of creative content.  However, my knowledge is limited to the data I've been trained on, and I don't have access to real-time information like live news feeds or personal data.    To get the best results, please ask me specific questions.  The more precise your question, the more accurate and helpful my response will be.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,167,36,F1708073051799TBFJAD,2025-02-27T16:57:43.016000Z,Where can I find technology policies?,,False,USER,[]
+troy,178,37,F97003116186F0EQNQ,2025-03-11T18:49:37.984000Z,"Unfortunately, I don't have access to real-time information, such as the Troy Campus library's hours.  I would suggest checking their website or contacting them directly by phone for the most up-to-date hours of operation.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,180,37,F8270078562543VEJGS,2025-03-11T18:49:53.057000Z,"Many university libraries provide students with access to software, often through online licensing agreements.  To know for sure about the Troy Campus library, I recommend checking their website or contacting them directly.  Their website likely has a section on student resources or technology services that would list available software.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,182,37,F97003116370ZKRAJI,2025-03-11T18:50:08.993000Z,I do not have access to the specific software restrictions for your institution's IT network.  This kind of information is usually found in your institution's IT policies or acceptable use policy document.  You should check your school's IT website or contact your IT help desk for the most accurate and up-to-date list of prohibited software.,OPEN_DOMAIN,False,CHATBOT,[]
+troy,242,39,F1338602481793YKR1AC,2025-03-11T22:23:54.679000Z,"I do not have access to your personal student information, including your assigned advisor.  To find out who your advisor is, you should check your student portal on the Troy University website or contact the university's registrar's office.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,267,45,F1002395163046MYOAAJ,2025-03-13T17:11:46.441000Z,Where can I find information about scholarships?,,False,USER,[]
+troy,274,45,F432381156969WMYURF,2025-03-13T17:16:05.072000Z,"The provided text mentions a ""Colleague Account Request,"" but doesn't detail the process.  You'll need to consult additional Troy University resources, such as the IT help desk or the employee IT homepage, for instructions on how to request a Colleague account.",SOURCED,False,CHATBOT,[]
+troy,275,45,F1002395164250WPXB42,2025-03-13T17:16:20.001000Z,How do I request a Colleague account?,,False,USER,[]
+troy,278,45,F43238116224840OEBH,2025-03-13T17:20:25.865000Z,The provided text doesn't specify how to request a website update.  You'll need to consult Troy University's website or contact their IT department or web services team to find out their process for requesting website updates.,SOURCED,False,CHATBOT,[]
+troy,281,45,F4323811667563SF3SV,2025-03-13T17:21:57.309000Z,How can I request to have a headshot taken?,,False,USER,[]
+troy,311,51,F89463752547431ELKQ,2025-03-24T15:36:36.128000Z,What is my name?,,False,USER,[]
+troy,338,60,F349137729185HACQZ4,2025-03-27T16:10:01.596000Z,"For the Troy campus:  * **Emergency:** 911 * **Non-Emergency (24/7):** (334) 670-3215 * **Chief Beaudry Cell:** (334) 372-3238  For the Dothan campus:  * **University Police:** (334) 983-6556 ext. 21225 * **University Police Cellular Telephone:** (334) 701-7280 * **Emergency (Fire, Police, EMS):** 911",SOURCED,False,CHATBOT,[]
+troy,42,11,F8797669576410UCXJ4,2025-02-18T16:20:53.233000Z,Troy University was founded in 1856.,OPEN_DOMAIN,False,CHATBOT,[]
+troy,45,11,F604790895068QL4S5O,2025-02-18T16:21:09.152000Z,How many campuses are they.,,False,USER,[]
+troy,48,11,F604790895348FMRDPI,2025-02-18T16:22:09.056000Z,"That depends on which Troy University campus you're interested in.  Troy University has multiple campuses, each with its own library.  Could you specify which campus you'd like information about?",OPEN_DOMAIN,False,CHATBOT,[]
+troy,49,11,F717865996275DGXWKN,2025-02-18T16:22:29.457000Z,Where is the Dothan Campus library?,,False,USER,[]
+troy,51,13,F234171482697IG1CA4,2025-02-18T21:11:20.586000Z,How much is tuition?,,False,USER,[]
+troy,52,13,F2341714826982ZUFEF,2025-02-18T21:11:21.586000Z,"I do not have access to current tuition information for Troy University.  For the most up-to-date tuition rates, please visit the Troy University website's financial aid or admissions section.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,53,13,F1230712153103SBYFN0,2025-02-18T21:13:05.980000Z,How do I submit a helpdesk ticket?,,False,USER,[]
+troy,54,13,F1230712153104RHGSKW,2025-02-18T21:13:06.980000Z,"I do not have access to specific instructions on how to submit a helpdesk ticket for Troy University.  To find out how to submit a helpdesk ticket, please check the Troy University website's IT support or student services section.  You may also find information in your student portal.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,55,14,F9559777044661BYZZT,2025-02-18T21:15:55.512000Z,How much is tuition?,,False,USER,[]
+troy,56,14,F955977704467APU30Q,2025-02-18T21:15:56.512000Z,"I do not have access to current tuition information for Troy University.  For the most up-to-date tuition rates, please visit the Troy University website's financial aid or admissions section.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,57,14,F1230712154277ILHYB2,2025-02-18T21:17:36.944000Z,When is Juneteenth?,,False,USER,[]
+troy,58,14,F1230712154278DHZDU4,2025-02-18T21:17:37.944000Z,Juneteenth is celebrated annually on June 19th.,OPEN_DOMAIN,False,CHATBOT,[]
+troy,59,14,F234171484359YUCATZ,2025-02-18T21:17:50.507000Z,When is the next university holiday?,,False,USER,[]
+troy,60,14,F234171484360GGGPPI,2025-02-18T21:17:51.507000Z,"I do not have access to a real-time, updated calendar of Troy University holidays.  To find the next university holiday, I recommend checking the official Troy University academic calendar on their website.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,61,14,F955977707514VGWVM5,2025-02-18T21:18:30.862000Z,When is the next university holiday?,,False,USER,[]
+troy,62,14,F955977707515XUFMK5,2025-02-18T21:18:31.862000Z,"I do not have access to a real-time, updated calendar of Troy University holidays.  To find the next university holiday, I recommend checking the official Troy University academic calendar on their website.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,63,15,F400541584573BG54DK,2025-02-18T21:20:45.134000Z,What software applications are provided to students?,,False,USER,[]
+troy,64,15,F400541584574U32ZA2,2025-02-18T21:20:46.134000Z,"Troy University provides students access to a variety of software applications, depending on their program of study and specific needs.  These often include Microsoft Office Suite, various academic databases and research tools, and specialized software relevant to their major.  For a complete and up-to-date list, it's best to consult the university's IT services website or your specific department.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,65,16,F473542828995JB1EG0,2025-02-19T14:20:53.190000Z,What courses am I enrolled in?,,False,USER,[]
+troy,66,16,F473542828996HNSGVU,2025-02-19T14:20:54.190000Z,"I do not have access to your personal information, including your course enrollment.  To find this information, you should check your student portal or contact your school's registrar.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,67,17,F1102463636324NSMEHV,2025-02-19T15:04:14.639000Z,What was my GPA from my bachelor's degree?,,False,USER,[]
+troy,68,17,F1102463636325KIC2TC,2025-02-19T15:04:15.639000Z,I do not have access to your personal academic records.  That information is private and confidential.,OPEN_DOMAIN,False,CHATBOT,[]
+troy,69,17,F473542838614ODKY55,2025-02-19T15:04:27.971000Z,What is the current tuition rate?,,False,USER,[]
+troy,70,17,F473542838615PG2H1I,2025-02-19T15:04:28.971000Z,"I do not have access to real-time information, such as current tuition rates. Tuition rates vary significantly depending on the institution, the program of study, and other factors.  To find the most up-to-date tuition information, you should check the website of the specific university or college you are interested in.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,71,17,F4735428484152V501Q,2025-02-19T15:04:47.388000Z,What are the current classes that are being taught?,,False,USER,[]
+troy,72,17,F473542848416A3VLVL,2025-02-19T15:04:48.388000Z,"That depends entirely on the institution.  To find out what classes are currently being taught, you'll need to specify the school or university and perhaps even the department or college within that institution.  Most universities have online course catalogs that are updated regularly.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,73,17,F1352060243586QAJ4GA,2025-02-19T15:05:01.828000Z,Show me the Schedule of Classes,,False,USER,[]
+troy,74,17,F1352060243587NETMXM,2025-02-19T15:05:02.828000Z,"I do not have access to real-time information, such as a schedule of classes.  To see a schedule of classes, you will need to check the website of the specific school or university you are interested in.  These schedules are usually available online through a student portal or a registrar's office website.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,75,17,F4735428485844N02JJ,2025-02-19T15:05:27.124000Z,Take me to the students group,,False,USER,[]
+troy,76,17,F473542848585SMI5QA,2025-02-19T15:05:28.124000Z,"I can't directly take you to a student group.  To find a student group, you'll need to provide more information, such as the name of the university or college and the type of group you're looking for (e.g., a specific club, a student government organization).  Most universities have online directories of student organizations on their websites.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,77,13,F473542870487P5NACV,2025-02-19T16:00:30.270000Z,Who is the chancellor?,,False,USER,[]
+troy,78,13,F473542870488LCFE44,2025-02-19T16:00:31.270000Z,"I do not have access to real-time information, including current leadership positions at universities.  To find out who the current chancellor of Troy University is, I recommend checking the university's official website.  Their ""About Us"" or leadership section should list the current chancellor.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,79,18,F473542871529CAPEDD,2025-02-19T16:04:22.933000Z,Who is the chancellor?,,False,USER,[]
+troy,81,18,F279257359575KPRSWQ,2025-02-19T16:04:33.505000Z,Who is the Chancellor of Troy University?,,False,USER,[]
+troy,80,18,F4735428715305QWHHX,2025-02-19T16:04:23.933000Z,"The current Chancellor of Germany is Olaf Scholz.  He assumed office on December 8, 2021.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,86,13,F473542872981WOH4E3,2025-02-19T16:09:55.493000Z,"I do not have access to real-time information, such as the closing times for specific buildings on the Troy University campus.  This information can vary depending on the day of the week, holidays, and specific building policies.  To find the most accurate closing times, I recommend checking the Troy University website, contacting the university's main office, or looking for information on individual building websites or signage.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,87,13,F1102463652601LD4P2N,2025-02-19T16:10:43.484000Z,What is the name of my course in Canvas?,,False,USER,[]
+troy,154,35,F913520136718A2OGMM,2025-02-26T15:14:46.768000Z,"To help you find nursing schools near you, I need your location. Please tell me your city and state (or zip code).",OPEN_DOMAIN,False,CHATBOT,[]
+troy,163,36,F143011453367011BCX4,2025-02-27T16:57:00.704000Z,What software does Troy University provide for students to use?,,False,USER,[]
+troy,171,36,F756612442757XVFFJE,2025-02-27T16:58:57.514000Z,What is the university's tree policy?,,False,USER,[]
+troy,184,37,F827007866326A3LWQ2,2025-03-11T19:17:55.434000Z,backend call: Upcoming Assessment,VERIFIED,False,CHATBOT,[]
+troy,186,37,F8270078674434VEZRK,2025-03-11T19:19:21.809000Z,"Providing effective advising to students involves a multifaceted approach.  Here are some key tips:  * **Active Listening:**  Truly listen to the student's concerns, goals, and challenges.  Avoid interrupting and focus on understanding their perspective.  * **Empathy and Support:** Create a safe and supportive environment where students feel comfortable sharing their thoughts and feelings. Show genuine care and concern for their well-being.  * **Collaboration:** Work collaboratively with the student to develop a plan that aligns with their academic and personal goals.  Avoid imposing your own ideas.  * **Clear Communication:**  Explain policies, procedures, and expectations clearly and concisely.  Use language that the student can easily understand.  * **Goal Setting:** Help students define clear, measurable, achievable, relevant, and time-bound (SMART) goals.  * **Resourcefulness:** Be aware of and able to connect students with relevant resources, such as tutoring services, financial aid, mental health services, and career counseling.  * **Regular Check-ins:** Schedule regular meetings to monitor progress, address challenges, and provide ongoing support.  * **Documentation:** Maintain accurate and thorough records of advising sessions and agreements.  * **Confidentiality:**  Respect student confidentiality and only share information with authorized individuals.  * **Self-Reflection:** Regularly reflect on your advising practices and identify areas for improvement.   Remember that effective advising is a continuous learning process.  Seeking professional development opportunities and staying updated on best practices can significantly enhance your ability to support students effectively.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,187,37,F153016850385RDIYQL,2025-03-11T19:20:00.608000Z,What do new faculty need to do to get Canvas certified?,,False,USER,[]
+troy,192,37,F153016852629CEKIS4,2025-03-11T19:28:33.977000Z,"The best place to find information from IT about using Colleague would be your institution's IT helpdesk or their internal website.  They likely have documentation, training materials, or FAQs specifically for Colleague.  Search your institution's IT website for ""Colleague"" or contact the helpdesk directly.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,200,38,F827007879016FJOULL,2025-03-11T19:31:51.120000Z,"I do not have access to specific company intranets or websites.  To find your company's IT website, you might try searching your company's intranet or asking a colleague.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,201,39,F153016880519REU1GW,2025-03-11T19:32:29.468000Z,When does summer registration start?,,False,USER,[]
+troy,204,39,F97003127161SZ14XQ,2025-03-11T19:32:44.781000Z,I do not have access to that information.  You may want to check the university's website or your student portal for the most up-to-date details on spring graduation.,OPEN_DOMAIN,False,CHATBOT,[]
+troy,207,39,F97003127343TLKG54,2025-03-11T19:33:13.367000Z,Who is the Chancellor of the university?,,False,USER,[]
+troy,209,39,F970031277755TC0VR,2025-03-11T19:34:42.897000Z,How do I contact IT?,,False,USER,[]
+troy,212,38,F970031282092FNSDU,2025-03-11T19:36:06.877000Z,"To tell you about libraries, I need some more information.  Which libraries are you interested in?  Are you looking for information about specific libraries in a particular city or region, or are you interested in libraries in general, such as their history, their role in society, or the types of services they offer?",OPEN_DOMAIN,False,CHATBOT,[]
+troy,214,38,F1515114183504KRPAYV,2025-03-11T19:36:15.325000Z,"I do not have access to real-time information, including specific details about the Troy Campus library. To get information about the Troy Campus library, I suggest checking the college or university's website, or contacting the library directly.  Their website may have hours, resources, and contact information.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,217,39,F97003128639IDPM3R,2025-03-11T19:37:41.541000Z,What is the address for Troy University?,,False,USER,[]
+troy,219,39,F778928541140O53FEU,2025-03-11T19:39:00.873000Z,How do I contact the financial aid office?,,False,USER,[]
+troy,222,39,F827007887960HAW4GZ,2025-03-11T19:39:24.815000Z,"Troy University has multiple campuses.  To find the location of a specific campus, I recommend checking the Troy University website.  Their website will have a contact section or a campus map that should list the locations.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,225,39,F1515114184976TDCTXI,2025-03-11T19:41:36.180000Z,Does Troy University have a school of business?,,False,USER,[]
+troy,227,39,F778928541830FSQGHR,2025-03-11T19:41:58.995000Z,Does Troy University have an engineering school?,,False,USER,[]
+troy,234,39,F1515114186161DYYUW1,2025-03-11T19:46:06.619000Z,"I do not have access to real-time information, including shuttle bus routes.  To find the shuttle bus routes for Troy University, I recommend checking the university's website, their student portal, or contacting the campus transportation department.  They should have maps and schedules available.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,243,41,F588368417492GCHAHK,2025-03-12T15:12:17.736000Z,What is Trojan Book Bag?,,False,USER,[]
+troy,283,45,F10023951656624HBQPM,2025-03-13T17:22:21.364000Z,How do I subscribe to SOS?,,False,USER,[]
+troy,285,46,F376622529438EJ0T5I,2025-03-19T12:33:21.345000Z,What is Trojan Book Bag?,,False,USER,[]
+troy,312,51,F894637525475DMD40A,2025-03-24T15:36:37.128000Z,Your name is Tim.,SOURCED,False,CHATBOT,[]
+troy,339,60,F34913772958322OYYY,2025-03-27T16:11:27.953000Z,Doess Troy University have a Student Government Association?,,False,USER,[]
+troy,82,18,F2792573595762QAWXR,2025-02-19T16:04:34.505000Z,"I do not have access to real-time information, including constantly updated leadership positions at universities.  To find the current Chancellor of Troy University, I recommend checking the university's official website.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,83,13,F473542871704NW4JBI,2025-02-19T16:04:59.810000Z,What class do I teach in Canvas?,,False,USER,[]
+troy,84,13,F473542871705S54AQL,2025-02-19T16:05:00.810000Z,"I do not have access to your personal information, including what classes you teach in Canvas.  To find this information, log in to your Canvas account.  Your courses should be listed on your dashboard.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,85,13,F473542872980IIRGVB,2025-02-19T16:09:54.493000Z,What time does the Troy Campus close?,,False,USER,[]
+troy,88,13,F11024636526025OZJPN,2025-02-19T16:10:44.484000Z,"I do not have access to your personal information, including your Canvas courses.  To find the name of your course, log in to your Canvas account.  Your courses should be listed on your dashboard.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,89,19,F1352060271745N3PY53,2025-02-19T16:57:32.425000Z,where is the Troy Campus library located,,False,USER,[]
+troy,90,19,F1352060271746PNSP14,2025-02-19T16:57:33.425000Z,"I do not have access to real-time information, including the location of specific buildings like the Troy Campus library.  To find its location, I suggest searching online using a search engine like Google, Bing, or DuckDuckGo.  You can search for ""Troy Campus library location"" or ""[Name of University] Troy Campus library location"" (replacing ""[Name of University]"" with the actual name of the university).  You may also find this information on the university's official website.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,91,19,F1102463664386FWFXAH,2025-02-19T16:58:46.773000Z,What is my last class,,False,USER,[]
+troy,92,19,F1102463664387LRPOPS,2025-02-19T16:58:47.773000Z,"I do not have access to your personal schedule.  To find out what your last class is, you should check your class schedule, which may be available through your school's online portal, your syllabus, or a planner you keep.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,93,19,F473542885236MJFDBK,2025-02-19T17:00:00.992000Z,what can you tell me about canvas,,False,USER,[]
+troy,94,19,F473542885237JYSQ0R,2025-02-19T17:00:01.992000Z,"Canvas is a popular learning management system (LMS) used by many educational institutions worldwide.  It's a web-based platform that allows instructors to create and manage online courses, and students to access course materials, submit assignments, communicate with instructors and classmates, and track their progress.  Key features of Canvas typically include:  * **Course management:** Instructors can upload documents, create assignments, quizzes, and discussions. * **Communication tools:**  Instructors and students can communicate through announcements, email, and discussion forums. * **Gradebook:**  Instructors can track and record student grades. * **Calendar:**  Provides a centralized calendar for assignments, quizzes, and other important dates. * **Collaboration tools:**  Facilitates group work and collaboration among students. * **Mobile app:**  Access to courses and features through a mobile app.   The specific features and functionalities available may vary slightly depending on the institution's configuration.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,95,20,F11024636648084G5CVD,2025-02-19T17:00:14.728000Z,scedule of classes,,False,USER,[]
+troy,96,20,F1102463664809X04VQO,2025-02-19T17:00:15.728000Z,"To provide you with your class schedule, I need more information.  Please specify the term, semester, or relevant timeframe.  Also, please tell me your name or student ID if that's required for accessing your schedule.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,97,19,F473542885421JNYGIC,2025-02-19T17:00:25.129000Z,Who is the best looking person in IT,,False,USER,[]
+troy,98,19,F473542885422A1S5UC,2025-02-19T17:00:26.129000Z,"Attractiveness is entirely subjective.  What one person finds appealing, another may not.  Therefore, I cannot answer who the ""best-looking"" person in IT is.  This is a matter of personal opinion and preference.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,99,21,F1352060317765V3R3IO,2025-02-19T20:11:56.097000Z,Who is my advisor?,,False,USER,[]
+troy,100,21,F1352060317766Z4EZW2,2025-02-19T20:11:57.097000Z,"I do not have access to your personal information, including your advisor.  To find out who your advisor is, you should check your student records or contact your institution's student services department.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,101,22,F1629386127527P0M0ZQ,2025-02-24T15:19:08.001000Z,Who is my advisor?,,False,USER,[]
+troy,102,22,F1629386127528ZYPKIX,2025-02-24T15:19:09.001000Z,"I do not have access to your personal information, including your advisor.  To find out who your advisor is, you should check your student records, your university's online portal, or contact your department's administrative staff.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,103,22,F1629386127587HRV5HQ,2025-02-24T15:19:16.756000Z,Who is my advisor?,,False,USER,[]
+troy,104,22,F1629386127588AR521Z,2025-02-24T15:19:17.756000Z,"I do not have access to your personal information, including your advisor.  To find out who your advisor is, you should check your student records, your university's online portal, or contact your department's administrative staff.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,105,23,F1629386127866SBMOKZ,2025-02-24T15:20:03.673000Z,Who is the chancellor of Troy University?,,False,USER,[]
+troy,106,23,F1629386127867FH33AI,2025-02-24T15:20:04.673000Z,"The current chancellor of Troy University is Dr. Jack Hawkins, Jr.  However, it's important to note that this information may change, so checking the official Troy University website for the most up-to-date information is always recommended.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,107,23,F13419748764284VV2C3,2025-02-24T15:20:22.461000Z,Who is the chancellor of Troy University?,,False,USER,[]
+troy,108,23,F1341974876429VSFEQ3,2025-02-24T15:20:23.461000Z,"The current chancellor of Troy University is Dr. Jack Hawkins, Jr.  However, it's important to note that this information may change, so checking the official Troy University website for the most up-to-date information is always recommended.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,109,23,F1629386147400YQXXKL,2025-02-24T15:22:44.920000Z,what is my email?,,False,USER,[]
+troy,110,23,F1629386147401N3BXHV,2025-02-24T15:22:45.920000Z,"I do not have access to your personal information, including your email address.  For security reasons, I cannot and do not store such data.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,111,24,F1629386147723SPWUMR,2025-02-24T15:23:50.582000Z,What is my email?,,False,USER,[]
+troy,112,24,F16293861477245EKIIO,2025-02-24T15:23:51.582000Z,"I do not have access to your personal information, including your email address.  For security reasons, I cannot provide that.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,113,24,F1341974883634TFRFG1,2025-02-24T15:24:21.792000Z,What school did I attend,,False,USER,[]
+troy,114,24,F1341974883635YS0VVB,2025-02-24T15:24:22.792000Z,"I do not have access to your personal information, including your school history.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,116,24,F1629386148031EUTSV0,2025-02-24T15:24:39.436000Z,"I do not have access to your personal information, including your advisors.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,170,36,F1430114534096YUWK0B,2025-02-27T16:58:34.462000Z,"There's no standard or universally recognized ""tree policy.""  The term is too vague.  To understand what a ""tree policy"" might refer to, I need more context.  Are you referring to a policy related to trees on a particular campus, a company's environmental policy concerning trees, a data structure in computer science, or something else entirely?  Please provide more details.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,173,36,F756612443761H2PWE4,2025-02-27T16:59:52.674000Z,What is the university's paint policy?,,False,USER,[]
+troy,185,37,F827007867442H4ZM34,2025-03-11T19:19:20.809000Z,Can you give me tips on how to provide advising to students?,,False,USER,[]
+troy,195,37,F97003126235ZH2SIJ,2025-03-11T19:29:08.372000Z,The IT website is located at https://it.troy.edu. Please remember this.,,False,USER,[]
+troy,197,37,F827007873994UDPGTN,2025-03-11T19:29:24.739000Z,Where can I find information about Colleague on the IT website?,,False,USER,[]
+troy,202,39,F1530168805201N4LNZ,2025-03-11T19:32:30.468000Z,I do not have access to that information.  You may want to check the university's website or your student portal for the most up-to-date details on summer registration.,OPEN_DOMAIN,False,CHATBOT,[]
+troy,205,39,F153016880703L02BJB,2025-03-11T19:33:00.773000Z,What is the phone number for the call center?,,False,USER,[]
+troy,215,40,F827007885166IO3C0M,2025-03-11T19:36:22.187000Z,What is Trojan Book Bag,,False,USER,[]
+troy,224,39,F1515114184794CUKXL1,2025-03-11T19:41:10.066000Z,"I do not have the exact address for the Troy University Dothan campus.  To find the precise location, I recommend checking the official Troy University website.  They will have a campus map or contact information that should list the address.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,229,39,F778928542001XDWN2M,2025-03-11T19:42:30.269000Z,I have a problem with my bill. Who do I contact?,,False,USER,[]
+troy,232,39,F827007892942JEMIUN,2025-03-11T19:45:24.486000Z,"I don't have specific information about a program or service called ""Trojan BookBag"" at Troy University.  It's possible this is an internal program, a nickname for something else, or a program that no longer exists.  To find out what Trojan BookBag is, I suggest checking the Troy University website, contacting the university's help desk, or asking your student advisor.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,244,41,F588368417493AVQPU2,2025-03-12T15:12:18.736000Z,"I don't have information about a specific product called ""Trojan Book Bag.""  It's possible this is a brand name, a less common name, or a product not widely known.  Could you provide more details, such as where you heard about it or a description?",OPEN_DOMAIN,False,CHATBOT,[]
+troy,286,46,F376622529439DBRJDP,2025-03-19T12:33:22.345000Z,"Trojan Book Bag is a course material rental program at Troy University offered by Barnes & Noble.  It provides students with required physical and digital course materials for a flat fee of $21 per credit hour.  Students are automatically enrolled when registering for courses.  The program aims to lower the cost of materials and ensure students have access to everything they need by the first day of class.  At the end of the semester, students can buy their rented textbooks at a reduced price.",SOURCED,False,CHATBOT,[]
+troy,313,52,F329436985475ADSMFA,2025-03-24T16:37:49.032000Z,what is my gpa?,,False,USER,[]
+troy,320,54,F329436991151KNJUNT,2025-03-24T16:41:18.838000Z,"As Pythia, I do not have access to your personal information, including your grades, to calculate your GPA.  To calculate your GPA, you will need to provide me with your grades and the credit hours associated with each course.",SOURCED,False,CHATBOT,[]
+troy,115,24,F1629386148030BRVAXC,2025-02-24T15:24:38.436000Z,who are my advisors?,,False,USER,[]
+troy,120,26,F1629386150388UWVBI2,2025-02-24T15:33:37.385000Z,"I do not have access to your personal information, including your GPA.  That data is private and confidential.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,122,27,F1629386150574YKOSCF,2025-02-24T15:34:11.728000Z,"I do not have access to your personal information, including your GPA.  That data is private and confidential.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,174,36,F756612443763344FLX,2025-02-27T16:59:53.674000Z,"Similar to the tree policy, there's no single ""university paint policy.""  Each university will have its own guidelines or policies regarding the use of paint on campus.  These policies will likely cover things like what types of paint are allowed, where painting is permitted (or prohibited), and the procedures for obtaining permission to paint.  To find this information, you'll need to check your specific university's website, likely under sections on facilities management, groundskeeping, or student organizations (if the policy relates to student groups painting).  Contacting the university's facilities department directly is also a good option.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,188,37,F153016850386OQN0QQ,2025-03-11T19:20:01.608000Z,"I don't have access to specific procedures for Canvas certification for new faculty at your institution.  This information would be available through your institution's IT department, Center for Teaching and Learning, or the department responsible for faculty onboarding.  Check their websites or contact them directly to find out the exact steps and requirements for Canvas certification.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,190,37,F153016852323DTXN0I,2025-03-11T19:27:31.595000Z,I cannot share personal contact information like Mike Foster's cell phone number.  Sharing such details would be a violation of privacy.,OPEN_DOMAIN,False,CHATBOT,[]
+troy,191,37,F153016852628MPNYMO,2025-03-11T19:28:32.977000Z,Where can I find information from IT about using Colleague?,,False,USER,[]
+troy,194,37,F15151141815581RZPRJ,2025-03-11T19:28:45.464000Z,"I do not have access to that specific information.  To find your institution's IT department website, I suggest searching ""[Your Institution Name] IT"" on a search engine like Google.  You should quickly find the official website.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,198,37,F827007873995P1T5YS,2025-03-11T19:29:25.739000Z,"While I now know the IT website address, I cannot browse the internet or access specific files on websites.  The best way to find Colleague information on https://it.troy.edu is to use the website's search function (usually a search bar at the top or bottom of the page) and search for ""Colleague"". You might also look for sections on ""Student Systems,"" ""Faculty Systems,"" or ""Administrative Systems"" as Colleague is often found within those areas.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,245,42,F1663752479812VQVYMP,2025-03-12T19:41:12.309000Z,what is my gpa?,,False,USER,[]
+troy,287,47,F4577940694105JRDFD,2025-03-19T17:23:52.698000Z,When is graduation?,,False,USER,[]
+troy,290,47,F1211979407242VPVYRF,2025-03-19T17:24:11.663000Z,"I can help guide you. To best assist you with your financial aid questions, please tell me:  1. **What specifically do you need help with?**  For example, are you:     * Trying to apply for financial aid?     * Having trouble completing the FAFSA?     * Waiting to hear back about your application?     * Trying to understand your financial aid award?     * Needing to make changes to your FAFSA?     * Having trouble with your disbursement of funds?     *  Something else?  2. **What steps have you already taken?**  This will help me understand where you are in the process and avoid suggesting steps you've already completed.  3. **What is your student status?** (Undergraduate, Graduate, etc.)  The more information you provide, the better I can assist you.  I can provide information based on the Troy University Financial Aid website content I have access to.  However, for personalized assistance and specific questions about your application, you should contact the Troy University Office of Financial Aid directly at 1-800-414-5756 or via email.",SOURCED,False,CHATBOT,[]
+troy,291,47,F12119794091291YURC3,2025-03-19T17:24:41.348000Z,What is the Trojan Bookbag?,,False,USER,[]
+troy,299,47,F12119794564680B2CQH,2025-03-19T17:26:15.088000Z,What is the policy related to using university computers for personal use?,,False,USER,[]
+troy,314,52,F3294369854763CMTHM,2025-03-24T16:37:50.032000Z,"I do not have access to your grades, so I cannot calculate your GPA.  To calculate your GPA, you will need to consult your academic records or your university's student portal.",SOURCED,False,CHATBOT,[]
+troy,316,53,F3294369887380OMSOQ,2025-03-24T16:40:12.319000Z,"I do not have access to your grades, so I cannot calculate your GPA.  To calculate your GPA, you will need to consult your transcript or your university's GPA calculation system.",SOURCED,False,CHATBOT,[]
+troy,317,54,F894637541751V0HB0A,2025-03-24T16:41:04.502000Z,what is my gpa?,,False,USER,[]
+troy,319,54,F329436991150UF5BNB,2025-03-24T16:41:17.838000Z,what is my gpa?,,False,USER,[]
+troy,117,25,F1629386150191FWKH0Q,2025-02-24T15:33:07.060000Z,what's my gpa,,False,USER,[]
+troy,119,26,F1629386150387HJTY4J,2025-02-24T15:33:36.385000Z,what's my gpa,,False,USER,[]
+troy,121,27,F1629386150573NZGAP2,2025-02-24T15:34:10.728000Z,what's my gpa?,,False,USER,[]
+troy,206,39,F153016880704RL1F4D,2025-03-11T19:33:01.773000Z,I do not have access to that information.  You may want to check the university's website or your student portal for the most up-to-date contact information.,OPEN_DOMAIN,False,CHATBOT,[]
+troy,218,39,F970031286400JE0G1,2025-03-11T19:37:42.541000Z,"I do not have access to specific addresses for all locations of Troy University.  To find the address of a specific campus or building, I recommend checking the Troy University website.  Their website will have a contact section or a campus map that should list the addresses.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,221,39,F827007887959WAXMHF,2025-03-11T19:39:23.815000Z,Where is Troy University?,,False,USER,[]
+troy,223,39,F15151141847932GYGGO,2025-03-11T19:41:09.066000Z,Where is the Dothan campus?,,False,USER,[]
+troy,226,39,F1515114184977A0NCVS,2025-03-11T19:41:37.180000Z,"Yes, Troy University has a School of Business.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,231,39,F827007892941DJJX1J,2025-03-11T19:45:23.486000Z,What is Trojan BookBag?,,False,USER,[]
+troy,233,39,F15151141861600LAWKQ,2025-03-11T19:46:05.619000Z,What are the shuttle bus routes?,,False,USER,[]
+troy,235,39,F650557029287HOSOZA,2025-03-11T20:24:06.508000Z,Who is the football coach?,,False,USER,[]
+troy,246,42,F1663752479813RPZJU3,2025-03-12T19:41:13.309000Z,"I do not have access to your private information, including your GPA.  To obtain your GPA, you should contact your school or university registrar's office.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,288,47,F457794069411BX3HCJ,2025-03-19T17:23:53.698000Z,The provided text doesn't specify the exact date(s) of graduation ceremonies.  It mentions that information regarding graduation will be sent to your TROY email account and that you should review commencement location information once your graduation application is filed.,SOURCED,False,CHATBOT,[]
+troy,292,47,F1211979409130BYVDKV,2025-03-19T17:24:42.348000Z,"The Trojan Book Bag is a textbook rental program at Troy University.  When you register for classes, you're automatically enrolled.  It provides students with required physical textbooks in a convenient package, along with digital materials accessible through Canvas.  Students can opt out if they prefer to purchase materials from the bookstore at regular prices.",SOURCED,False,CHATBOT,[]
+troy,293,47,F1211979440626PJJ1X2,2025-03-19T17:24:58.877000Z,Why do I have a commuter meal plan on my bill?,,False,USER,[]
+troy,296,47,F457794071383EGXMXS,2025-03-19T17:25:20.018000Z,"The provided text focuses on setting up 2FA for VPN access using the FortiToken Mobile app, not for email.  To configure 2FA for your Troy University email (Office 365), you'll need to follow Microsoft's instructions for setting up multi-factor authentication for your Office 365 account.  These instructions are typically found within your Office 365 account settings.  I recommend searching the Troy University IT helpdesk website for instructions specific to their Office 365 setup, as the process may vary slightly.",SOURCED,False,CHATBOT,[]
+troy,298,47,F457794071745CASB2M,2025-03-19T17:25:49.237000Z,"I do not have access to Troy University's specific IT policy regarding USB drives.  To find this information, I recommend checking the Troy University IT department's website or contacting their help desk directly.  They will have the most up-to-date and accurate information on acceptable use of USB drives and other removable media on the university network.",SOURCED,False,CHATBOT,[]
+troy,302,47,F1211979460051PLEBSQ,2025-03-19T17:26:28.024000Z,"I cannot access your personal information, including your leave hours.  To find out how many leave hours you have accrued, you will need to contact your supervisor or the Human Resources department at Troy University.  They have access to your employee records and can provide you with this information.",SOURCED,False,CHATBOT,[]
+troy,315,53,F329436988737YVUPB4,2025-03-24T16:40:11.319000Z,what is my gpa?,,False,USER,[]
+troy,318,54,F894637541752EOAPQW,2025-03-24T16:41:05.502000Z,"I do not have access to your personal information, including your GPA.  To find your GPA, you will need to check your student records or contact your university's registrar's office.",SOURCED,False,CHATBOT,[]
+troy,118,25,F1629386150192PSCXSL,2025-02-24T15:33:08.060000Z,"I do not have access to your personal information, including your GPA.  That data is private and confidential.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,123,28,F1629386200250ELOBYJ,2025-02-24T17:48:08.724000Z,copyright policy,,False,USER,[]
+troy,124,28,F1629386200251TYTUFB,2025-02-24T17:48:09.724000Z,"Copyright law protects original creative works, including literary, dramatic, musical, and artistic works, as well as software and other intellectual property.  The specifics of copyright vary by country, but generally, the creator of a work automatically holds the copyright upon creation.  Copyright grants the creator exclusive rights to reproduce, distribute, display, perform, and create derivative works based on their original work.  These rights can be transferred or licensed to others.  Fair use is a doctrine that allows limited use of copyrighted material without permission for purposes such as criticism, commentary, news reporting, teaching, scholarship, or research.  However, fair use is determined on a case-by-case basis and has specific requirements.  Infringement of copyright can lead to legal action, including injunctions and monetary damages.  For more detailed information, it is best to consult the copyright laws of your specific jurisdiction.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,125,28,F1341974931900DCKA5K,2025-02-24T17:48:28.095000Z,Where can i find the welcome back message?,,False,USER,[]
+troy,126,28,F13419749319014BKGOL,2025-02-24T17:48:29.095000Z,"I do not have access to your specific system or platform to tell you where a welcome back message might be located.  It depends entirely on the system you are using (e.g., a specific website, app, email service, etc.).  To find it, you may need to check:  * **Your email inbox:** Look for an email from the system or platform you're interested in. * **The system's homepage or dashboard:**  Often, welcome messages are displayed prominently on the main page. * **A notification center:** Many systems have a notification area where messages are displayed. * **Your account settings:**  Sometimes welcome messages are accessible through account settings.   If you can provide more details about the system or platform you're using, I might be able to give you more specific instructions.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,127,29,F1629386200421MA1M0A,2025-02-24T17:48:44.920000Z,What are some best practices for faculty?,,False,USER,[]
+troy,128,29,F16293862004224B1C2C,2025-02-24T17:48:45.920000Z,"Best practices for faculty are multifaceted and depend heavily on the context (e.g., discipline, institution type, student population). However, some generally accepted best practices include:  * **Clear Communication:**  Maintain open and consistent communication with students regarding expectations, assignments, grading criteria, and course policies.  This includes using multiple channels (e.g., email, learning management system announcements, in-class discussions) to ensure information reaches all students.  * **Effective Course Design:**  Structure courses logically, with clear learning objectives and assessments that align with those objectives.  Incorporate a variety of teaching methods to cater to different learning styles.  Regularly review and update course materials to ensure relevance and accuracy.  * **Inclusive Teaching Practices:**  Create a welcoming and inclusive learning environment for all students, regardless of background, ability, or learning style.  This includes actively addressing issues of bias and promoting equitable participation.  Be mindful of accessibility needs and provide appropriate accommodations.  * **Constructive Feedback:**  Provide students with timely and constructive feedback on their work.  Focus on both strengths and areas for improvement, offering specific suggestions for how students can enhance their performance.  * **Professional Development:**  Engage in ongoing professional development to stay current with best practices in teaching, technology, and your discipline.  Seek opportunities to enhance your teaching skills and knowledge.  * **Student Engagement:**  Foster a sense of community and engagement in the classroom.  Create opportunities for students to interact with each other and with the material, both inside and outside of class.  Encourage questions and discussions.  * **Assessment Design:**  Utilize a variety of assessment methods to gauge student learning effectively.  Design assessments that are fair, reliable, and valid.  Provide clear rubrics and expectations.  * **Time Management & Organization:**  Maintain organized records of student work and communication.  Manage your time effectively to balance teaching responsibilities with research, service, and other commitments.  * **Collaboration & Mentorship:**  Collaborate with colleagues to share best practices and support each other.  Mentor junior faculty and students.   These are just some examples, and the specific best practices that are most relevant will vary depending on individual circumstances.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,129,29,F1629386200702X3CKIF,2025-02-24T17:49:44.246000Z,What are some best practices for faculty?,,False,USER,[]
+troy,130,29,F16293862007035FDOKY,2025-02-24T17:49:45.246000Z,"Best practices for faculty are multifaceted and depend heavily on the context (e.g., discipline, institution type, student population). However, some generally accepted best practices include:  * **Clear Communication:**  Maintain open and consistent communication with students regarding expectations, assignments, grading criteria, and course policies.  This includes using multiple channels (e.g., email, learning management system announcements, in-class discussions) to ensure information reaches all students.  * **Effective Course Design:**  Structure courses logically, with clear learning objectives and assessments that align with those objectives.  Incorporate a variety of teaching methods to cater to different learning styles.  Regularly review and update course materials to ensure relevance and accuracy.  * **Inclusive Teaching Practices:**  Create a welcoming and inclusive learning environment for all students, regardless of background, ability, or learning style.  This includes actively addressing issues of bias and promoting equitable participation.  Be mindful of accessibility needs and provide appropriate accommodations.  * **Constructive Feedback:**  Provide students with timely and constructive feedback on their work.  Focus on both strengths and areas for improvement, offering specific suggestions for how students can enhance their performance.  * **Professional Development:**  Engage in ongoing professional development to stay current with best practices in teaching, technology, and your discipline.  Seek opportunities to enhance your teaching skills and knowledge.  * **Student Engagement:**  Foster a sense of community and engagement in the classroom.  Create opportunities for students to interact with each other and with the material, both inside and outside of class.  Encourage questions and discussions.  * **Assessment Design:**  Utilize a variety of assessment methods to gauge student learning effectively.  Design assessments that are fair, reliable, and valid.  Provide clear rubrics and expectations.  * **Time Management & Organization:**  Maintain organized records of student work and communication.  Manage your time effectively to balance teaching responsibilities with research, service, and other commitments.  * **Collaboration & Mentorship:**  Collaborate with colleagues to share best practices and support each other.  Mentor junior faculty and students.   These are just some examples, and the specific best practices that are most relevant will vary depending on individual circumstances.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,131,30,F1629386200987X13XVJ,2025-02-24T17:50:39.671000Z,What are some best practices for faculty?,,False,USER,[]
+troy,133,30,F1629386201163LRSVSG,2025-02-24T17:51:17.392000Z,What are some best practices related to your profile?,,False,USER,[]
+troy,136,31,F42797214336GXJP5F,2025-02-24T17:52:01.046000Z,"Best practices for faculty and staff vary widely depending on the specific institution, role, and context. However, some general principles apply across many settings:  **For Faculty:**  * **Effective Teaching:**  Employ diverse teaching methods to cater to different learning styles.  Provide clear learning objectives, regular feedback, and opportunities for student engagement.  Utilize technology effectively to enhance learning. * **Student Support:**  Be approachable and supportive of students, fostering a positive learning environment.  Be aware of and address student needs and challenges promptly.  Maintain fair and consistent grading practices. * **Professional Development:**  Continuously seek opportunities for professional growth and development to enhance teaching skills and knowledge in their field. * **Scholarship and Research:**  Engage in scholarly activities, such as research, publication, and presentation, to contribute to their field and maintain professional credibility. * **Collaboration:**  Collaborate with colleagues, share best practices, and participate in departmental activities. * **Communication:**  Maintain clear and consistent communication with students, colleagues, and administrators.  **For Staff:**  * **Efficiency and Productivity:**  Organize work effectively, prioritize tasks, and meet deadlines consistently.  Utilize technology and resources to improve efficiency. * **Customer Service:**  Provide excellent customer service to students, faculty, and colleagues.  Be responsive, helpful, and professional in all interactions. * **Collaboration and Teamwork:**  Work effectively as part of a team, contributing to a positive and productive work environment.  Communicate clearly and respectfully with colleagues. * **Professional Development:**  Seek opportunities for professional development to enhance skills and knowledge relevant to their role. * **Compliance and Ethics:**  Adhere to all institutional policies and procedures, maintaining high ethical standards in all aspects of their work. * **Communication:**  Maintain clear and consistent communication with colleagues, supervisors, and other stakeholders.   These are broad guidelines, and specific best practices will be outlined in institutional policies, professional development programs, and departmental guidelines.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,132,30,F16293862009883LO5NX,2025-02-24T17:50:40.671000Z,"Best practices for faculty are multifaceted and depend heavily on the specific context (e.g., institution type, subject matter, student population). However, some generally accepted best practices include:  * **Clear Communication:**  Maintain open and consistent communication with students regarding expectations, assignments, grading criteria, and course policies.  Utilize multiple communication channels (e.g., email, learning management system announcements, in-class discussions) to ensure information reaches all students.  * **Well-Structured Courses:** Design courses with clear learning objectives, well-defined assessments aligned with those objectives, and a logical progression of material.  Provide ample opportunities for students to practice and apply their knowledge.  * **Inclusive Teaching Practices:** Create a welcoming and inclusive classroom environment where all students feel respected and valued.  Employ diverse teaching methods to cater to different learning styles and needs.  Be mindful of potential biases in course materials and assessments.  * **Effective Assessment:** Use a variety of assessment methods (e.g., exams, quizzes, projects, presentations, participation) to accurately gauge student learning. Provide timely and constructive feedback on student work.  * **Professional Development:** Continuously seek opportunities for professional development to enhance teaching skills, stay current in the field, and learn about new pedagogical approaches.  * **Mentorship and Support:**  Mentor and support students, providing guidance and encouragement as needed.  Be available to answer questions and provide assistance.  * **Collaboration:** Collaborate with colleagues to share best practices, develop innovative teaching strategies, and support one another.  * **Adherence to Institutional Policies:**  Familiarize yourself with and adhere to institutional policies and procedures related to teaching, grading, student conduct, and academic integrity.  * **Time Management and Organization:**  Effectively manage time and organize course materials to ensure efficient and productive teaching.  * **Self-Reflection and Improvement:** Regularly reflect on teaching practices and identify areas for improvement.  Seek feedback from students and colleagues to inform teaching decisions.   These are just some examples, and the specific best practices that are most relevant will vary depending on individual circumstances.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,142,33,F16293862027000WSSUH,2025-02-24T17:57:13.378000Z,"I do not have access to real-time information, including business hours for Troy University IT.  To find the most up-to-date contact information and hours, I recommend checking the official Troy University website, specifically their IT department or help desk section.  You can usually find this information through a search on the university's main site.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,230,39,F778928542002WEHG2X,2025-03-11T19:42:31.269000Z,I do not have access to that information. You should check the university's website or your student portal for contact information regarding billing inquiries.  There's likely a specific office or department to handle billing issues.,OPEN_DOMAIN,False,CHATBOT,[]
+troy,289,47,F1211979407241HT1Y1O,2025-03-19T17:24:10.663000Z,I need help with Financial Aid,,False,USER,[]
+troy,295,47,F457794071382L2SCPM,2025-03-19T17:25:19.018000Z,How do I configure 2FA for my email?,,False,USER,[]
+troy,300,47,F1211979456469ZONPTD,2025-03-19T17:26:16.088000Z,"I don't have access to Troy University's specific policy on personal use of university computers.  To find this information, you should consult the university's IT department's website or contact their help desk. They will have the official policy document outlining acceptable and unacceptable uses of university-owned computers.",SOURCED,False,CHATBOT,[]
+troy,321,55,F329436994663JQAW4W,2025-03-24T16:43:27.148000Z,what is my gpa?,,False,USER,[]
+troy,323,56,F329436998086CPNG4C,2025-03-24T16:44:54.376000Z,what is my gpa?,,False,USER,[]
+troy,326,56,F894637543453HG0Y1S,2025-03-24T16:45:03.856000Z,backend call: GPA,VERIFIED,False,CHATBOT,[]
+troy,327,57,F329437001971H1WGLN,2025-03-24T16:45:17.065000Z,What is my GPA?,,False,USER,[]
+troy,332,59,F559152942406H53352,2025-03-24T16:46:40.490000Z,backend call: GPA,VERIFIED,False,CHATBOT,[]
+troy,335,59,F329437010186PGHEEL,2025-03-24T16:47:00.251000Z,What is my GPA?,,False,USER,[]
+troy,134,30,F1629386201165CUUAOZ,2025-02-24T17:51:18.392000Z,"As a large language model, I don't have a personal profile in the traditional sense.  I don't have personal experiences, opinions, or a social media presence.  However, if you're asking about best practices for *using* me effectively, some key points would include:  * **Clear and Concise Prompts:**  The more specific and well-defined your requests are, the more accurate and relevant my responses will be.  Avoid ambiguity and vagueness.  * **Iterative Refinement:**  Don't hesitate to refine your prompts based on my initial responses.  If the first answer isn't quite what you're looking for, try rephrasing your question or providing additional context.  * **Contextual Information:**  Provide sufficient background information to ensure I understand the context of your request.  The more information you give me, the better I can tailor my response to your needs.  * **Specific Instructions:**  If you have specific formatting requirements or preferences, clearly state them in your prompt.  * **Understanding Limitations:**  Remember that I am a language model, not a human being.  I don't have personal experiences or opinions, and I can't access real-time information or perform actions in the real world.  My knowledge is based on the data I was trained on.  * **Ethical Considerations:**  Use me responsibly and ethically.  Avoid using me for malicious purposes or to generate harmful content.   By following these best practices, you can maximize the effectiveness and utility of my capabilities.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,135,31,F42797214335K3DOCD,2025-02-24T17:52:00.046000Z,What are some best practices for faculty and staff?,,False,USER,[]
+troy,141,33,F1629386202699YD4KSF,2025-02-24T17:57:12.378000Z,What are the Troy University IT Hours and contact information?,,False,USER,[]
+troy,236,39,F650557029288ZVDV10,2025-03-11T20:24:07.508000Z,"I don't have access to real-time information on coaching staff changes. To find out who the current Troy University football coach is, I recommend checking the Troy University Athletics website.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,247,43,F432381096904Q0LCLL,2025-03-13T16:46:04.983000Z,tell me about libraries,,False,USER,[]
+troy,249,43,F432381097878SYSRT4,2025-03-13T16:46:57.674000Z,What is the IT department's website?,,False,USER,[]
+troy,252,44,F1002395134765IN2INN,2025-03-13T16:49:11.081000Z,I do not have access to that information.  Is there anything else I can help you with?,OPEN_DOMAIN,False,CHATBOT,[]
+troy,253,44,F432381127525BIKU0I,2025-03-13T16:50:25.703000Z,What is the IT department’s website?,,False,USER,[]
+troy,255,45,F43238113238604MSLR,2025-03-13T16:52:55.216000Z,Can I use a physical token for MFA?,,False,USER,[]
+troy,258,45,F1002395158897CNSFBP,2025-03-13T16:53:45.516000Z,"The provided text mentions several locations for IT security policies:  * **Security Homepage:** This is the main page for all security-related information. * **Security Policy:**  This document outlines the overall security policies. * **Account Access and Recovery:**  This section likely details policies related to password management and account security. * **Mandatory Security Training:** This indicates the existence of training materials that cover security policies.   To find the specific documents, you should navigate to the Troy University IT website's Security Homepage.",SOURCED,False,CHATBOT,[]
+troy,260,45,F1002395159068WMB5GF,2025-03-13T16:54:12.923000Z,"Based on the provided text, Troy University provides students with access to:  * **Microsoft Office 365:**  This includes Word, PowerPoint, and other applications.  Students can download it for free. * **Adobe Reader:** This is needed to open and print PDF files.  It's also available for free download. * **Canvas Learning Management System (LMS):** This is the platform used for online coursework.   The document also mentions that students will need to have other software applications, but does not specify which ones.  You would need to consult your course syllabi or contact your instructors to determine any additional software requirements for specific courses.",SOURCED,False,CHATBOT,[]
+troy,262,45,F432381139502UCWDIB,2025-03-13T16:55:05.684000Z,"I'm sorry, but the provided text does not contain information on how to request VPN access.  You will need to consult other Troy University resources, such as their IT help desk or website, for instructions on requesting VPN access.",SOURCED,False,CHATBOT,[]
+troy,269,45,F432381152372TSXX0V,2025-03-13T17:14:00.546000Z,What is the school's FAFSA pin?,,False,USER,[]
+troy,272,45,F573831301894JF0XAJ,2025-03-13T17:15:40.934000Z,"The provided text outlines the process for applying for financial aid at Troy University:  1. **Apply for Admission:**  First, you must apply for admission to Troy University.  2. **Obtain an FSA ID:**  You'll need an FSA ID, which can be obtained from fsaid.ed.gov.  3. **Complete the FAFSA:**  Complete and submit the FAFSA (Free Application for Federal Student Aid) using the Federal School Code Number 001047 for all Troy University campuses.  You can apply online or use a paper application after January 1st of the award year.  4. **Monitor your TROY email:** After applying, check your TROY email for updates and requests from the Financial Aid office (troyfinancialaid@troy.edu). Respond promptly to any requests for additional documentation.  5. **Check your financial aid status:** Regularly check the status of your financial aid application.  6. **Complete Entrance Counseling and Master Promissory Note (if applicable):** If you're accepting loan funds, you'll need to complete these steps at studentaid.gov.",SOURCED,False,CHATBOT,[]
+troy,277,45,F432381162247PM4U4D,2025-03-13T17:20:24.865000Z,How do I request a website update?,,False,USER,[]
+troy,282,45,F432381166757WWP1GT,2025-03-13T17:21:58.309000Z,"I apologize, but the provided text doesn't contain information about requesting a headshot to be taken.  You'll need to check Troy University's website or contact their relevant department (perhaps student services or a specific department needing the headshot) to find out their process.",SOURCED,False,CHATBOT,[]
+troy,294,47,F1211979440627O4RYYA,2025-03-19T17:24:59.877000Z,"Based on the document, there are a couple of reasons why you might have a commuter meal plan on your bill:  * **You are a Troy Campus student taking at least 9 undergraduate credit hours:**  The document states that Troy Campus students taking 9 or more undergraduate credit hours are required to purchase the Dining Dollars meal plan each semester.  This is a mandatory plan, not a commuter plan, but it might be listed as such in your billing system.  * **You are a Troy Campus student and have *upgraded* to the Commuter Plus Plan:**  If you specifically chose to upgrade from the Dining Dollars plan to the Commuter Plus Plan during drop/add week, this would explain the commuter meal plan charge.  The Commuter Plus Plan includes meal swipes and Trojan Points.  If neither of these scenarios applies, you should contact the Student Financial Services office at Troy University to inquire about the charge. They can provide clarification on why the commuter meal plan is on your bill and help resolve any discrepancies.",SOURCED,False,CHATBOT,[]
+troy,297,47,F457794071744TSDWAP,2025-03-19T17:25:48.237000Z,What is the IT policy related to USB drives?,,False,USER,[]
+troy,137,32,F1629386202131SUXTQA,2025-02-24T17:55:04.230000Z,What are the Information Technology Hours and Contact Information?,,False,USER,[]
+troy,139,33,F1629386202418D2UCHW,2025-02-24T17:56:18.887000Z,What are the Troy University IT Hours and contact information?,,False,USER,[]
+troy,237,39,F1338602480839FVS1RU,2025-03-11T22:19:53.600000Z,How do I cook bacon in the microwave?,,False,USER,[]
+troy,241,39,F1338602481792TWHJFT,2025-03-11T22:23:53.679000Z,Who's my advisor?,,False,USER,[]
+troy,248,43,F432381096905QVGU3N,2025-03-13T16:46:05.983000Z,"Libraries are places where people can borrow books and other materials, like movies and music.  They're important community resources that offer access to information and educational materials for all ages.  Many libraries also host events, offer computer access, and provide educational programs.  The specific services and resources available vary depending on the size and location of the library.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,250,43,F432381097879VFSZK0,2025-03-13T16:46:58.674000Z,"I do not have access to that specific information.  To find the IT department's website, I suggest searching online using a search engine like Google, Bing, or DuckDuckGo. You could try searching for ""[Your Company Name] IT department"" or ""[Your Company Name] IT website"".",OPEN_DOMAIN,False,CHATBOT,[]
+troy,251,44,F1002395134764M23NR4,2025-03-13T16:49:10.081000Z,What is the IT department’s website?,,False,USER,[]
+troy,254,44,F4323811275260IK21D,2025-03-13T16:50:26.703000Z,"I apologize, but the provided text does not contain the website address for Troy University's IT department.  My knowledge is limited to the documents you have given me.",SOURCED,False,CHATBOT,[]
+troy,301,47,F12119794600504YC43V,2025-03-19T17:26:27.024000Z,How many leave hours do I have?,,False,USER,[]
+troy,322,55,F329436994664B2BVWX,2025-03-24T16:43:28.148000Z,"I do not have access to your grades, James.  To calculate your GPA, you will need to consult your academic records.",SOURCED,False,CHATBOT,[]
+troy,325,56,F894637543452PPEKSX,2025-03-24T16:45:02.856000Z,What is my GPA?,,False,USER,[]
+troy,328,57,F329437001972CY2OOX,2025-03-24T16:45:18.065000Z,backend call: GPA,VERIFIED,False,CHATBOT,[]
+troy,331,59,F559152942405NFZIX0,2025-03-24T16:46:39.490000Z,What is my GPA?,,False,USER,[]
+troy,334,59,F329437010060NBRZ0T,2025-03-24T16:46:48.477000Z,backend call: GPA,VERIFIED,False,CHATBOT,[]
+troy,336,59,F329437010187ROQB2S,2025-03-24T16:47:01.251000Z,backend call: GPA,VERIFIED,False,CHATBOT,[]
+troy,138,32,F1629386202132BVDUJ0,2025-02-24T17:55:05.230000Z,"I do not have access to real-time information, including business hours or contact details for specific IT support services.  To find this information, I suggest searching online for ""[Name of your institution or company] IT support"" or checking your company's internal website or intranet.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,140,33,F1629386202419DYRBZM,2025-02-24T17:56:19.887000Z,"I do not have access to real-time information, including business hours for Troy University IT.  To find the most up-to-date contact information and hours, I recommend checking the official Troy University website, specifically their IT department or help desk section.  You can usually find this information through a search on the university's main site.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,143,34,F938372020460TPOZVJ,2025-02-24T20:58:08.816000Z,What classes am I enrolled in?,,False,USER,[]
+troy,144,34,F938372020461YJOCUN,2025-02-24T20:58:09.816000Z,"I do not have access to your personal information, including your class enrollment.  To find this information, you should check your student portal or contact your school's registrar.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,145,34,F5686449576772RKAGU,2025-02-24T20:58:22.035000Z,What is the Trojan Book Bag,,False,USER,[]
+troy,146,34,F568644957678CYNDCJ,2025-02-24T20:58:23.035000Z,"The Trojan Book Bag is not a widely known or established term.  It's possible this refers to something specific to a particular school, organization, or even a fictional context.  Could you provide more information, such as where you encountered this term?",OPEN_DOMAIN,False,CHATBOT,[]
+troy,147,34,F5686449577282UASIU,2025-02-24T20:58:31.756000Z,What is Trojan Book Bag?,,False,USER,[]
+troy,148,34,F568644957729I41EEA,2025-02-24T20:58:32.756000Z,"I cannot find any information about a product or concept called ""Trojan Book Bag.""  It's possible this is a very niche item, a recently created product, or a name used internally within a specific group.  More context would be helpful.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,238,39,F1338602480840IOXXIK,2025-03-11T22:19:54.600000Z,"Cooking bacon in the microwave isn't ideal for achieving perfectly crispy bacon, but it's a quick method.  Here's a common approach:  * **Arrange:** Lay bacon slices in a single layer on a microwave-safe plate lined with paper towels.  Don't overlap them. * **Cook:** Microwave on high for 1-2 minutes, then check for doneness.  Continue microwaving in 30-second intervals until bacon reaches your desired crispness.  Cooking times vary depending on your microwave's power and the thickness of the bacon. * **Drain:** Remove the bacon and place it on a fresh paper towel to drain excess grease.  **Important Considerations:**  * **Uneven Cooking:** Microwave cooking can result in unevenly cooked bacon. Some pieces may be crispier than others. * **Safety:**  Be careful when handling hot bacon and grease. * **Alternative:** For best results, consider pan-frying or baking your bacon.   This method is more of a convenience than a way to get perfectly crispy bacon.  Experiment to find the cooking time that works best for your microwave.",OPEN_DOMAIN,False,CHATBOT,[]
+troy,239,39,F519152928872AJGDBC,2025-03-11T22:23:13.469000Z,Who is T-Roy?,,False,USER,[]
+troy,256,45,F432381132387GOHVYH,2025-03-13T16:52:56.216000Z,"No.  Based on the provided text, hardware tokens are not available at this time.",SOURCED,False,CHATBOT,[]
+troy,257,45,F1002395158896FLLFVS,2025-03-13T16:53:44.516000Z,Where can I find IT security policies?,,False,USER,[]
+troy,261,45,F432381139501LBAJHX,2025-03-13T16:55:04.684000Z,How do I request VPN access?,,False,USER,[]
+troy,264,45,F432381141873RWEWMS,2025-03-13T16:55:55.286000Z,"The provided text does not offer a complete list of Troy University closures for 2025.  To find that information, you should check the official Troy University academic calendar or contact the university registrar's office.",SOURCED,False,CHATBOT,[]
+troy,266,45,F432381147685R352VI,2025-03-13T17:11:26.787000Z,"The provided text mentions that tuition information can be found in the **Student Self-Service** portal.  However, it doesn't give a direct link.  You'll need to access the Student Self-Service portal through the Troy University website to find the most up-to-date tuition information.",SOURCED,False,CHATBOT,[]
+troy,271,45,F573831301891VYI54L,2025-03-13T17:15:39.934000Z,How do I apply for financial aid?,,False,USER,[]
+troy,273,45,F432381156968R355ZW,2025-03-13T17:16:04.072000Z,How do I request a Colleague account:,,False,USER,[]
+troy,279,45,F4323811645442VICPC,2025-03-13T17:21:31.790000Z,How do I opt into text messages?,,False,USER,[]
+troy,303,48,F4448871586532BWSCB,2025-03-20T20:58:38.528000Z,How many assignments do I have in Canvas?,,False,USER,[]
+troy,305,49,F1612679697998KI5PRB,2025-03-22T17:27:32.939000Z,When does T4 start?,,False,USER,[]
+troy,308,49,F1539940958658JIPLTF,2025-03-22T17:27:50.640000Z,"Based on the provided data, Term 4 for TROY Online and select Service Centers starts on **2025-04-07**.",SOURCED,False,CHATBOT,[]
+troy,309,50,F10411445638044XF4YG,2025-03-24T13:56:24.766000Z,What is Trojan Book Bag?,,False,USER,[]
+troy,324,56,F329436998087IICSHQ,2025-03-24T16:44:55.376000Z,backend call: GPA,VERIFIED,False,CHATBOT,[]
+troy,329,58,F329437004473J2WYAM,2025-03-24T16:45:54.095000Z,What is my GPA?,,False,USER,[]

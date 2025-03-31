@@ -1,13 +1,13 @@
 import os
 from requests import get, post
-from dataclasses import dataclass
 from csv import DictReader, DictWriter
-from typing import Dict, Union
+from typing import Dict
 from pathlib import Path
 
 
 def get_conversation_csv_path(short_name:str) -> str:
     return f"conversations/{short_name}/{short_name}.csv"
+
 
 def get_offset(file_name: str) -> int:
     with open(file_name, "r") as file:
@@ -21,6 +21,7 @@ def get_offset(file_name: str) -> int:
 
 def export_data(short_name: str, portal_api_url: str, token: str, file_name: str):
     csv_file_name = get_conversation_csv_path(short_name)
+    Path(csv_file_name).parent.mkdir(parents=True, exist_ok=True)
     file_exists = Path(csv_file_name).exists()
     offset = get_offset(csv_file_name) if file_exists else 0
     with open(csv_file_name, "a") as file:
@@ -36,6 +37,7 @@ def export_data(short_name: str, portal_api_url: str, token: str, file_name: str
                 "answer_type",
                 "failed",
                 "author",
+                "embeddings"
             ],
         )
         if not file_exists:
@@ -57,6 +59,8 @@ def export_data(short_name: str, portal_api_url: str, token: str, file_name: str
             rows = json_data["results"]
             for row in rows:
                 row["short_name"] = short_name
+                row["embeddings"] = '[]'
+                row["content"] = row["content"].replace('\n', ' ') 
             writer.writerows(rows)
             if not json_data["next"]:
                 break
