@@ -1,6 +1,6 @@
 import os
 from requests import get, post
-from csv import DictReader, DictWriter
+from csv import DictReader, DictWriter, QUOTE_STRINGS
 from typing import Dict
 from pathlib import Path
 
@@ -39,6 +39,7 @@ def export_data(short_name: str, portal_api_url: str, token: str, file_name: str
                 "author",
                 "embeddings"
             ],
+            quoting=QUOTE_STRINGS
         )
         if not file_exists:
             writer.writeheader()
@@ -57,6 +58,7 @@ def export_data(short_name: str, portal_api_url: str, token: str, file_name: str
             if num_pages % 10 == 0:
                 print(f"  Response: {resp.text[:100]}")
             rows = json_data["results"]
+            rows = [row for row in rows if row['author'] == "USER"]
             for row in rows:
                 row["short_name"] = short_name
                 row["embeddings"] = '[]'
