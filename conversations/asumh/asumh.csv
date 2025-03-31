@@ -1,1 +1,1 @@
-short_name,id,conversation,flow_id,timestamp,content,answer_type,failed,author,embeddings
+"short_name","id","conversation","flow_id","timestamp","content","failed","author","embeddings"
