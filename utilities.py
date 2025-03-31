@@ -20,7 +20,7 @@ def _remove_stop_words(text: str) -> str:
 
 
 def _deserialize_embedding(row) -> list[float]:
-    return np.array(json.loads(row['Embeddings']))
+    return np.array(json.loads(row['embeddings']))
 
 
 def read_conversations(file_name: str, remove_stop_words: bool = True) -> pd.DataFrame:
@@ -36,25 +36,27 @@ def read_conversations(file_name: str, remove_stop_words: bool = True) -> pd.Dat
 
     # Remove all of the Bot's answers
     convs = convs[convs['author'] == 'USER']
-    if 'Embeddings' in convs.columns:
-        convs['Embeddings'] = convs.apply(_deserialize_embedding, axis=1)
+    if 'embeddings' in convs.columns:
+        convs['embeddings'] = convs.apply(_deserialize_embedding, axis=1)
     return convs
 
 
 def _make_embed_text(model):
   @retry.Retry(timeout=300.0)
-  def embed_fn(text: str) -> list[float]:
-    # Set the task_type to CLUSTERING.
-    embedding = genai.embed_content(model=model,
-                                    content=text,
-                                    task_type="CLUSTERING")
-    return embedding["embedding"]
+  def embed_fn(row) -> list[float]:
+    if True: #  len(row['embeddings']) == 0:
+        # Set the task_type to CLUSTERING.
+        result = genai.embed_content(model=model,
+                                   content=row['content'],
+                                   task_type="CLUSTERING")
+        return result['embedding']
+    return row['embeddings']
   return embed_fn
 
 
 def create_embeddings(df):
   model = 'models/embedding-001'
-  df['Embeddings'] = df['content'].progress_apply(_make_embed_text(model))
+  df['embeddings'] = df.progress_apply(_make_embed_text(model), axis=1)
   return df
 
 
@@ -77,13 +79,11 @@ def combine_all_conversations():
 
 def compute_embeddings():
     p = Path('conversations')
-    for entry in p.iterdir():
+    for entry in [Path('conversations/troy')]: # p.iterdir():
         if entry.is_dir():
             file_name = entry.name
             file_path = Path(entry, f'{file_name}.csv')
-            print(file_path)
-            df = read_conversations(file_path, remove_stop_words=False)
-            print('read', df.shape)
+            print(f"Computing embeddings for: {file_path}")
+            df = read_conversations(str(file_path), remove_stop_words=False)
             embeddings = create_embeddings(df)
-            print('combined', df.shape)
-            embeddings.to_csv(f'{file_path}-embeddings.csv')
+            embeddings.to_csv(f'{file_path}', index=False)
