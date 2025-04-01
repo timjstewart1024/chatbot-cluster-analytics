@@ -20,7 +20,7 @@ def _remove_stop_words(text: str) -> str:
     return ' '.join([token.text for token in filtered_tokens])
 
 
-def read_conversations(file_name: str, remove_stop_words: bool = True) -> pd.DataFrame:
+def read_conversations(file_name: str, remove_stop_words: bool = False) -> pd.DataFrame:
     convs = pd.read_csv(
         file_name,
         # User questions don't have an answer_type
@@ -51,6 +51,11 @@ def _make_embed_text(model):
 def create_embeddings(df):
   model = 'models/embedding-001'
   df['embeddings'] = df.progress_apply(_make_embed_text(model), axis=1)
+  return df
+
+
+def deserialize_embeddings(df):
+  df['embeddings'] = df['embeddings'].progress_apply(lambda x: json.loads(x))
   return df
 
 
