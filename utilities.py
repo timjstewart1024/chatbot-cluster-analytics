@@ -23,6 +23,7 @@ def _remove_stop_words(text: str) -> str:
 def read_conversations(file_name: str, remove_stop_words: bool = False) -> pd.DataFrame:
     convs = pd.read_csv(
         file_name,
+        dtype={ "content": str },
         # User questions don't have an answer_type
         usecols=lambda n: n != 'answer_type')
     
@@ -40,17 +41,20 @@ def _make_embed_text(model):
   @retry.Retry(timeout=300.0)
   def embed_fn(row) -> str:
     if row['embeddings'] == '[]':
-        result = genai.embed_content(model=model,
-                                     content=row['content'],
-                                     task_type="CLUSTERING")['embedding']
-        return str(result).replace('\n','')
+        if type(row['content']) == str:
+            result = genai.embed_content(model=model,
+                                        content=row['content'],
+                                        task_type="CLUSTERING")['embedding']
+            return str(result).replace('\n','')
+        else:
+            print("Unexpected type for content: ", type(row['content']), row)
     return str(row['embeddings']).replace('\n','')
   return embed_fn
 
 
 def create_embeddings(df):
   model = 'models/embedding-001'
-  df['embeddings'] = df.progress_apply(_make_embed_text(model), axis=1)
+  df['embeddings'] = df.apply(_make_embed_text(model), axis=1)
   return df
 
 
