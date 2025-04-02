@@ -1,1 +1,3 @@
 "short_name","id","conversation","flow_id","timestamp","content","failed","author","embeddings"
+"astate",1,1,"F148728801134IZZCTN","2025-04-01T23:48:54.160000Z","What is my GOA","",False,"USER","[]"
+"astate",3,1,"F148728801374KF3DBN","2025-04-01T23:49:08.753000Z","Who is my advisor?","",False,"USER","[]"
